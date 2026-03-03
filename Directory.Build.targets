@@ -1,0 +1,28 @@
+<!-- Project/Directory.Build.targets -->
+<Project>
+
+  <!-- Server projects: exclude client dependencies -->
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('Server'))">
+    <DefineConstants>$(DefineConstants);SERVER_BUILD</DefineConstants>
+  </PropertyGroup>
+  
+  <!-- Client projects -->
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('Client'))">
+    <DefineConstants>$(DefineConstants);CLIENT_BUILD</DefineConstants>
+  </PropertyGroup>
+
+
+
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('Desktop'))">
+    <DefineConstants>$(DefineConstants);DESKTOP_BUILD</DefineConstants>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('Android'))">
+    <DefineConstants>$(DefineConstants);ANDROID_BUILD</DefineConstants>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('iOS'))">
+    <DefineConstants>$(DefineConstants);IOS_BUILD</DefineConstants>
+  </PropertyGroup>
+  
+</Project>

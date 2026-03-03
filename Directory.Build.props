@@ -1,0 +1,82 @@
+<Project>
+  <!-- ==================== BUILD MODE SELECTION ==================== -->
+  <PropertyGroup>
+    <!-- Change to JIT to disable Native AOT -->
+
+    <!-- <BuildMode>AOT</BuildMode>
+    <DefineConstants>$(DefineConstants);AOT</DefineConstants> -->
+
+    <BuildMode>JIT</BuildMode>
+    <DefineConstants>$(DefineConstants);JIT</DefineConstants>
+    
+    <!-- High-Performance JIT Optimizations -->
+    <TieredPGO>true</TieredPGO>
+    <TieredCompilation>true</TieredCompilation>
+    <TieredCompilationQuickJit>true</TieredCompilationQuickJit>
+  </PropertyGroup>
+
+  <!-- ==================== GLOBAL SETTINGS ==================== -->
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- <Nullable>disable</Nullable> -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>VoxelEngine</RootNamespace>
+    
+    <!-- Output Configuration -->
+    <OutputPath>$(MSBuildThisFileDirectory)bin\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
+  </PropertyGroup>
+
+  <!-- ==================== NATIVE AOT (Executables Only, when BuildMode=AOT) ==================== -->
+  <PropertyGroup Condition="'$(BuildMode)' == 'AOT' AND '$(OutputType)' == 'Exe'">
+    <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
+    <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
+    <EnableAotAnalyzer>true</EnableAotAnalyzer>
+  </PropertyGroup>
+
+  <!-- ==================== DEBUG CONFIGURATION | DEFAULT CONFIGURATION ==================== -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug' OR '$(Configuration)' == ''">
+    <Optimize>false</Optimize>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineConstants>$(DefineConstants);DEBUG;LOGGING</DefineConstants>
+  </PropertyGroup>
+
+  <!-- ==================== RELEASE CONFIGURATION ==================== -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <Optimize>true</Optimize>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    
+    <!-- Enable logging in Release for production debugging -->
+    <DefineConstants>$(DefineConstants);RELEASE;LOGGING</DefineConstants>
+    
+    <!-- Or disable logging in Release for smaller binary (uncomment below, comment above) -->
+    <!-- <DefineConstants>$(DefineConstants);RELEASE</DefineConstants> -->
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>DarkSecretStudios</Company>
+    <Product>VoxelEngine</Product>
+    <Copyright>Copyright © 2026</Copyright>
+    <Version>0.0.1-alpha</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Automatically give every project access to the Core.Common namespace -->
+    <ProjectReference Include="$(MSBuildThisFileDirectory)Source/Common/Common.Core/Common.Core.csproj" 
+                      Condition="'$(MSBuildProjectName)' != 'Common.Core'" />
+    
+    <!-- Core.IO depends on Core.Common, so Core.Common must NOT reference Core.IO to avoid a loop -->
+    
+    <!-- Automatically give Engine.* projects access to Engine.Core.Common -->
+    <ProjectReference Include="$(MSBuildThisFileDirectory)Source/VoxelEngine/Engine/Core/Engine.Core.Common/Engine.Core.Common.csproj" 
+                      Condition="$(MSBuildProjectName.StartsWith('Engine.')) And '$(MSBuildProjectName)' != 'Engine.Core.Common'" />
+  </ItemGroup>
+
+</Project>
+

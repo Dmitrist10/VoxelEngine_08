@@ -1,0 +1,28 @@
+================================================================================
+Engine Log - Started at 2026-03-03 21:21:49
+================================================================================
+
+[21:21:49.377] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:21:49.388] [INFO ] [Program:37] Creating engine
+[21:21:49.426] [INFO ] [TestRuntimeContext:16] TestRuntimeContext created
+[21:21:49.427] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:21:49.428] [INFO ] [Program:44] Starting engine...
+[21:21:49.428] [LINE ] ================================================================================
+[21:21:49.432] [INFO ] [Engine:26] Starting engine runtime...
+[21:21:49.436] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:21:49.513] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:21:49.518] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:21:49.802] [INFO ] [Engine:53] Post init...
+[21:21:49.803] [INFO ] [TestRuntimeContext:24] TestRuntimeContext Initialized
+[21:21:49.804] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:21:49.806] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:21:52.521] [INFO ] [DesktopWindow:53] Desktop window closing...
+[21:21:52.521] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[21:21:52.521] [INFO ] [Engine:36] Application terminated.
+[21:21:52.522] [LINE ] ================================================================================
+[21:21:52.522] [INFO ] [Program:63] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-03 21:21:52
+================================================================================

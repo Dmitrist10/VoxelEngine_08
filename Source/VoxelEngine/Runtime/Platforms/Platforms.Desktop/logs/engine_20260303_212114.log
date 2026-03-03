@@ -1,0 +1,36 @@
+================================================================================
+Engine Log - Started at 2026-03-03 21:21:14
+================================================================================
+
+[21:21:14.178] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:21:14.190] [INFO ] [Program:37] Creating engine
+[21:21:14.232] [INFO ] [TestRuntimeContext:16] TestRuntimeContext created
+[21:21:14.234] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:21:14.234] [INFO ] [Program:44] Starting engine...
+[21:21:14.234] [LINE ] ================================================================================
+[21:21:14.238] [INFO ] [Engine:26] Starting engine runtime...
+[21:21:14.242] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:21:14.322] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:21:14.326] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:21:14.603] [INFO ] [Engine:53] Post init...
+[21:21:14.604] [INFO ] [TestRuntimeContext:24] TestRuntimeContext Initialized
+[21:21:14.607] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:21:14.610] [ERROR] [ServiceContainer:30] [ServiceContainer] Service VoxelEngine.Graphics.IGraphicsFactory is not registered.
+[21:21:14.610] [ERROR] [ServiceContainer:30] [ServiceContainer] Service VoxelEngine.Graphics.IGraphicsDevice is not registered.
+[21:21:14.614] [LINE ] ================================================================================
+[21:21:14.614] [LINE ] ================================================================================
+[21:21:14.615] [ERROR] [Program:53] Exception: Object reference not set to an instance of an object.
+[21:21:14.676] [ERROR] [Program:59] Exception Stack Trace:    at VoxelEngine.Client.Rendering.RenderPass.Init(IGraphicsDevice device, RenderGraph renderGraph) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\Rendering\RenderPass.cs:line 15
+   at VoxelEngine.Client.Rendering.RenderGraph.Initialize() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\Rendering\RenderGraph.cs:line 29
+   at VoxelEngine.Client.Rendering.RenderManager.Initialize() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\Rendering\RenderManager.cs:line 24
+   at VoxelEngine.Client.ClientHost.Initialize() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\ClientHost.cs:line 18
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.Init() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 26
+   at VoxelEngine.Core.Runtime.Engine.PostInit() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 55
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 30
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 45
+[21:21:14.677] [INFO ] [Program:63] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-03 21:21:14
+================================================================================

@@ -1,0 +1,13 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.OpenGL.csproj.AssemblyReference.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.OpenGL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.OpenGL.AssemblyInfoInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.OpenGL.AssemblyInfo.cs
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.OpenGL.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Graphics.OpenGL\net11.0\Graphics.OpenGL.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Graphics.OpenGL\net11.0\Graphics.OpenGL.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Graphics.OpenGL\net11.0\Graphics.OpenGL.pdb
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.3E1D8A0B.Up2Date
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.OpenGL.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\refint\Graphics.OpenGL.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\Graphics.OpenGL.pdb
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\obj\Debug\net11.0\ref\Graphics.OpenGL.dll

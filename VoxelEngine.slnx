@@ -1,0 +1,64 @@
+﻿<Solution>
+
+  <Folder Name="/Common/">
+    <Project Path="Source/Common/Common.AAA/Common.AAA.csproj" />
+    <Project Path="Source/Common/Common.Core/Common.Core.csproj" />
+  </Folder>
+
+  <Folder Name="/Librarys/ECS/">
+    <Project Path="Source/Librarys/ECS/Arch/Arch.csproj" />
+  </Folder>
+
+  <Folder Name="/Resources/Games/">
+    <Project Path="Source/Resources/Games/Game_01/Main/Game_01.csproj" />
+  </Folder>
+
+  <Folder Name="/Tools/">
+    <Project Path="Source/Tools/VoxelEngine.Tools.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/">
+    <Project Path="Source/VoxelEngine/Editor/VoxelEngine.Editor.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Engine/Core/">
+    <Project Path="Source/VoxelEngine/Engine/Core/Engine.Core.Common/Engine.Core.Common.csproj" />
+    <Project Path="Source/VoxelEngine/Engine/Core/Engine.Core.Runtime/Engine.Core.Runtime.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Engine/Hosts/">
+    <Project Path="Source/VoxelEngine/Engine/Hosts/Client/Engine.Hosts.Client.csproj" />
+    <Project Path="Source/VoxelEngine/Engine/Hosts/Server/Engine.Hosts.Server.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Engine/Modules/">
+    <Project Path="Source/VoxelEngine/Engine/Modules/Audio/Engine.Modules.Audio.csproj" />
+    <Project Path="Source/VoxelEngine/Engine/Modules/Input/Engine.Modules.Input.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Engine/Modules/Graphics/">
+    <Project Path="Source/VoxelEngine/Engine/Modules/Graphics/Graphics.OpenGL/Graphics.OpenGL.csproj" />
+    <!-- <Project Path="Source/VoxelEngine/Engine/Modules/Graphics/Graphics.Vulkan/Graphics.Vulkan.csproj" /> -->
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Engine/Modules/Physics/">
+    <Project Path="Source/VoxelEngine/Engine/Modules/Physics/Physics.ThreeD/Physics.ThreeD.csproj" />
+    <Project Path="Source/VoxelEngine/Engine/Modules/Physics/Physics.TwoD/Physics.TwoD.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Packages/">
+    <Project Path="Source/VoxelEngine/Packages/Standart/Packages.Standart.csproj" />
+    <Project Path="Source/VoxelEngine/Packages/Voxel/Packages.Voxel.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Runtime/Contexts/">
+    <Project Path="Source/VoxelEngine/Runtime/Contexts/TestingContext/TestingContext.csproj" />
+    <Project Path="Source/VoxelEngine/Runtime/Contexts/VoxelGames/VoxelGamesContext.csproj" />
+  </Folder>
+
+  <Folder Name="/VoxelEngine/Runtime/Platforms/">
+    <Project Path="Source/VoxelEngine/Runtime/Platforms/Platforms.Desktop/Platforms.Desktop.csproj" />
+    <Project Path="Source/VoxelEngine/Runtime/Platforms/Platforms.Server/Platforms.Server.csproj" />
+  </Folder>
+
+</Solution>

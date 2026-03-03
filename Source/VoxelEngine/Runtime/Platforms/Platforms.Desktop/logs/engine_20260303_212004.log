@@ -1,0 +1,37 @@
+================================================================================
+Engine Log - Started at 2026-03-03 21:20:04
+================================================================================
+
+[21:20:04.372] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:20:04.384] [INFO ] [Program:37] Creating engine
+[21:20:04.440] [INFO ] [TestRuntimeContext:16] TestRuntimeContext created
+[21:20:04.442] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:20:04.442] [INFO ] [Program:44] Starting engine...
+[21:20:04.442] [LINE ] ================================================================================
+[21:20:04.443] [INFO ] [Engine:26] Starting engine runtime...
+[21:20:04.446] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:20:04.550] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:20:04.555] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:20:04.878] [INFO ] [Engine:53] Post init...
+[21:20:04.879] [INFO ] [TestRuntimeContext:24] TestRuntimeContext Initialized
+[21:20:04.881] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:20:04.882] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:20:04.891] [INFO ] [RP_ClearColor:15] True
+[21:20:04.895] [LINE ] ================================================================================
+[21:20:04.895] [LINE ] ================================================================================
+[21:20:04.895] [ERROR] [Program:53] Exception: Object reference not set to an instance of an object.
+[21:20:04.917] [ERROR] [Program:59] Exception Stack Trace:    at VoxelEngine.Client.Rendering.RP_ClearColor.Execute(ReadOnlySpan`1 renderCommands) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\Rendering\RenderPasses\RP_ClearColor.cs:line 16
+   at VoxelEngine.Client.Rendering.RenderGraph.Execute(ReadOnlySpan`1 renderCommands) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\Rendering\RenderGraph.cs:line 28
+   at VoxelEngine.Client.Rendering.RenderManager.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\Rendering\RenderManager.cs:line 32
+   at VoxelEngine.Client.ClientHost.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\ClientHost.cs:line 27
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 43
+   at VoxelEngine.Core.Runtime.Heartbeat.Start(IUpdateCallbacksHandler callbacks, IWindowSurface window) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Heartbeat.cs:line 104
+   at VoxelEngine.Core.Runtime.Engine.StartRuntime() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 61
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 32
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 45
+[21:20:04.918] [INFO ] [Program:63] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-03 21:20:04
+================================================================================

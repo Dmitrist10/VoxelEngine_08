@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>VoxelEngine.Runtime.Platforms.Desktop</RootNamespace>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Source\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Engine\Core\Engine.Core.Runtime\Engine.Core.Runtime.csproj" />
+    <ProjectReference Include="..\..\..\Engine\Modules\Graphics\Graphics.OpenGL\Graphics.OpenGL.csproj" />
+    <ProjectReference Include="..\..\Contexts\TestingContext\TestingContext.csproj" />
+  </ItemGroup>
+
+</Project>

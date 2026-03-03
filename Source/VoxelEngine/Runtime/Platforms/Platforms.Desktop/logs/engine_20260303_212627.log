@@ -1,0 +1,181 @@
+================================================================================
+Engine Log - Started at 2026-03-03 21:26:27
+================================================================================
+
+[21:26:27.993] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:26:28.004] [INFO ] [Program:37] Creating engine
+[21:26:28.005] [INFO ] [TestRuntimeContext:16] TestRuntimeContext created
+[21:26:28.006] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:26:28.006] [INFO ] [Program:44] Starting engine...
+[21:26:28.006] [LINE ] ================================================================================
+[21:26:28.015] [INFO ] [Engine:26] Starting engine runtime...
+[21:26:28.053] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:26:28.132] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:26:28.137] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:26:28.463] [INFO ] [Engine:53] Post init...
+[21:26:28.468] [INFO ] [TestRuntimeContext:24] TestRuntimeContext Initialized
+[21:26:28.473] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:26:28.479] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:26:28.497] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.508] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.513] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.520] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.645] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.650] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.655] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.661] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.667] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.672] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.678] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.684] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.689] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.694] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.700] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.712] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.713] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.718] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.730] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.731] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.737] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.742] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.749] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.756] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.761] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.767] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.773] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.778] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.785] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.790] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.797] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.803] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.809] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.815] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.821] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.827] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.833] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.839] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.845] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.851] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.857] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.863] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.869] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.875] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.882] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.888] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.894] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.900] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.906] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.912] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.918] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.924] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.930] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.936] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.942] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.948] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.955] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.960] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.966] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.972] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.978] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.984] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.991] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:28.997] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.003] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.009] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.015] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.021] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.027] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.033] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.039] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.045] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.051] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.057] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.064] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.069] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.075] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.081] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.088] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.094] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.100] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.106] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.112] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.118] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.124] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.130] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.136] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.142] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.148] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.154] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.160] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.167] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.173] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.179] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.185] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.191] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.197] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.203] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.209] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.215] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.221] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.227] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.233] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.239] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.246] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.251] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.257] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.264] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.269] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.275] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.282] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.288] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.294] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.300] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.306] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.312] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.318] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.324] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.330] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.336] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.343] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.348] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.355] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.361] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.366] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.373] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.379] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.385] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.391] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.397] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.403] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.409] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.415] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.421] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.427] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.433] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.439] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.445] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.459] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.462] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.464] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.479] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.482] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.495] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.500] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.506] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.512] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.518] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.524] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.530] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.536] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.542] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.548] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.554] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.560] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.566] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.572] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.578] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.585] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.591] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.597] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.603] [INFO ] [GL_GraphicsCommandsList:65] ClearColor
+[21:26:29.609] [INFO ] [GL_GraphicsCommandsList:65] ClearColor

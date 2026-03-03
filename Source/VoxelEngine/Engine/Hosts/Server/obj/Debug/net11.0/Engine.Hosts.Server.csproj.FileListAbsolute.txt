@@ -1,0 +1,13 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Engine.Hosts.Server\net11.0\Engine.Hosts.Server.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Engine.Hosts.Server\net11.0\Engine.Hosts.Server.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Engine.Hosts.Server\net11.0\Engine.Hosts.Server.pdb
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.Hosts.Server.csproj.AssemblyReference.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.Hosts.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.Hosts.Server.AssemblyInfoInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.Hosts.Server.AssemblyInfo.cs
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.Hosts.Server.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.H.BC97DAD2.Up2Date
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.Hosts.Server.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\refint\Engine.Hosts.Server.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\Engine.Hosts.Server.pdb
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\obj\Debug\net11.0\ref\Engine.Hosts.Server.dll

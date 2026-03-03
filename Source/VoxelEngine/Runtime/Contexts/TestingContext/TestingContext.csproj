@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>VoxelEngine.Runtime.Contexts.TestingContext</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Engine\Core\Engine.Core.Common\Engine.Core.Common.csproj" />
+    <ProjectReference Include="..\..\..\Engine\Hosts\Client\Engine.Hosts.Client.csproj" />
+    <ProjectReference Include="..\..\..\Engine\Hosts\Server\Engine.Hosts.Server.csproj" />
+  </ItemGroup>
+
+</Project>
