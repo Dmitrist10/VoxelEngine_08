@@ -10,12 +10,13 @@ public sealed class RenderGraph
 
     private IGraphicsDevice device = null!;
 
+    public BufferHandle CameraBuffer;
+
     public RenderGraph()
     {
         _renderPasses = new List<RenderPass>();
-
-        // _renderPasses.Add(new RP_Forward());
         _renderPasses.Add(new RP_ClearColor());
+        _renderPasses.Add(new RP_Forward());
     }
 
     public void Initialize()

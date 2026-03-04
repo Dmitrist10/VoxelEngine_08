@@ -1,7 +1,7 @@
 using System.Numerics;
 using System.Runtime.InteropServices;
 
-namespace VoxelEngine.Assets;
+namespace VoxelEngine.Core;
 
 [StructLayout(LayoutKind.Sequential, Pack = 1)]
 public struct STDVertex : IVertexType

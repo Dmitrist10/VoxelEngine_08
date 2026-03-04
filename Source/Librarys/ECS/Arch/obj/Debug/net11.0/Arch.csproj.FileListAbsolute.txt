@@ -26,3 +26,4 @@ C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\Arch\obj\Debug\net11.0\refint\Arch.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\Arch\obj\Debug\net11.0\Arch.pdb
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\Arch\obj\Debug\net11.0\ref\Arch.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\Arch\obj\Debug\net11.0\Arch.sourcelink.json

@@ -3,7 +3,7 @@ using System.Numerics;
 namespace VoxelEngine.Core;
 
 /// <summary> Static math library providing various helper functions for games. </summary>
-public static class EMathe
+public static class EMath
 {
     #region constants
 
@@ -13,7 +13,7 @@ public static class EMathe
     public const float Deg2Rad = PI / 180f;
     /// <summary> Multiplier to convert radians to degrees. </summary>
     public const float Rad2Deg = 180f / PI;
-    /// <summary> A tiny floating point value. </summary>
+    
     public const float Epsilon = 1.401298E-45f;
 
     /// <summary> Lock object for thread-safe random operations. </summary>

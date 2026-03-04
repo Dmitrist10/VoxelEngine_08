@@ -29,13 +29,13 @@ public struct Color3
     public static readonly Color3 Brown = new Color3(0.5f, 0.5f, 0);
 
     public static readonly Color3 RandomStatic =
-        new Color3(EMathe.RandomValue(), EMathe.RandomValue(), EMathe.RandomValue());
+        new Color3(EMath.RandomValue(), EMath.RandomValue(), EMath.RandomValue());
 
-    public static readonly Color3 RandomDarkStatic = new Color3(EMathe.RandomValue() * 0.75f,
-        EMathe.RandomValue() * 0.75f, EMathe.RandomValue() * 0.75f);
+    public static readonly Color3 RandomDarkStatic = new Color3(EMath.RandomValue() * 0.75f,
+        EMath.RandomValue() * 0.75f, EMath.RandomValue() * 0.75f);
 
     public static Color3 Random =>
-        new Color3(EMathe.RandomValue(), EMathe.RandomValue(), EMathe.RandomValue());
+        new Color3(EMath.RandomValue(), EMath.RandomValue(), EMath.RandomValue());
 
     internal Vector3 ToVector3()
     {

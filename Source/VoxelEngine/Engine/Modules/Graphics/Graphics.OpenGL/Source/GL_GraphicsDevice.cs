@@ -12,6 +12,7 @@ public sealed unsafe partial class GL_GraphicsDevice : IGraphicsDevice
     private IWindow _nativeWindow = null!;
 
     private GL _GL = null!;
+    private GL_AssetsManager _assetsManager = null!;
 
     private List<GL_GraphicsCommandsList> _commandLists = new();
 
@@ -27,7 +28,9 @@ public sealed unsafe partial class GL_GraphicsDevice : IGraphicsDevice
         _nativeWindow = (_window.NativeWindow as IWindow)!;
         _GL = GL.GetApi(_nativeWindow);
 
-        Factory = new GL_GraphicsFactory(_GL);
+        _assetsManager = new GL_AssetsManager();
+
+        Factory = new GL_GraphicsFactory(_GL, _assetsManager);
     }
     private void OnWindowResize(Vector2 vector)
     {

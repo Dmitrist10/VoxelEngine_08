@@ -1,6 +1,6 @@
 using VoxelEngine.Graphics;
 
-namespace VoxelEngine.Assets;
+namespace VoxelEngine.Core;
 
 public enum VertexAttribType : byte { Float, Float2, Float3, Float4, Int } // only 4byte types
 

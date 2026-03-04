@@ -9,3 +9,4 @@ C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.Core\obj\Debug\net11.0\refint\Common.Core.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.Core\obj\Debug\net11.0\Common.Core.pdb
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.Core\obj\Debug\net11.0\ref\Common.Core.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.Core\obj\Debug\net11.0\Common.Core.sourcelink.json

@@ -32,13 +32,13 @@ public record struct Color
     public static readonly Color Gray = new Color(0.25f, 0.25f, 0.25f, 1);
 
     public static readonly Color RandomStatic =
-        new Color(EMathe.RandomValue(), EMathe.RandomValue(), EMathe.RandomValue(), 1);
+        new Color(EMath.RandomValue(), EMath.RandomValue(), EMath.RandomValue(), 1);
 
-    public static readonly Color RandomDarkStatic = new Color(EMathe.RandomValue() * 0.75f,
-        EMathe.RandomValue() * 0.75f, EMathe.RandomValue() * 0.75f, 1);
+    public static readonly Color RandomDarkStatic = new Color(EMath.RandomValue() * 0.75f,
+        EMath.RandomValue() * 0.75f, EMath.RandomValue() * 0.75f, 1);
 
     public static Color Random =>
-        new Color(EMathe.RandomValue(), EMathe.RandomValue(), EMathe.RandomValue(), 1);
+        new Color(EMath.RandomValue(), EMath.RandomValue(), EMath.RandomValue(), 1);
 
     internal Vector4 ToVector4()
     {
