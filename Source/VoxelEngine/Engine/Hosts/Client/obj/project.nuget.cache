@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/KP16NzKINw=",
+  "dgSpecHash": "3Jmb69CaMU8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Hosts\\Client\\Engine.Hosts.Client.csproj",
+  "projectFilePath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Hosts\\Client\\Engine.Hosts.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\arch.lowlevel\\1.1.5\\arch.lowlevel.1.1.5.nupkg.sha512",
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\collections.pooled\\2.0.0-preview.27\\collections.pooled.2.0.0-preview.27.nupkg.sha512",

@@ -2,7 +2,7 @@ using Arch.Core;
 using VoxelEngine.Core;
 using VoxelEngine.Diagnostics;
 
-namespace VoxelEngine.Client.Rendering;
+namespace VoxelEngine.Core.Rendering;
 
 public sealed class EP_MeshRenderer : EntityProcessor, IRenderable
 {

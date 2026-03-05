@@ -1,4 +1,4 @@
-﻿using VoxelEngine.Client.Rendering;
+using VoxelEngine.Core.Rendering;
 using VoxelEngine.Core;
 using VoxelEngine.Diagnostics;
 
@@ -43,3 +43,4 @@ public class ClientHost : IHostBase
     }
 
 }
+

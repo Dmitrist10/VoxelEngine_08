@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Librarys\ECS\Arch\Arch.csproj" />
+    <ProjectReference Include="..\..\Engine\Core\Engine.Core.Common\Engine.Core.Common.csproj" />
   </ItemGroup>
 
 </Project>

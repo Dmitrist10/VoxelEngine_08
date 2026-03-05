@@ -4,7 +4,7 @@ using VoxelEngine.Graphics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace VoxelEngine.Client.Rendering;
+namespace VoxelEngine.Core.Rendering;
 
 public sealed class RenderManager
 {
@@ -39,8 +39,8 @@ public sealed class RenderManager
 
     }
 
-    internal void Submit(RenderCommand renderCommand) => _renderCommands.Add(renderCommand);
-    internal void Submit(ReadOnlySpan<RenderCommand> renderCommands) => _renderCommands.AddRange(renderCommands);
+    public void Submit(RenderCommand renderCommand) => _renderCommands.Add(renderCommand);
+    public void Submit(ReadOnlySpan<RenderCommand> renderCommands) => _renderCommands.AddRange(renderCommands);
 
     public void Render()
     {

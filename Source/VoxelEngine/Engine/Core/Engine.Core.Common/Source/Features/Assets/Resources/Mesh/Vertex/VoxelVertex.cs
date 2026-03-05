@@ -19,4 +19,7 @@ public struct VoxelVertex : IVertexType
         new VertexAttribute(3, VertexAttribType.Int, 24)
     };
     public static uint GetStride() => 28;
+
+    public VoxelVertex(Vector3 pos, Vector2 uv, int textureLayer, int face) => (Position, UV, TextureLayer, Face) = (pos, uv, textureLayer, face);
+
 }

@@ -3,7 +3,7 @@ using VoxelEngine.Core;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 
-namespace VoxelEngine.Client.Rendering;
+namespace VoxelEngine.Core.Rendering;
 
 internal sealed class RP_Forward : RenderPass
 {

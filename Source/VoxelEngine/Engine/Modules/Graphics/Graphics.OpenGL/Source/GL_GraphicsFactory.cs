@@ -66,10 +66,6 @@ internal unsafe class GL_GraphicsFactory : IGraphicsFactory
         return _assetsManager.Add(new GL_Pipeline(pipeline));
     }
 
-    public void Dispose()
-    {
-    }
-
     public MeshHandle CreateMesh<T>(MeshData<T> meshData) where T : unmanaged, IVertexType
     {
         uint vao = _GL.GenVertexArray();
@@ -129,4 +125,10 @@ internal unsafe class GL_GraphicsFactory : IGraphicsFactory
 
         return _assetsManager.Add(new GL_Mesh(vao, vbo.ID, ebo.ID));
     }
+
+
+    public void Dispose()
+    {
+    }
+
 }

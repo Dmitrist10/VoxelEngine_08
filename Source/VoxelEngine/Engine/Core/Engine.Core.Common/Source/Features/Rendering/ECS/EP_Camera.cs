@@ -2,7 +2,7 @@ using Arch.Core;
 using VoxelEngine.Core;
 using VoxelEngine.Graphics;
 
-namespace VoxelEngine.Client.Rendering;
+namespace VoxelEngine.Core.Rendering;
 
 public sealed class EP_Camera : EntityProcessor, IRenderable
 {
