@@ -1,0 +1,51 @@
+================================================================================
+Engine Log - Started at 2026-03-04 22:01:53
+================================================================================
+
+[22:01:53.526] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[22:01:53.536] [INFO ] [Game:40] Game.A was called!
+[22:01:53.536] [INFO ] [Program:38] Creating engine
+[22:01:53.579] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[22:01:53.580] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[22:01:53.581] [INFO ] [Program:45] Starting engine...
+[22:01:53.581] [LINE ] ================================================================================
+[22:01:53.582] [INFO ] [Engine:26] Starting engine runtime...
+[22:01:53.586] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[22:01:53.680] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[22:01:53.685] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[22:01:54.003] [INFO ] [Engine:53] Post init...
+[22:01:54.006] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[22:01:54.010] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[22:01:54.014] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Client.Rendering.RenderManager
+[22:01:54.020] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[22:01:54.021] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[22:01:54.025] [INFO ] [Game:19] Game.OnInitialize was called!
+[22:01:54.025] [INFO ] [Game:25] Game.StartMatch was called!
+[22:01:54.026] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[22:01:54.058] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[22:01:54.059] [INFO ] [ClientHost:26] Scene loaded
+[22:01:54.062] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[22:01:54.095] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[22:01:54.096] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[22:01:54.107] [LINE ] ================================================================================
+[22:01:54.108] [LINE ] ================================================================================
+[22:01:54.108] [ERROR] [Program:54] Exception: SharedJobScheduler is missing, assign an instance to World.SharedJobScheduler. This singleton used for parallel iterations.
+[22:01:54.148] [ERROR] [Program:60] Exception Stack Trace:    at Arch.Core.World.InlineParallelChunkQuery[T](QueryDescription& queryDescription, T& innerJob) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\Arch\Core\Jobs\World.Jobs.cs:line 99
+   at Arch.Core.World.ParallelQuery[T0,T1](QueryDescription& description, ForEach`2 forEach) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\Arch\Templates\World.ParallelQuery.cs:line 21
+   at VoxelEngine.Core.EP_Transform.OnUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\Actor\ECS\Primitives\Actor\EP_Transform.cs:line 33
+   at VoxelEngine.Core.EntityProcessorsRegistry.OnUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Scenes\Registries\EntityProcessorsRegistry.cs:line 81
+   at VoxelEngine.Core.Scene.OnUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Scenes\Scene.Lifecycle.cs:line 11
+   at VoxelEngine.Core.Universe.OnUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Universe\Universe.Lifecycle.cs:line 11
+   at VoxelEngine.Core.UniverseManager.Update() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\UniverseManager.cs:line 37
+   at VoxelEngine.Server.ServerHost.Update() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\Source\ServerHost.cs:line 38
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.Update() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 65
+   at VoxelEngine.Core.Runtime.Heartbeat.Start(IUpdateCallbacksHandler callbacks, IWindowSurface window) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Heartbeat.cs:line 103
+   at VoxelEngine.Core.Runtime.Engine.StartRuntime() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 61
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 32
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 46
+[22:01:54.149] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-04 22:01:54
+================================================================================

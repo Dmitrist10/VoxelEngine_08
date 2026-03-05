@@ -9,4 +9,15 @@ public record struct PBRMaterialProperties : IMaterialProperties
     // public float Metallic;
     // public float Roughness;
     // public float AO;
+
+    public PBRMaterialProperties()
+    {
+        Color = Color.White;
+    }
+
+    public PBRMaterialProperties(Color color)
+    {
+        Color = color;
+    }
+
 }

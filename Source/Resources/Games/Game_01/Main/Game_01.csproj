@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <RootNamespace>Game_01</RootNamespace>
+    <OutputPath>$(MSBuildThisFileDirectory)bin\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\VoxelEngine\Engine\Core\Engine.Core.Common\Engine.Core.Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,8 +2,6 @@ namespace VoxelEngine.Core;
 
 public record struct MeshAsset : IAsset
 {
-    public static MeshAsset HardcodedTriangleAsset;
-
     public MeshHandle Handle;
     public uint VertexCount;
     public uint IndexCount;

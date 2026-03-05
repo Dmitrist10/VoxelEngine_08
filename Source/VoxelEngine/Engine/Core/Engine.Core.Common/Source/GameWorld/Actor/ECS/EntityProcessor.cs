@@ -13,6 +13,7 @@ public abstract class EntityProcessor : IEntityProcessor
         this.scene = scene;
     }
 
-    public virtual void OnInitialize() { }
+    // public virtual void OnInitialize() { }
+    public abstract void OnInitialize();
     public virtual void OnShutDown() { }
 }

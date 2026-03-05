@@ -15,6 +15,7 @@ public class Program
             Logger.Initialize(message: "VoxelEngine initialized from Desktop platform with VoxelGames runtime.");
             ArgumentsParser.Bind_Args(args);
 
+            CustomGame.Game.A();
 #if AOT
                 // Register Silk.NET platforms for Native AOT compatibility
                 // Must be done before any Window.Create() calls

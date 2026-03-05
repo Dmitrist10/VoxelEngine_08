@@ -1,0 +1,180 @@
+================================================================================
+Engine Log - Started at 2026-03-04 22:04:22
+================================================================================
+
+[22:04:22.669] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[22:04:22.682] [INFO ] [Game:40] Game.A was called!
+[22:04:22.682] [INFO ] [Program:38] Creating engine
+[22:04:22.684] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[22:04:22.685] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[22:04:22.685] [INFO ] [Program:45] Starting engine...
+[22:04:22.686] [LINE ] ================================================================================
+[22:04:22.686] [INFO ] [Engine:26] Starting engine runtime...
+[22:04:22.690] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[22:04:22.775] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[22:04:22.780] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[22:04:23.148] [INFO ] [Engine:64] Post init...
+[22:04:23.148] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[22:04:23.150] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[22:04:23.153] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Client.Rendering.RenderManager
+[22:04:23.156] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[22:04:23.157] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[22:04:23.159] [INFO ] [Game:19] Game.OnInitialize was called!
+[22:04:23.160] [INFO ] [Game:25] Game.StartMatch was called!
+[22:04:23.161] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[22:04:23.175] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[22:04:23.176] [INFO ] [ClientHost:26] Scene loaded
+[22:04:23.178] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[22:04:23.214] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[22:04:23.215] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[22:04:23.252] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.254] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.278] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.278] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.279] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.280] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.381] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.381] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.386] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.386] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.392] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.392] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.397] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.398] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.403] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.403] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.408] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.409] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.414] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.414] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.419] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.420] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.425] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.425] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.431] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.431] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.442] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.443] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.444] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.444] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.449] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.449] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.461] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.461] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.462] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.463] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.468] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.468] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.473] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.474] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.479] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.479] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.485] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.486] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.491] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.491] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.497] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.497] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.503] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.504] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.509] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.510] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.515] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.516] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.521] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.522] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.527] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.528] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.533] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.534] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.539] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.540] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.546] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.546] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.552] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.552] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.558] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.558] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.564] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.564] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.570] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.570] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.576] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.576] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.582] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.582] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.588] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.588] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.594] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.594] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.600] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.600] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.606] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.606] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.612] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.613] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.618] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.619] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.624] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.625] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.630] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.631] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.636] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.637] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.643] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.643] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.648] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.649] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.655] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.655] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.661] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.661] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.667] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.667] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.673] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.673] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.687] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.687] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.690] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.691] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.692] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.693] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.702] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.702] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.703] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.703] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.717] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.717] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.721] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.722] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.727] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.728] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.733] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.734] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.739] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.740] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.745] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.746] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.751] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.752] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.757] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.758] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.764] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.764] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.770] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.770] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.776] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.776] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.782] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.782] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.788] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.788] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.794] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.795] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.800] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.800] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.812] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.812] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.814] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender
+[22:04:23.814] [INFO ] [EP_MeshRenderer:31] MeshRenderer.OnRender2222222
+[22:04:23.825] [INFO ] [EP_MeshRenderer:25] MeshRenderer.OnRender

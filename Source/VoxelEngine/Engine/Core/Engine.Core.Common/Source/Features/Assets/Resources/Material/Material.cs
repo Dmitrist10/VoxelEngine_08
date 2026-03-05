@@ -49,7 +49,7 @@ public class Material<T> : Material, IDisposable where T : unmanaged, IMaterialP
 {
     public T Properties;
 
-    public Material(T properties)
+    public Material(T properties) : base()
     {
         Properties = properties;
 

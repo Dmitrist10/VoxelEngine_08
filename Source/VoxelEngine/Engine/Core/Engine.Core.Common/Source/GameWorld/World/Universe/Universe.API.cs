@@ -1,4 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
+using VoxelEngine.Diagnostics;
 
 namespace VoxelEngine.Core;
 
@@ -9,12 +10,16 @@ public sealed partial class Universe
     {
         var scene = new Scene(this);
         _scenes.Add(scene);
+        Logger.ExtraInfo("A new Scene was created");
+        UniverseManager.instance.CallSceneCreated(scene);
         return scene;
     }
 
     public void RemoveScene(Scene scene)
     {
         _scenes.Remove(scene);
+        Logger.ExtraInfo("A Scene was destroyed");
+        UniverseManager.instance.CallSceneDestroyed(scene);
     }
 
 

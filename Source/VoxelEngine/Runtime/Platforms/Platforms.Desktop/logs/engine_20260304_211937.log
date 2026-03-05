@@ -1,0 +1,32 @@
+================================================================================
+Engine Log - Started at 2026-03-04 21:19:37
+================================================================================
+
+[21:19:37.503] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:19:37.515] [INFO ] [Game:41] Game.A was called!
+[21:19:37.515] [INFO ] [Program:38] Creating engine
+[21:19:37.516] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:19:37.518] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:19:37.518] [INFO ] [Program:45] Starting engine...
+[21:19:37.519] [LINE ] ================================================================================
+[21:19:37.519] [INFO ] [Engine:26] Starting engine runtime...
+[21:19:37.523] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:19:37.609] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:19:37.614] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:19:37.889] [INFO ] [Engine:53] Post init...
+[21:19:37.890] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:19:37.892] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:19:37.906] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_04_VE\Resources\UGC\Games\Game_01\Project\bin\net11.0\CustomGame.dll
+[21:19:38.179] [ERROR] [GameLoader:33] No GameBase found in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_04_VE\Resources\UGC\Games\Game_01\Project\bin\net11.0\CustomGame.dll
+[21:19:38.198] [ERROR] [TestRuntimeContext:59] Loading Game Failed! Game is null stacktrace:   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 51
+[21:19:38.199] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:19:43.572] [INFO ] [DesktopWindow:53] Desktop window closing...
+[21:19:43.573] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[21:19:43.573] [INFO ] [Engine:36] Application terminated.
+[21:19:43.573] [LINE ] ================================================================================
+[21:19:43.573] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-04 21:19:43
+================================================================================

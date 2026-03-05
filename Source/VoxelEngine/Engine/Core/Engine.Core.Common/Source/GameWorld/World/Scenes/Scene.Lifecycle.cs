@@ -8,19 +8,22 @@ public sealed partial class Scene
     {
         _servicesRegistry.OnUpdate();
         _actorsRegistry.OnUpdate();
+        _entityProcessorsRegistry.OnUpdate();
     }
     internal void OnFixedUpdate()
     {
         _servicesRegistry.OnFixedUpdate();
         _actorsRegistry.OnFixedUpdate();
+        _entityProcessorsRegistry.OnFixedUpdate();
     }
 
     internal void OnTick()
     {
-        // _actorsRegistry.OnTick();
+        _entityProcessorsRegistry.OnTick();
     }
     internal void OnRender()
     {
+        _entityProcessorsRegistry.OnRender();
         // _actorsRegistry.OnRender();
     }
 

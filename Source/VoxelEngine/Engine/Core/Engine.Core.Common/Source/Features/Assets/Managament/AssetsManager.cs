@@ -2,10 +2,19 @@ namespace VoxelEngine.Core;
 
 public sealed class AssetsManager
 {
+    public T LoadAsset<T>(string v)
+    {
+        throw new NotImplementedException();
+    }
 
     public MeshAsset LoadMesh(string path)
     {
         return new MeshAsset();
+    }
+
+    public PipelineHandle LoadPipeline(string v)
+    {
+        throw new NotImplementedException();
     }
     // public STDMeshData LoadMeshData(string path)
     // {

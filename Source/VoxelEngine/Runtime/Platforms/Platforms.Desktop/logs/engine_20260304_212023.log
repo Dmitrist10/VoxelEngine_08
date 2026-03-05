@@ -1,0 +1,22 @@
+================================================================================
+Engine Log - Started at 2026-03-04 21:20:24
+================================================================================
+
+[21:20:24.005] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:20:24.018] [INFO ] [Game:41] Game.A was called!
+[21:20:24.019] [INFO ] [Program:38] Creating engine
+[21:20:24.020] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:20:24.022] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:20:24.022] [INFO ] [Program:45] Starting engine...
+[21:20:24.022] [LINE ] ================================================================================
+[21:20:24.022] [INFO ] [Engine:26] Starting engine runtime...
+[21:20:24.027] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:20:24.126] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:20:24.133] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:20:24.501] [INFO ] [Engine:53] Post init...
+[21:20:24.501] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:20:24.504] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:20:24.530] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_04_VE\Resources\UGC\Games\Game_01\Project\bin\net11.0\CustomGame.dll
+[21:20:24.538] [ERROR] [GameLoader:33] No GameBase found in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_04_VE\Resources\UGC\Games\Game_01\Project\bin\net11.0\CustomGame.dll
+[21:20:24.550] [ERROR] [TestRuntimeContext:59] Loading Game Failed! Game is null stacktrace:   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 51
+[21:20:24.552] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat

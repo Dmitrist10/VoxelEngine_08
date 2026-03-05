@@ -8,6 +8,8 @@ internal sealed class EntityProcessorsRegistry
 
     private readonly List<IUpdatable> _allUpdatables = new();
     private readonly List<IFixedUpdatable> _allFixedUpdatables = new();
+    private readonly List<IRenderable> _allRenderables = new();
+    private readonly List<ITickable> _allTickables = new();
 
     private readonly Scene _scene;
 
@@ -26,6 +28,12 @@ internal sealed class EntityProcessorsRegistry
 
         if (processor is IFixedUpdatable fixedUpdatable)
             _allFixedUpdatables.Add(fixedUpdatable);
+
+        if (processor is IRenderable renderable)
+            _allRenderables.Add(renderable);
+
+        if (processor is ITickable tickable)
+            _allTickables.Add(tickable);
 
         processor.SetUp(_scene);
         processor.OnInitialize();
@@ -55,6 +63,12 @@ internal sealed class EntityProcessorsRegistry
 
             if (processor is IFixedUpdatable fixedUpdatable)
                 _allFixedUpdatables.Remove(fixedUpdatable);
+
+            if (processor is IRenderable renderable)
+                _allRenderables.Remove(renderable);
+
+            if (processor is ITickable tickable)
+                _allTickables.Remove(tickable);
         }
     }
 
@@ -75,4 +89,19 @@ internal sealed class EntityProcessorsRegistry
         }
     }
 
+    internal void OnRender()
+    {
+        foreach (var i in _allRenderables)
+        {
+            i.OnRender();
+        }
+    }
+
+    internal void OnTick()
+    {
+        foreach (var i in _allTickables)
+        {
+            i.OnTick();
+        }
+    }
 }

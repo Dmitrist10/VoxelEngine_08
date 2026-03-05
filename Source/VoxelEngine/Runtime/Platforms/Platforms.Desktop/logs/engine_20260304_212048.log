@@ -1,0 +1,30 @@
+================================================================================
+Engine Log - Started at 2026-03-04 21:20:48
+================================================================================
+
+[21:20:48.529] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:20:48.542] [INFO ] [Game:41] Game.A was called!
+[21:20:48.543] [INFO ] [Program:38] Creating engine
+[21:20:48.544] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:20:48.545] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:20:48.546] [INFO ] [Program:45] Starting engine...
+[21:20:48.547] [LINE ] ================================================================================
+[21:20:48.547] [INFO ] [Engine:26] Starting engine runtime...
+[21:20:48.551] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:20:48.680] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:20:48.686] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:20:49.025] [INFO ] [Engine:53] Post init...
+[21:20:49.026] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:20:49.030] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:20:49.055] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[21:20:49.059] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:20:54.482] [INFO ] [DesktopWindow:53] Desktop window closing...
+[21:20:54.482] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[21:20:54.482] [INFO ] [Engine:36] Application terminated.
+[21:20:54.483] [LINE ] ================================================================================
+[21:20:54.483] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-04 21:20:54
+================================================================================

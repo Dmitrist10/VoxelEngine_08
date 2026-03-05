@@ -434,6 +434,20 @@
           "bin/placeholder/Engine.Hosts.Server.dll": {}
         }
       },
+      "Game_01/0.0.1-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha"
+        },
+        "compile": {
+          "bin/placeholder/Game_01.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Game_01.dll": {}
+        }
+      },
       "Graphics.OpenGL/0.0.1-alpha": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v11.0",
@@ -945,6 +959,11 @@
       "path": "../../../Engine/Hosts/Server/Engine.Hosts.Server.csproj",
       "msbuildProject": "../../../Engine/Hosts/Server/Engine.Hosts.Server.csproj"
     },
+    "Game_01/0.0.1-alpha": {
+      "type": "project",
+      "path": "../../../../Resources/Games/Game_01/Main/Game_01.csproj",
+      "msbuildProject": "../../../../Resources/Games/Game_01/Main/Game_01.csproj"
+    },
     "Graphics.OpenGL/0.0.1-alpha": {
       "type": "project",
       "path": "../../../Engine/Modules/Graphics/Graphics.OpenGL/Graphics.OpenGL.csproj",
@@ -960,6 +979,7 @@
     "net11.0": [
       "Common.Core >= 0.0.1-alpha",
       "Engine.Core.Runtime >= 0.0.1-alpha",
+      "Game_01 >= 0.0.1-alpha",
       "Graphics.OpenGL >= 0.0.1-alpha",
       "Silk.NET >= 2.23.0",
       "TestingContext >= 0.0.1-alpha"
@@ -1001,11 +1021,14 @@
             "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
               "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
             },
+            "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Resources\\Games\\Game_01\\Main\\Game_01.csproj": {
+              "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Resources\\Games\\Game_01\\Main\\Game_01.csproj"
+            },
             "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Runtime\\Engine.Core.Runtime.csproj": {
               "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Runtime\\Engine.Core.Runtime.csproj"
             },
-            "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj": {
-              "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj"
+            "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj": {
+              "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj"
             },
             "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Runtime\\Contexts\\TestingContext\\TestingContext.csproj": {
               "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Runtime\\Contexts\\TestingContext\\TestingContext.csproj"

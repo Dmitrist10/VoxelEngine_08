@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Resources\Games\Game_01\Main\Game_01.csproj" />
     <ProjectReference Include="..\..\..\Engine\Core\Engine.Core.Runtime\Engine.Core.Runtime.csproj" />
     <ProjectReference Include="..\..\..\Engine\Modules\Graphics\Graphics.OpenGL\Graphics.OpenGL.csproj" />
     <ProjectReference Include="..\..\Contexts\TestingContext\TestingContext.csproj" />

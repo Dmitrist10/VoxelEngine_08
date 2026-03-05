@@ -1,5 +1,6 @@
 using Arch.Core;
 using VoxelEngine.Core;
+using VoxelEngine.Diagnostics;
 
 namespace VoxelEngine.Client.Rendering;
 

@@ -2,6 +2,92 @@
   "version": 3,
   "targets": {
     "net11.0": {
+      "Arch.LowLevel/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.HighPerformance": "8.2.2"
+        },
+        "compile": {
+          "lib/net7.0/Arch.LowLevel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Arch.LowLevel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Collections.Pooled/2.0.0-preview.27": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Collections.Pooled.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Collections.Pooled.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.HighPerformance/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/CommunityToolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/CommunityToolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZeroAllocJobScheduler/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Schedulers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Schedulers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Arch/2.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "Arch.LowLevel": "1.1.5",
+          "Collections.Pooled": "2.0.0-preview.27",
+          "Common.Core": "0.0.1-alpha",
+          "CommunityToolkit.HighPerformance": "8.2.2",
+          "Microsoft.Extensions.ObjectPool": "7.0.0",
+          "ZeroAllocJobScheduler": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Arch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Arch.dll": {}
+        }
+      },
       "Common.Core/0.0.1-alpha": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v11.0",
@@ -11,19 +97,139 @@
         "runtime": {
           "bin/placeholder/Common.Core.dll": {}
         }
+      },
+      "Engine.Core.Common/0.0.1-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "Arch": "2.1.0",
+          "Common.Core": "0.0.1-alpha"
+        },
+        "compile": {
+          "bin/placeholder/Engine.Core.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Core.Common.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Arch.LowLevel/1.1.5": {
+      "sha512": "kc6T2qAsgzdb5RV+RIqVQ33LROhgXmA5fZRUhXRK+AJ1J58NML1i2M6XTKIj1ISirCwuqgYnM4qYkhqGcngG1g==",
+      "type": "package",
+      "path": "arch.lowlevel/1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "arch.lowlevel.1.1.5.nupkg.sha512",
+        "arch.lowlevel.nuspec",
+        "lib/net6.0/Arch.LowLevel.dll",
+        "lib/net6.0/Arch.LowLevel.xml",
+        "lib/net7.0/Arch.LowLevel.dll",
+        "lib/net7.0/Arch.LowLevel.xml",
+        "lib/netstandard2.1/Arch.LowLevel.dll",
+        "lib/netstandard2.1/Arch.LowLevel.xml"
+      ]
+    },
+    "Collections.Pooled/2.0.0-preview.27": {
+      "sha512": "VS3uHc1GNamanS1i1hQ3PoZUddIagCswVMWvucAgqWwY2KVwgL2Q7raGu0hTqP/CWuROoq0RiNbIvu4ST1bMzg==",
+      "type": "package",
+      "path": "collections.pooled/2.0.0-preview.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "collections.pooled.2.0.0-preview.27.nupkg.sha512",
+        "collections.pooled.nuspec",
+        "lib/net461/Collections.Pooled.dll",
+        "lib/net461/Collections.Pooled.xml",
+        "lib/netcoreapp3.0/Collections.Pooled.dll",
+        "lib/netcoreapp3.0/Collections.Pooled.xml",
+        "lib/netstandard2.0/Collections.Pooled.dll",
+        "lib/netstandard2.0/Collections.Pooled.xml",
+        "lib/netstandard2.1/Collections.Pooled.dll",
+        "lib/netstandard2.1/Collections.Pooled.xml"
+      ]
+    },
+    "CommunityToolkit.HighPerformance/8.2.2": {
+      "sha512": "+zIp8d3sbtYaRbM6hqDs4Ui/z34j7DcUmleruZlYLE4CVxXq+MO8XJyIs42vzeTYFX+k0Iq1dEbBUnQ4z/Gnrw==",
+      "type": "package",
+      "path": "communitytoolkit.highperformance/8.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.highperformance.8.2.2.nupkg.sha512",
+        "communitytoolkit.highperformance.nuspec",
+        "lib/net6.0/CommunityToolkit.HighPerformance.dll",
+        "lib/net6.0/CommunityToolkit.HighPerformance.pdb",
+        "lib/net6.0/CommunityToolkit.HighPerformance.xml",
+        "lib/net7.0/CommunityToolkit.HighPerformance.dll",
+        "lib/net7.0/CommunityToolkit.HighPerformance.pdb",
+        "lib/net7.0/CommunityToolkit.HighPerformance.xml",
+        "lib/netstandard2.0/CommunityToolkit.HighPerformance.dll",
+        "lib/netstandard2.0/CommunityToolkit.HighPerformance.pdb",
+        "lib/netstandard2.0/CommunityToolkit.HighPerformance.xml",
+        "lib/netstandard2.1/CommunityToolkit.HighPerformance.dll",
+        "lib/netstandard2.1/CommunityToolkit.HighPerformance.pdb",
+        "lib/netstandard2.1/CommunityToolkit.HighPerformance.xml"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/7.0.0": {
+      "sha512": "udvKco0sAVgYGTBnHUb0tY9JQzJ/nPDiv/8PIyz69wl1AibeCDZOLVVI+6156dPfHmJH7ws5oUJRiW4ZmAvuuA==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net462/Microsoft.Extensions.ObjectPool.xml",
+        "lib/net7.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net7.0/Microsoft.Extensions.ObjectPool.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.7.0.0.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
+    "ZeroAllocJobScheduler/1.1.2": {
+      "sha512": "PKu/zSvwV1fWxt8+CEW15O9OlQ2zB9UoeAaor/aJJ0QeTKxxSjigczYLoVPKjYLAQu3ddZQd7Z3zplVTtUgigQ==",
+      "type": "package",
+      "path": "zeroallocjobscheduler/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Schedulers.dll",
+        "lib/netstandard2.1/Schedulers.xml",
+        "zeroallocjobscheduler.1.1.2.nupkg.sha512",
+        "zeroallocjobscheduler.nuspec"
+      ]
+    },
+    "Arch/2.1.0": {
+      "type": "project",
+      "path": "../../../../Librarys/ECS/Arch/Arch.csproj",
+      "msbuildProject": "../../../../Librarys/ECS/Arch/Arch.csproj"
+    },
     "Common.Core/0.0.1-alpha": {
       "type": "project",
       "path": "../../../../Common/Common.Core/Common.Core.csproj",
       "msbuildProject": "../../../../Common/Common.Core/Common.Core.csproj"
+    },
+    "Engine.Core.Common/0.0.1-alpha": {
+      "type": "project",
+      "path": "../../../../VoxelEngine/Engine/Core/Engine.Core.Common/Engine.Core.Common.csproj",
+      "msbuildProject": "../../../../VoxelEngine/Engine/Core/Engine.Core.Common/Engine.Core.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net11.0": [
-      "Common.Core >= 0.0.1-alpha"
+      "Common.Core >= 0.0.1-alpha",
+      "Engine.Core.Common >= 0.0.1-alpha"
     ]
   },
   "packageFolders": {
@@ -61,6 +267,9 @@
           "projectReferences": {
             "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
               "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
+            },
+            "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {
+              "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj"
             }
           }
         }

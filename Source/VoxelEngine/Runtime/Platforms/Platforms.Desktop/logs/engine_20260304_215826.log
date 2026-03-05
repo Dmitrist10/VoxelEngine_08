@@ -1,0 +1,39 @@
+================================================================================
+Engine Log - Started at 2026-03-04 21:58:26
+================================================================================
+
+[21:58:26.523] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:58:26.539] [INFO ] [Game:40] Game.A was called!
+[21:58:26.539] [INFO ] [Program:38] Creating engine
+[21:58:26.541] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:58:26.543] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:58:26.543] [INFO ] [Program:45] Starting engine...
+[21:58:26.544] [LINE ] ================================================================================
+[21:58:26.544] [INFO ] [Engine:26] Starting engine runtime...
+[21:58:26.549] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:58:26.652] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:58:26.658] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:58:26.985] [INFO ] [Engine:53] Post init...
+[21:58:26.996] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:58:27.000] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:58:27.023] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[21:58:27.024] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[21:58:27.029] [INFO ] [Game:19] Game.OnInitialize was called!
+[21:58:27.030] [INFO ] [Game:25] Game.StartMatch was called!
+[21:58:27.033] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[21:58:27.334] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[21:58:27.335] [INFO ] [ClientHost:25] Scene loaded
+[21:58:27.336] [ERROR] [ServiceContainer:30] [ServiceContainer] Service VoxelEngine.Client.Rendering.RenderManager is not registered.
+[21:58:27.338] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[21:58:27.372] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[21:58:27.373] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:58:30.465] [INFO ] [DesktopWindow:53] Desktop window closing...
+[21:58:30.465] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[21:58:30.466] [INFO ] [Engine:36] Application terminated.
+[21:58:30.466] [LINE ] ================================================================================
+[21:58:30.466] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-04 21:58:30
+================================================================================

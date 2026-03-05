@@ -47,6 +47,17 @@ public sealed class Engine
     private void Init()
     {
         graphicsContext!.Window.Initialize();
+
+
+        // Initialize Arch ECS SharedJobScheduler for parallel queries
+        var archJobConfig = new Schedulers.JobScheduler.Config
+        {
+            ThreadPrefixName = "VoxelEngine_Arch",
+            ThreadCount = 0, // Auto-detect core count
+            MaxExpectedConcurrentJobs = 256,
+            StrictAllocationMode = false
+        };
+        World.SharedJobScheduler = new Schedulers.JobScheduler(archJobConfig);
     }
     private void PostInit()
     {

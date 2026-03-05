@@ -14,19 +14,18 @@ public sealed class Game : GameBase
         // gameSessionManager = new GameSessionManager();
     }
 
-    public void OnInitialize()
+    public override void OnInitialize()
     {
-
-
+        Logger.Info("Game.OnInitialize was called!");
     }
 
     // public void OnMatchStart()
-    public void StartGameSession()
+    public override void StartMatch()
     {
+        Logger.Info("Game.StartMatch was called!");
         Universe u = UniverseManager.CreateUniverse();
         Scene s = u.CreateScene();
 
-        // s.SetActive(true);
         GameSetup.SetUp(s);
     }
 
@@ -36,4 +35,8 @@ public sealed class Game : GameBase
 
     }
 
+    public static void A()
+    {
+        Logger.Info("Game.A was called!");
+    }
 }

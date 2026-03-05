@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj": {}
+    "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj": {}
   },
   "projects": {
     "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
@@ -1116,14 +1116,14 @@
         }
       }
     },
-    "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj": {
+    "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj": {
       "version": "0.0.1-alpha",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj",
+        "projectUniqueName": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj",
         "projectName": "Graphics.OpenGL",
-        "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj",
+        "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\Graphics.OpenGL.csproj",
         "packagesPath": "C:\\Users\\Dmitrist10\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\obj\\",
+        "outputPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Graphics\\Graphics.OpenGL\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [

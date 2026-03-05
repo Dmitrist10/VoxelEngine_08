@@ -1,0 +1,32 @@
+================================================================================
+Engine Log - Started at 2026-03-04 21:56:46
+================================================================================
+
+[21:56:46.390] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:56:46.409] [INFO ] [Game:42] Game.A was called!
+[21:56:46.410] [INFO ] [Program:38] Creating engine
+[21:56:46.501] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:56:46.505] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:56:46.505] [INFO ] [Program:45] Starting engine...
+[21:56:46.509] [LINE ] ================================================================================
+[21:56:46.510] [INFO ] [Engine:26] Starting engine runtime...
+[21:56:46.924] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:56:47.220] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:56:47.384] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:56:47.783] [INFO ] [Engine:53] Post init...
+[21:56:47.783] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:56:47.786] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:56:47.795] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[21:56:47.796] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[21:56:47.800] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[21:56:47.801] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:56:50.899] [INFO ] [DesktopWindow:53] Desktop window closing...
+[21:56:50.900] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[21:56:50.900] [INFO ] [Engine:36] Application terminated.
+[21:56:50.900] [LINE ] ================================================================================
+[21:56:50.900] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-04 21:56:50
+================================================================================

@@ -2,10 +2,8 @@ namespace VoxelEngine.Core;
 
 public sealed partial class Scene
 {
-    private readonly World _world;
-    public World World => _world;
-    private readonly Universe _universe;
-    public Universe Universe => _universe;
+    public World World { get; }
+    public Universe Universe { get; }
 
     // Registries
     private readonly ActorsRegistry _actorsRegistry;
@@ -16,14 +14,16 @@ public sealed partial class Scene
 
     public Scene(Universe universe)
     {
-        _world = World.Create();
-        _universe = universe;
+        World = World.Create();
+        Universe = universe;
 
-        _actorsRegistry = new ActorsRegistry(this, _world);
+        _actorsRegistry = new ActorsRegistry(this, World);
         _servicesRegistry = new SceneGameServicesRegistry(this);
         _entityProcessorsRegistry = new EntityProcessorsRegistry(this);
 
         _commandBuffer = new SceneCommandBuffer();
+
+        AddProcessor(new EP_Transform());
     }
 
 }

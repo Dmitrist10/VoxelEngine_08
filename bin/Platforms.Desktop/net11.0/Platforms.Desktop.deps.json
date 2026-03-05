@@ -10,6 +10,7 @@
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
           "Engine.Core.Runtime": "0.0.1-alpha",
+          "Game_01": "0.0.1-alpha",
           "Graphics.OpenGL": "0.0.1-alpha",
           "Silk.NET": "2.23.0",
           "TestingContext": "0.0.1-alpha"
@@ -336,6 +337,18 @@
           }
         }
       },
+      "Game_01/0.0.1-alpha": {
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha"
+        },
+        "runtime": {
+          "Game_01.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
       "Graphics.OpenGL/0.0.1-alpha": {
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
@@ -544,6 +557,11 @@
       "sha512": ""
     },
     "Engine.Hosts.Server/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game_01/0.0.1-alpha": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

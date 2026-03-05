@@ -14,7 +14,7 @@ public abstract class GameBase : IGame
     {
     }
 
-    public virtual void OnStartMatch()
+    public virtual void StartMatch()
     {
     }
 
