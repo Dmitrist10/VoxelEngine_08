@@ -1,0 +1,14 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Modules.Input\net11.0\Engine.Modules.Input.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Modules.Input\net11.0\Engine.Modules.Input.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Modules.Input\net11.0\Engine.Modules.Input.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.M.FE8E1749.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\refint\Engine.Modules.Input.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\Engine.Modules.Input.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Input\obj\Debug\net11.0\ref\Engine.Modules.Input.dll

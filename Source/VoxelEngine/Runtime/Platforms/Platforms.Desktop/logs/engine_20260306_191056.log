@@ -1,0 +1,53 @@
+================================================================================
+Engine Log - Started at 2026-03-06 19:10:56
+================================================================================
+
+[19:10:56.035] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[19:10:56.047] [INFO ] [Game:40] Game.A was called!
+[19:10:56.047] [INFO ] [Program:38] Creating engine
+[19:10:56.051] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[19:10:56.053] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[19:10:56.053] [INFO ] [Program:45] Starting engine...
+[19:10:56.053] [LINE ] ================================================================================
+[19:10:56.053] [INFO ] [Engine:27] Starting engine runtime...
+[19:10:56.118] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[19:10:56.205] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[19:10:56.209] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[19:10:56.714] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[19:10:56.716] [INFO ] [Engine:71] Post init...
+[19:10:56.723] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[19:10:56.726] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[19:10:56.738] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[19:10:56.750] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[19:10:56.761] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[19:10:56.795] [INFO ] [Game:19] Game.OnInitialize was called!
+[19:10:56.796] [INFO ] [Game:25] Game.StartMatch was called!
+[19:10:56.802] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[19:10:56.827] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[19:10:56.828] [INFO ] [ClientHost:26] Scene loaded
+[19:10:56.832] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[19:10:57.139] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[19:10:57.140] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[19:10:57.184] [LINE ] ================================================================================
+[19:10:57.184] [LINE ] ================================================================================
+[19:10:57.185] [ERROR] [Program:54] Exception: Unable to cast object of type 'VoxelEngine.Core.TextureMaterial' to type 'VoxelEngine.Core.PBRMaterial'.
+[19:10:57.255] [ERROR] [Program:60] Exception Stack Trace:    at CustomGame.EP_ColorChanger.<>c__DisplayClass2_0.<OnFixedUpdate>b__0(C_ColorChanger& colorChanger, C_Mesh& mesh) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\ECS\ECS_ColorChanger.cs:line 31
+   at Arch.Core.World.Query[T0,T1](QueryDescription& description, ForEach`2 forEach) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Librarys\ECS\Arch\Templates\World.Query.cs:line 37
+   at CustomGame.EP_ColorChanger.OnFixedUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\ECS\ECS_ColorChanger.cs:line 29
+   at VoxelEngine.Core.EntityProcessorsRegistry.OnFixedUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Scenes\Registries\EntityProcessorsRegistry.cs:line 88
+   at VoxelEngine.Core.Scene.OnFixedUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Scenes\Scene.Lifecycle.cs:line 17
+   at VoxelEngine.Core.Universe.OnFixedUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Universe\Universe.Lifecycle.cs:line 18
+   at VoxelEngine.Core.UniverseManager.FixedUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\UniverseManager.cs:line 51
+   at VoxelEngine.Server.ServerHost.FixedUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\Source\ServerHost.cs:line 33
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.FixedUpdate() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 70
+   at VoxelEngine.Core.Runtime.Heartbeat.RunFixedUpdates(IUpdateCallbacksHandler callbacks, Double accumulator, Double frameTime) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Heartbeat.cs:line 146
+   at VoxelEngine.Core.Runtime.Heartbeat.Start(IUpdateCallbacksHandler callbacks, IWindowSurface window) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Heartbeat.cs:line 95
+   at VoxelEngine.Core.Runtime.Engine.StartRuntime() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 79
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 33
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 46
+[19:10:57.256] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-06 19:10:57
+================================================================================

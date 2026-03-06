@@ -3,6 +3,10 @@
   <PropertyGroup>
     <RootNamespace>VoxelEngine.Core</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AssimpNet" />
+    <PackageReference Include="StbImageSharp" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Librarys\ECS\Arch\Arch.csproj" />

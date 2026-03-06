@@ -1,0 +1,17 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.csproj.AssemblyReference.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.AssemblyInfoInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.AssemblyInfo.cs
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.sourcelink.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Graphics.Veldrid\net11.0\Graphics.Veldrid.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Graphics.Veldrid\net11.0\Graphics.Veldrid.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Graphics.Veldrid\net11.0\Graphics.Veldrid.pdb
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.133838EE.Up2Date
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\refint\Graphics.Veldrid.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\Graphics.Veldrid.pdb
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\obj\Debug\net11.0\ref\Graphics.Veldrid.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Graphics.Veldrid\net11.0\Graphics.Veldrid.deps.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Graphics.Veldrid\net11.0\Graphics.Veldrid.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Graphics.Veldrid\net11.0\Graphics.Veldrid.pdb

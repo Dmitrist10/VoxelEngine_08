@@ -1,0 +1,572 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v11.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v11.0": {
+      "Graphics.Veldrid/0.0.1-alpha": {
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
+          "Veldrid": "4.9.0",
+          "Veldrid.SPIRV": "1.0.15"
+        },
+        "runtime": {
+          "Graphics.Veldrid.dll": {}
+        }
+      },
+      "Arch.LowLevel/1.1.5": {
+        "dependencies": {
+          "CommunityToolkit.HighPerformance": "8.2.2"
+        },
+        "runtime": {
+          "lib/net7.0/Arch.LowLevel.dll": {
+            "assemblyVersion": "1.1.5.0",
+            "fileVersion": "1.1.5.0"
+          }
+        }
+      },
+      "AssimpNet/4.1.0": {
+        "runtime": {
+          "lib/netstandard1.3/AssimpNet.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libassimp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libassimp.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/assimp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/assimp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Collections.Pooled/2.0.0-preview.27": {
+        "runtime": {
+          "lib/netcoreapp3.0/Collections.Pooled.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "CommunityToolkit.HighPerformance/8.2.2": {
+        "runtime": {
+          "lib/net7.0/CommunityToolkit.HighPerformance.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "3.1.6.0",
+            "fileVersion": "3.100.620.31604"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/9.0.9": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "9.0.0.9",
+            "fileVersion": "9.0.925.41916"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51819"
+          }
+        }
+      },
+      "NativeLibraryLoader/1.0.13": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyModel": "9.0.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NativeLibraryLoader.dll": {
+            "assemblyVersion": "1.0.13.0",
+            "fileVersion": "1.0.13.0"
+          }
+        }
+      },
+      "SharpGen.Runtime/2.0.0-beta.13": {
+        "runtime": {
+          "lib/net7.0/SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.0.0-beta.13": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13"
+        },
+        "runtime": {
+          "lib/net7.0/SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Silk.NET.Core/2.23.0": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyModel": "9.0.9"
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.Core.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Maths/2.23.0": {
+        "runtime": {
+          "lib/net5.0/Silk.NET.Maths.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Windowing.Common/2.23.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.23.0",
+          "Silk.NET.Maths": "2.23.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Silk.NET.Windowing.Common.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Windowing.Extensions.Veldrid/2.23.0": {
+        "dependencies": {
+          "Silk.NET.Windowing.Common": "2.23.0",
+          "Veldrid": "4.9.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.Windowing.Extensions.Veldrid.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "StbImageSharp/2.30.15": {
+        "runtime": {
+          "lib/netstandard2.0/StbImageSharp.dll": {
+            "assemblyVersion": "2.30.15.0",
+            "fileVersion": "2.30.15.0"
+          }
+        }
+      },
+      "Veldrid/4.9.0": {
+        "dependencies": {
+          "NativeLibraryLoader": "1.0.13",
+          "Veldrid.MetalBindings": "4.9.0",
+          "Veldrid.OpenGLBindings": "4.9.0",
+          "Vk": "1.0.25",
+          "Vortice.D3DCompiler": "2.3.0",
+          "Vortice.Direct3D11": "2.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/Veldrid.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.120"
+          }
+        }
+      },
+      "Veldrid.MetalBindings/4.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/Veldrid.MetalBindings.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.120"
+          }
+        }
+      },
+      "Veldrid.OpenGLBindings/4.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/Veldrid.OpenGLBindings.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.120"
+          }
+        }
+      },
+      "Veldrid.SPIRV/1.0.15": {
+        "dependencies": {
+          "Veldrid": "4.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Veldrid.SPIRV.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.15.1"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libveldrid-spirv.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libveldrid-spirv.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libveldrid-spirv.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libveldrid-spirv.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Vk/1.0.25": {
+        "runtime": {
+          "lib/net5.0/vk.dll": {
+            "assemblyVersion": "1.0.25.0",
+            "fileVersion": "1.0.25.0"
+          }
+        }
+      },
+      "Vortice.D3DCompiler/2.3.0": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.DirectX": "2.3.0",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.D3DCompiler.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Vortice.Direct3D11/2.3.0": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.DXGI": "2.3.0",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Vortice.DirectX/2.3.0": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "runtime": {
+          "lib/net7.0/Vortice.DirectX.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Vortice.DXGI/2.3.0": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.DirectX": "2.3.0",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/1.4.25": {
+        "runtime": {
+          "lib/net7.0/Vortice.Mathematics.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.25.54642"
+          }
+        }
+      },
+      "ZeroAllocJobScheduler/1.1.2": {
+        "runtime": {
+          "lib/netstandard2.1/Schedulers.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "Arch/2.1.0": {
+        "dependencies": {
+          "Arch.LowLevel": "1.1.5",
+          "Collections.Pooled": "2.0.0-preview.27",
+          "Common.Core": "0.0.1-alpha",
+          "CommunityToolkit.HighPerformance": "8.2.2",
+          "Microsoft.Extensions.ObjectPool": "7.0.0",
+          "ZeroAllocJobScheduler": "1.1.2"
+        },
+        "runtime": {
+          "Arch.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Common.Core/0.0.1-alpha": {
+        "runtime": {
+          "Common.Core.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Engine.Core.Common/0.0.1-alpha": {
+        "dependencies": {
+          "Arch": "2.1.0",
+          "AssimpNet": "4.1.0",
+          "Common.Core": "0.0.1-alpha",
+          "StbImageSharp": "2.30.15"
+        },
+        "runtime": {
+          "Engine.Core.Common.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Graphics.Veldrid/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Arch.LowLevel/1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kc6T2qAsgzdb5RV+RIqVQ33LROhgXmA5fZRUhXRK+AJ1J58NML1i2M6XTKIj1ISirCwuqgYnM4qYkhqGcngG1g==",
+      "path": "arch.lowlevel/1.1.5",
+      "hashPath": "arch.lowlevel.1.1.5.nupkg.sha512"
+    },
+    "AssimpNet/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z/4Tmf3Q2r1+vN6o/szArEZvPsdYNRYiS0L/yArybQd7n7KCiS9L4lRZhwwlHJb/edECM+Jky0XisVspr5aQWQ==",
+      "path": "assimpnet/4.1.0",
+      "hashPath": "assimpnet.4.1.0.nupkg.sha512"
+    },
+    "Collections.Pooled/2.0.0-preview.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VS3uHc1GNamanS1i1hQ3PoZUddIagCswVMWvucAgqWwY2KVwgL2Q7raGu0hTqP/CWuROoq0RiNbIvu4ST1bMzg==",
+      "path": "collections.pooled/2.0.0-preview.27",
+      "hashPath": "collections.pooled.2.0.0-preview.27.nupkg.sha512"
+    },
+    "CommunityToolkit.HighPerformance/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+zIp8d3sbtYaRbM6hqDs4Ui/z34j7DcUmleruZlYLE4CVxXq+MO8XJyIs42vzeTYFX+k0Iq1dEbBUnQ4z/Gnrw==",
+      "path": "communitytoolkit.highperformance/8.2.2",
+      "hashPath": "communitytoolkit.highperformance.8.2.2.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jek4XYaQ/PGUwDKKhwR8K47Uh1189PFzMeLqO83mXrXQVIpARZCcfuDedH50YDTepBkfijCZN5U/vZi++erxtg==",
+      "path": "microsoft.dotnet.platformabstractions/3.1.6",
+      "hashPath": "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/9.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fNGvKct2De8ghm0Bpfq0iWthtzIWabgOTi+gJhNOPhNJIowXNEUE2eZNW/zNCzrHVA3PXg2yZ+3cWZndC2IqYA==",
+      "path": "microsoft.extensions.dependencymodel/9.0.9",
+      "hashPath": "microsoft.extensions.dependencymodel.9.0.9.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ObjectPool/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udvKco0sAVgYGTBnHUb0tY9JQzJ/nPDiv/8PIyz69wl1AibeCDZOLVVI+6156dPfHmJH7ws5oUJRiW4ZmAvuuA==",
+      "path": "microsoft.extensions.objectpool/7.0.0",
+      "hashPath": "microsoft.extensions.objectpool.7.0.0.nupkg.sha512"
+    },
+    "NativeLibraryLoader/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-78Lg887CZb4W8ZwmcNuoE75/7x//ljw/wnCuaUnThfe/RcAyuorfK9YkxBBpMWXTqfmjCb/FEsBFniySs+HcOQ==",
+      "path": "nativelibraryloader/1.0.13",
+      "hashPath": "nativelibraryloader.1.0.13.nupkg.sha512"
+    },
+    "SharpGen.Runtime/2.0.0-beta.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+Up2Er3ptWzcQ+CAO652fEsBLAmoXqKqtvc/6ycRV9XfLN2XJch0h8CwKQ3muD6eADPFf8Xp+nDQ8wDpcRDlg==",
+      "path": "sharpgen.runtime/2.0.0-beta.13",
+      "hashPath": "sharpgen.runtime.2.0.0-beta.13.nupkg.sha512"
+    },
+    "SharpGen.Runtime.COM/2.0.0-beta.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H22LsE3XTIOevf2TJgPgPnfYmjMlCtN+QYZVxzXlgTrgG2jHSTUTKZpIMPbKliLJGCEnDfX6yvBJvya0/xRTkA==",
+      "path": "sharpgen.runtime.com/2.0.0-beta.13",
+      "hashPath": "sharpgen.runtime.com.2.0.0-beta.13.nupkg.sha512"
+    },
+    "Silk.NET.Core/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D7AT/nnwlB+4RZ84XY8QNGBZMJI5z9l4CSSETIJ1wCfRJzRt/341y3MRZ4HbnFz4r/IGaWOEZr86iE+0/65yyQ==",
+      "path": "silk.net.core/2.23.0",
+      "hashPath": "silk.net.core.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Maths/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r8PdIVzME8EH0qAgbmRPO87I4GfgR2j8TofT7EMuRJDf1QluoQwnVypDoFJjQ2ZBSRsGYk5unYxxogI05Ogsmw==",
+      "path": "silk.net.maths/2.23.0",
+      "hashPath": "silk.net.maths.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Windowing.Common/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ThStSinmY9KQI8DGiF5XEhkLJVnBcgRTBTzL9ijg1wMZAYuckz7ykrNw04fjRm2Gryh6tCNGbvz2XaY0efeFzg==",
+      "path": "silk.net.windowing.common/2.23.0",
+      "hashPath": "silk.net.windowing.common.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Windowing.Extensions.Veldrid/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DgQemiJFoXkvbwPNdtMoRH8iXTPhfS7LVRF54oWpUUgFMXfQo415JZ3+Mg1np8niEapTUgDlxkyXm7RtkdxqGg==",
+      "path": "silk.net.windowing.extensions.veldrid/2.23.0",
+      "hashPath": "silk.net.windowing.extensions.veldrid.2.23.0.nupkg.sha512"
+    },
+    "StbImageSharp/2.30.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7QqbupVhz2kcFUPTgMw4iHR9rYDHGundzzee19Mwmd1typ2Lnv8EVJcLJxlkeBM2+4ex0NwsMtdbGSJctp1XCQ==",
+      "path": "stbimagesharp/2.30.15",
+      "hashPath": "stbimagesharp.2.30.15.nupkg.sha512"
+    },
+    "Veldrid/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rvu7/OLNt6Yy/hbC+rAmjBbxcSirbG/BjOdLCF7kl5mGBkMGka3pLuTlkbXSt4UONh3tks0I7k/OJ7Sr8HFIoA==",
+      "path": "veldrid/4.9.0",
+      "hashPath": "veldrid.4.9.0.nupkg.sha512"
+    },
+    "Veldrid.MetalBindings/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9qWYalATCT+/smQzFi2IFyEZpLE1l+A1r3tntKao8sYVAe18+P9rDIvpxyIL4T7Ritfm0JU2TnqckXmLenyfhQ==",
+      "path": "veldrid.metalbindings/4.9.0",
+      "hashPath": "veldrid.metalbindings.4.9.0.nupkg.sha512"
+    },
+    "Veldrid.OpenGLBindings/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Du3zr+qWQO2Pzsl2iOeLmg23gxdr6BQ9yx5ygmcoBn6nm1AsbG4JMeEIpSGDt8WiTmy2VsUNY0kIGZklkrRoWQ==",
+      "path": "veldrid.openglbindings/4.9.0",
+      "hashPath": "veldrid.openglbindings.4.9.0.nupkg.sha512"
+    },
+    "Veldrid.SPIRV/1.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hzupRH5uGibW8P/URwTFX1lDEmi1LWZKWf0euQyfS0FKVDI2gGDTB5ucq6JViG8Bk6U7Q2s1EsTXIDfXpu0oVQ==",
+      "path": "veldrid.spirv/1.0.15",
+      "hashPath": "veldrid.spirv.1.0.15.nupkg.sha512"
+    },
+    "Vk/1.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n1tpY/n9YV7j+wViUD31yc6TQMK3tkcdUXUbJUr3vIVifrRySzq5hpdxUnvC0SvBp8WrbAgowwd1YDvtc+u67A==",
+      "path": "vk/1.0.25",
+      "hashPath": "vk.1.0.25.nupkg.sha512"
+    },
+    "Vortice.D3DCompiler/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o7Jimuvr5gXQrriA8JMfNrZX+eiA5NbRPYOpscMICpKE+oKF/CNYXLI5RTQ/NjNpzIsm2QPEehXivL6IS+e40w==",
+      "path": "vortice.d3dcompiler/2.3.0",
+      "hashPath": "vortice.d3dcompiler.2.3.0.nupkg.sha512"
+    },
+    "Vortice.Direct3D11/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cNpadAL5HTm2zc3ZJhySGVJWgOD12RSX3OEk96j24rLdigfAbvzTtFJgn68gHviYMwwY76ukcobhJNDWZc4a3w==",
+      "path": "vortice.direct3d11/2.3.0",
+      "hashPath": "vortice.direct3d11.2.3.0.nupkg.sha512"
+    },
+    "Vortice.DirectX/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V+MzrsxG5sLW3PQUlJQ6n3xY8jJGx1l/9Gpy6wbgFuZtDSb9MQmDf/gyfRvrRs1vGNKPht+pg1AJ/qWQrfXJoQ==",
+      "path": "vortice.directx/2.3.0",
+      "hashPath": "vortice.directx.2.3.0.nupkg.sha512"
+    },
+    "Vortice.DXGI/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eJDvoLjhHMr78+SOSrPIUSr/JboZ7rx62kGrpj2RQZbhP3+pEdHjL+Z6mXLvkEqozFRFspLmTTI7ZnBKfjc9uQ==",
+      "path": "vortice.dxgi/2.3.0",
+      "hashPath": "vortice.dxgi.2.3.0.nupkg.sha512"
+    },
+    "Vortice.Mathematics/1.4.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V2yJMl/QKceXEjYEnf2EWcNkUJI5/zE04cNUnawHbdR0wjMHv1dVTLf0IUJk0D0w29FrCWdQQK/n4L4vx0HeQA==",
+      "path": "vortice.mathematics/1.4.25",
+      "hashPath": "vortice.mathematics.1.4.25.nupkg.sha512"
+    },
+    "ZeroAllocJobScheduler/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PKu/zSvwV1fWxt8+CEW15O9OlQ2zB9UoeAaor/aJJ0QeTKxxSjigczYLoVPKjYLAQu3ddZQd7Z3zplVTtUgigQ==",
+      "path": "zeroallocjobscheduler/1.1.2",
+      "hashPath": "zeroallocjobscheduler.1.1.2.nupkg.sha512"
+    },
+    "Arch/2.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Core/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Engine.Core.Common/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

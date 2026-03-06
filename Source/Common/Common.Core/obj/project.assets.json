@@ -14,11 +14,11 @@
   "project": {
     "version": "0.0.1-alpha",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj",
+      "projectUniqueName": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj",
       "projectName": "Common.Core",
-      "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj",
+      "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj",
       "packagesPath": "C:\\Users\\Dmitrist10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\obj\\",
+      "outputPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -68,9 +68,11 @@
           "Newtonsoft.Json": "13.0.5-beta1",
           "Silk.NET": "2.23.0",
           "Silk.NET.Input": "2.23.0",
+          "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
           "StbImageSharp": "2.30.15",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "Veldrid": "4.9.0",
+          "Veldrid.SPIRV": "1.0.15",
           "ZeroAllocJobScheduler": "1.1.2"
         },
         "imports": [

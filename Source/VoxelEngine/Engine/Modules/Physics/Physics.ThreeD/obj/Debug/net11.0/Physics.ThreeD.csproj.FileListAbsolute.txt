@@ -1,0 +1,14 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Physics.ThreeD\net11.0\Physics.ThreeD.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Physics.ThreeD\net11.0\Physics.ThreeD.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Physics.ThreeD\net11.0\Physics.ThreeD.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics..AD00760C.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\refint\Physics.ThreeD.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\ref\Physics.ThreeD.dll

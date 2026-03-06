@@ -1,0 +1,44 @@
+================================================================================
+Engine Log - Started at 2026-03-06 17:58:56
+================================================================================
+
+[17:58:56.207] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[17:58:56.217] [INFO ] [Game:40] Game.A was called!
+[17:58:56.218] [INFO ] [Program:38] Creating engine
+[17:58:56.218] [INFO ] [Program:95] Using Veldrid graphics backend (default). Pass '--renderer-opengl' to override.
+[17:58:56.219] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[17:58:56.230] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[17:58:56.231] [INFO ] [Program:45] Starting engine...
+[17:58:56.231] [LINE ] ================================================================================
+[17:58:56.231] [INFO ] [Engine:27] Starting engine runtime...
+[17:58:56.235] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine [Veldrid]' (800x600)
+[17:58:56.322] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[17:58:56.324] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[17:58:56.564] [INFO ] [VEL_GraphicsDevice:43] [Veldrid] Initialising graphics device...
+[17:58:56.801] [INFO ] [VEL_GraphicsDevice:64] [Veldrid] Graphics device ready.
+[17:58:56.822] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[17:58:56.823] [INFO ] [Engine:70] Post init...
+[17:58:56.823] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[17:58:56.825] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[17:58:56.829] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[17:58:56.831] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[17:58:56.832] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[17:58:56.835] [INFO ] [Game:19] Game.OnInitialize was called!
+[17:58:56.835] [INFO ] [Game:25] Game.StartMatch was called!
+[17:58:56.836] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[17:58:56.851] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[17:58:56.852] [INFO ] [ClientHost:26] Scene loaded
+[17:58:56.854] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[17:58:57.132] [ERROR] [TestRuntimeContext:59] Loading Game Failed! Compilation failed: <veldrid-spirv-input>:6: error: 'location' : SPIR-V requires location for user input/output
+ stacktrace:   at Veldrid.SPIRV.SpirvCompilation.CompileGlslToSpirv(UInt32 sourceLength, Byte* sourceTextPtr, String fileName, ShaderStages stage, Boolean debug, UInt32 macroCount, NativeMacroDefinition* macros)
+   at Veldrid.SPIRV.SpirvCompilation.CompileVertexFragment(Byte[] vsBytes, Byte[] fsBytes, CrossCompileTarget target, CrossCompileOptions options)
+   at Veldrid.SPIRV.ResourceFactoryExtensions.CreateFromSpirv(ResourceFactory factory, ShaderDescription vertexShaderDescription, ShaderDescription fragmentShaderDescription, CrossCompileOptions options)
+   at Veldrid.SPIRV.ResourceFactoryExtensions.CreateFromSpirv(ResourceFactory factory, ShaderDescription vertexShaderDescription, ShaderDescription fragmentShaderDescription)
+   at VoxelEngine.Graphics.Veldrid.VEL_GraphicsFactory.CreatePipeline(PipelineDescription& description) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\Source\VEL_GraphicsFactory.cs:line 85
+   at VoxelEngine.Graphics.Veldrid.VEL_GraphicsFactory.VoxelEngine.Graphics.IGraphicsFactory.CreatePipeline(PipelineDescription& description)
+   at CustomGame.BuildInAssets.GetPBRMaterial() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\GameSetup.cs:line 59
+   at CustomGame.GameSetup.SetUp(Scene scene) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\GameSetup.cs:line 18
+   at CustomGame.Game.StartMatch() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\Game.cs:line 29
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 55
+[17:58:57.133] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[17:58:57.133] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat

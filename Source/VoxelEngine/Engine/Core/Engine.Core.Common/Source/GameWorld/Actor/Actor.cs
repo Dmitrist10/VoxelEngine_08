@@ -16,13 +16,13 @@ public readonly record struct Actor
     }
 
     [MethodImpl(AggressiveInlining)]
-    public void AddComponent<TComponent>(in TComponent component) where TComponent : struct, IComponent
+    public void AddComponent<TComponent>(in TComponent component) where TComponent : struct
     {
         Scene.World.Add(Entity, component);
     }
 
     [MethodImpl(AggressiveInlining)]
-    public void AddComponent<TComponent>() where TComponent : struct, IComponent
+    public void AddComponent<TComponent>() where TComponent : struct
     {
         Scene.World.Add<TComponent>(Entity);
     }
@@ -48,19 +48,19 @@ public readonly record struct Actor
     //     return component != null;
     // }
     [MethodImpl(AggressiveInlining)]
-    public ref TComponent GetComponent<TComponent>() where TComponent : struct, IComponent
+    public ref TComponent GetComponent<TComponent>() where TComponent : struct
     {
         return ref Scene.World.Get<TComponent>(Entity);
     }
 
     [MethodImpl(AggressiveInlining)]
-    public void RemoveComponent<TComponent>() where TComponent : struct, IComponent
+    public void RemoveComponent<TComponent>() where TComponent : struct
     {
         Scene.World.Remove<TComponent>(Entity);
     }
 
     [MethodImpl(AggressiveInlining)]
-    public bool HasComponent<TComponent>() where TComponent : struct, IComponent
+    public bool HasComponent<TComponent>() where TComponent : struct
     {
         return Scene.World.Has<TComponent>(Entity);
     }

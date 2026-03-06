@@ -1,0 +1,14 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Common.AAA\net11.0\Common.AAA.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Common.AAA\net11.0\Common.AAA.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Common.AAA\net11.0\Common.AAA.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.csproj.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\refint\Common.AAA.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\Common.AAA.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Common\Common.AAA\obj\Debug\net11.0\ref\Common.AAA.dll

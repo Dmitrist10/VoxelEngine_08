@@ -1,4 +1,4 @@
-namespace VoxelEngine.Core;
+namespace VoxelEngine.Core.Assets;
 
 public interface IAssetLoader
 {

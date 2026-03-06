@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nTHKzyj9V4M=",
+  "dgSpecHash": "vTQM+Tw8hTg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Physics\\Physics.ThreeD\\Physics.ThreeD.csproj",
+  "projectFilePath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Physics\\Physics.ThreeD\\Physics.ThreeD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\bepuphysics\\2.4.0\\bepuphysics.2.4.0.nupkg.sha512",
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\bepuutilities\\2.4.0\\bepuutilities.2.4.0.nupkg.sha512"

@@ -83,9 +83,17 @@ public class Program
 
         IPlatform CreatePlatform()
         {
+            bool useOpenGL = ArgumentsParser.HasArg(args, "renderer-opengl");
+
             if (OperatingSystem.IsWindows())
             {
+                // if (useOpenGL)
+                // {
+                //     Logger.Info("arg: '--renderer-opengl' -> Using OpenGL graphics backend.");
                 return new Windows_Platform();
+                // }
+                // Logger.Info("Using Veldrid graphics backend (default). Pass '--renderer-opengl' to override.");
+                // return new Windows_VeldridPlatform();
             }
             else if (OperatingSystem.IsLinux())
             {

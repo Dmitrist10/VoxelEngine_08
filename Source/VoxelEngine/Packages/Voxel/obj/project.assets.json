@@ -18,6 +18,43 @@
           }
         }
       },
+      "AssimpNet/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/AssimpNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/AssimpNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libassimp.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libassimp.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/assimp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/assimp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Collections.Pooled/2.0.0-preview.27": {
         "type": "package",
         "compile": {
@@ -55,6 +92,30 @@
           "lib/net7.0/Microsoft.Extensions.ObjectPool.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "NETStandard.Library/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "StbImageSharp/2.30.15": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/StbImageSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/StbImageSharp.dll": {}
         }
       },
       "ZeroAllocJobScheduler/1.1.2": {
@@ -103,7 +164,9 @@
         "framework": ".NETCoreApp,Version=v11.0",
         "dependencies": {
           "Arch": "2.1.0",
-          "Common.Core": "0.0.1-alpha"
+          "AssimpNet": "4.1.0",
+          "Common.Core": "0.0.1-alpha",
+          "StbImageSharp": "2.30.15"
         },
         "compile": {
           "bin/placeholder/Engine.Core.Common.dll": {}
@@ -130,6 +193,31 @@
         "lib/net7.0/Arch.LowLevel.xml",
         "lib/netstandard2.1/Arch.LowLevel.dll",
         "lib/netstandard2.1/Arch.LowLevel.xml"
+      ]
+    },
+    "AssimpNet/4.1.0": {
+      "sha512": "z/4Tmf3Q2r1+vN6o/szArEZvPsdYNRYiS0L/yArybQd7n7KCiS9L4lRZhwwlHJb/edECM+Jky0XisVspr5aQWQ==",
+      "type": "package",
+      "path": "assimpnet/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AssimpNet Documentation (October 2018).chm",
+        "ChangeLog.txt",
+        "License.txt",
+        "assimpnet.4.1.0.nupkg.sha512",
+        "assimpnet.nuspec",
+        "build/AssimpNet.targets",
+        "lib/net35/AssimpNet.dll",
+        "lib/net35/AssimpNet.xml",
+        "lib/net40/AssimpNet.dll",
+        "lib/net40/AssimpNet.xml",
+        "lib/netstandard1.3/AssimpNet.dll",
+        "lib/netstandard1.3/AssimpNet.xml",
+        "runtimes/linux-x64/native/libassimp.so",
+        "runtimes/osx-x64/native/libassimp.dylib",
+        "runtimes/win-x64/native/assimp.dll",
+        "runtimes/win-x86/native/assimp.dll"
       ]
     },
     "Collections.Pooled/2.0.0-preview.27": {
@@ -197,6 +285,47 @@
         "microsoft.extensions.objectpool.nuspec"
       ]
     },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "NETStandard.Library/1.6.1": {
+      "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
+      "type": "package",
+      "path": "netstandard.library/1.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "netstandard.library.1.6.1.nupkg.sha512",
+        "netstandard.library.nuspec"
+      ]
+    },
+    "StbImageSharp/2.30.15": {
+      "sha512": "7QqbupVhz2kcFUPTgMw4iHR9rYDHGundzzee19Mwmd1typ2Lnv8EVJcLJxlkeBM2+4ex0NwsMtdbGSJctp1XCQ==",
+      "type": "package",
+      "path": "stbimagesharp/2.30.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/StbImageSharp.dll",
+        "lib/netstandard2.0/StbImageSharp.dll",
+        "stbimagesharp.2.30.15.nupkg.sha512",
+        "stbimagesharp.nuspec"
+      ]
+    },
     "ZeroAllocJobScheduler/1.1.2": {
       "sha512": "PKu/zSvwV1fWxt8+CEW15O9OlQ2zB9UoeAaor/aJJ0QeTKxxSjigczYLoVPKjYLAQu3ddZQd7Z3zplVTtUgigQ==",
       "type": "package",
@@ -240,11 +369,11 @@
   "project": {
     "version": "0.0.1-alpha",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Packages\\Voxel\\Packages.Voxel.csproj",
+      "projectUniqueName": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Packages\\Voxel\\Packages.Voxel.csproj",
       "projectName": "Packages.Voxel",
-      "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Packages\\Voxel\\Packages.Voxel.csproj",
+      "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Packages\\Voxel\\Packages.Voxel.csproj",
       "packagesPath": "C:\\Users\\Dmitrist10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Packages\\Voxel\\obj\\",
+      "outputPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Packages\\Voxel\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -266,14 +395,14 @@
         "net11.0": {
           "targetAlias": "net11.0",
           "projectReferences": {
-            "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
-              "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
+            "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
+              "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
             },
-            "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj": {
-              "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj"
+            "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj": {
+              "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj"
             },
-            "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {
-              "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj"
+            "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {
+              "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj"
             }
           }
         }
@@ -304,9 +433,11 @@
           "Newtonsoft.Json": "13.0.5-beta1",
           "Silk.NET": "2.23.0",
           "Silk.NET.Input": "2.23.0",
+          "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
           "StbImageSharp": "2.30.15",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "Veldrid": "4.9.0",
+          "Veldrid.SPIRV": "1.0.15",
           "ZeroAllocJobScheduler": "1.1.2"
         },
         "imports": [

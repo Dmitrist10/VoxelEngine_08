@@ -1,5 +1,6 @@
 using System.Security.Principal;
 using Arch.Core;
+using VoxelEngine.Core.Assets;
 using VoxelEngine.Diagnostics;
 using VoxelEngine.Graphics;
 
@@ -61,6 +62,8 @@ public sealed class Engine
 
         AssetsManager assetsManager = new AssetsManager();
         assetsManager.RegisterLoader<ShaderData>(new ShaderLoader());
+        assetsManager.RegisterLoader<STDMeshData>(new MeshLoader());
+        assetsManager.RegisterLoader<TextureData>(new TextureLoader());
         ServiceContainer.Register<AssetsManager>(assetsManager);
     }
     private void PostInit()

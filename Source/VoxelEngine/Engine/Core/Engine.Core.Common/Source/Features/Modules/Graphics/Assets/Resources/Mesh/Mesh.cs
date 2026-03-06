@@ -5,12 +5,22 @@ public record struct MeshAsset : IAsset
     public MeshHandle Handle;
     public uint VertexCount;
     public uint IndexCount;
+
+    public MeshAsset(MeshHandle handle, uint vertexCount, uint indexCount)
+    {
+        Handle = handle;
+        VertexCount = vertexCount;
+        IndexCount = indexCount;
+    }
 }
 
-public record MeshData<TVertex> where TVertex : unmanaged, IVertexType
+public record MeshData<TVertex> : IAssetData where TVertex : unmanaged, IVertexType
 {
     public readonly TVertex[] Vertices;
     public readonly uint[] Indices;
+
+    public uint VertexCount => (uint)Vertices.Length;
+    public uint IndexCount => (uint)Indices.Length;
 
     public MeshData(TVertex[] vertices, uint[] indices)
     {

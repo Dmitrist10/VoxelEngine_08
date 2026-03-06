@@ -1,0 +1,14 @@
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelEngine.Editor\net11.0\VoxelEngine.Editor.deps.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelEngine.Editor\net11.0\VoxelEngine.Editor.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelEngine.Editor\net11.0\VoxelEngine.Editor.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEng.427A8052.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\refint\VoxelEngine.Editor.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\VoxelEngine.Editor.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Editor\obj\Debug\net11.0\ref\VoxelEngine.Editor.dll

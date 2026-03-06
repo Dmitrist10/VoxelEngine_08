@@ -10,6 +10,17 @@ public struct STDVertex : IVertexType
     public Vector3 Normal; // 12 bytes
     public Vector2 UV; // 8 bytes
 
+    public STDVertex(Vector3 position, Vector3 normal, Vector2 uv)
+    {
+        Position = position;
+        Normal = normal;
+        UV = uv;
+    }
+    public STDVertex(Vector3 position)
+    {
+        Position = position;
+    }
+
     public static VertexAttribute[] GetAttributes() => new[]
     {
         new VertexAttribute(0, VertexAttribType.Float3, 0),  // Location 0: Position

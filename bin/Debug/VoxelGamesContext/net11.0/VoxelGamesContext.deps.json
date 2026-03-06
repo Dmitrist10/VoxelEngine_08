@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v11.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v11.0": {
+      "VoxelGamesContext/0.0.1-alpha": {
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha"
+        },
+        "runtime": {
+          "VoxelGamesContext.dll": {}
+        }
+      },
+      "Common.Core/0.0.1-alpha": {
+        "runtime": {
+          "Common.Core.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VoxelGamesContext/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Core/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

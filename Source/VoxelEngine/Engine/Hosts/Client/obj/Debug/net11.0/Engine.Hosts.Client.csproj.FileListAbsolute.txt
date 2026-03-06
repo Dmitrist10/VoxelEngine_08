@@ -6,9 +6,12 @@ C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\E
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.Hosts.Client.AssemblyInfoInputs.cache
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.Hosts.Client.AssemblyInfo.cs
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.Hosts.Client.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.Hosts.Client.sourcelink.json
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.H.84B2E089.Up2Date
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.Hosts.Client.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\refint\Engine.Hosts.Client.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.Hosts.Client.pdb
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\ref\Engine.Hosts.Client.dll
-c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\obj\Debug\net11.0\Engine.Hosts.Client.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Hosts.Client\net11.0\Engine.Hosts.Client.deps.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Hosts.Client\net11.0\Engine.Hosts.Client.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Hosts.Client\net11.0\Engine.Hosts.Client.pdb

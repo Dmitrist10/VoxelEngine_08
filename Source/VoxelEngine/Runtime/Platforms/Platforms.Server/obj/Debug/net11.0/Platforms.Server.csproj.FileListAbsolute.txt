@@ -1,0 +1,14 @@
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Server\net11.0\Platforms.Server.deps.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Server\net11.0\Platforms.Server.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Server\net11.0\Platforms.Server.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platform.9D5304ED.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\refint\Platforms.Server.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\Platforms.Server.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Server\obj\Debug\net11.0\ref\Platforms.Server.dll

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>VoxelEngine.Graphics.Veldrid</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Veldrid" />
+    <PackageReference Include="Veldrid.SPIRV" />
+    <PackageReference Include="Silk.NET.Windowing.Extensions.Veldrid" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Engine.Core.Common\Engine.Core.Common.csproj" />
+  </ItemGroup>
+
+</Project>

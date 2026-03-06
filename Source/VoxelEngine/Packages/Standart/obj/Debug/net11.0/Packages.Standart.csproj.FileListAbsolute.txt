@@ -1,0 +1,14 @@
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Packages.Standart\net11.0\Packages.Standart.deps.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Packages.Standart\net11.0\Packages.Standart.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Packages.Standart\net11.0\Packages.Standart.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.25BDA9F2.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\refint\Packages.Standart.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\Packages.Standart.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Standart\obj\Debug\net11.0\ref\Packages.Standart.dll

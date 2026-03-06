@@ -21,6 +21,7 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
     }
 
     private record struct DrawIndexedCommand(uint IndexCount, PrimitiveTopology Topology);
+    private record struct BindTextureCommand(TextureHandle Texture, uint Slot);
     private record struct BindUniformBufferCommand(BufferHandle Buffer, uint BindingSlot);
     private record struct BindBufferCommand(BufferHandle Buffer, uint BindingSlot, uint Offset, uint Size);
 
@@ -66,6 +67,11 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
 
     public void BindPipeline(PipelineHandle pipeline) => Write(CmdType.BindPipeline, ref pipeline);
     public void BindMesh(MeshHandle mesh) => Write(CmdType.BindMesh, ref mesh);
+    public void BindTexture(TextureHandle texture, uint slot = 0)
+    {
+        var cmd = new BindTextureCommand(texture, slot);
+        Write(CmdType.BindTexture, ref cmd);
+    }
     public void BindUniformBuffer(BufferHandle buffer, uint bindingSlot = 0)
     {
         var cmd = new BindUniformBufferCommand(buffer, bindingSlot);
@@ -131,6 +137,13 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
                         readOffset += sizeof(MeshHandle);
                         // GL_Mesh glMesh = _assetsManager.Get(mesh);
                         _GL.BindVertexArray(_assetsManager.Get(mesh).VAO);
+                        break;
+                    case CmdType.BindTexture:
+                        var bindTextureCmd = Unsafe.ReadUnaligned<BindTextureCommand>(pBuffer + readOffset);
+                        readOffset += sizeof(BindTextureCommand);
+                        GL_Texture glTexture = _assetsManager.Get(bindTextureCmd.Texture);
+                        _GL.ActiveTexture((TextureUnit)((uint)TextureUnit.Texture0 + bindTextureCmd.Slot));
+                        _GL.BindTexture(TextureTarget.Texture2D, glTexture.ID);
                         break;
                     case CmdType.BindUniformBuffer:
                         var bindUniformCmd = Unsafe.ReadUnaligned<BindUniformBufferCommand>(pBuffer + readOffset);

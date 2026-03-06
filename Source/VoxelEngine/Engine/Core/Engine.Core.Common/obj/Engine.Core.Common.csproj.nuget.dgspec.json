@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {}
+    "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {}
   },
   "projects": {
     "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
@@ -61,9 +61,11 @@
             "Newtonsoft.Json": "13.0.5-beta1",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
             "Veldrid": "4.9.0",
+            "Veldrid.SPIRV": "1.0.15",
             "ZeroAllocJobScheduler": "1.1.2"
           },
           "imports": [
@@ -360,14 +362,14 @@
         }
       }
     },
-    "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj": {
+    "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj": {
       "version": "2.1.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
+        "projectUniqueName": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
         "projectName": "Arch",
-        "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
+        "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
         "packagesPath": "C:\\Users\\Dmitrist10\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\obj\\",
+        "outputPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "centralPackageVersionsManagementEnabled": true,
@@ -454,9 +456,11 @@
             "Newtonsoft.Json": "13.0.5-beta1",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
             "Veldrid": "4.9.0",
+            "Veldrid.SPIRV": "1.0.15",
             "ZeroAllocJobScheduler": "1.1.2"
           },
           "imports": [
@@ -753,14 +757,14 @@
         }
       }
     },
-    "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {
+    "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {
       "version": "0.0.1-alpha",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj",
         "projectName": "Engine.Core.Common",
-        "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj",
+        "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj",
         "packagesPath": "C:\\Users\\Dmitrist10\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\obj\\",
+        "outputPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -785,8 +789,8 @@
               "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
                 "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
               },
-              "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj": {
-                "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj"
+              "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj": {
+                "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj"
               }
             }
           }
@@ -806,6 +810,18 @@
       "frameworks": {
         "net11.0": {
           "targetAlias": "net11.0",
+          "dependencies": {
+            "AssimpNet": {
+              "target": "Package",
+              "version": "[4.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "StbImageSharp": {
+              "target": "Package",
+              "version": "[2.30.15, )",
+              "versionCentrallyManaged": true
+            }
+          },
           "centralPackageVersions": {
             "Arch.LowLevel": "1.1.5",
             "AssimpNet": "4.1.0",
@@ -817,9 +833,11 @@
             "Newtonsoft.Json": "13.0.5-beta1",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
             "Veldrid": "4.9.0",
+            "Veldrid.SPIRV": "1.0.15",
             "ZeroAllocJobScheduler": "1.1.2"
           },
           "imports": [

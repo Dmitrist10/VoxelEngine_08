@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Silk.NET" />
+    <PackageReference Include="Veldrid.SPIRV" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,7 @@
     <ProjectReference Include="..\..\..\..\Resources\Games\Game_01\Main\Game_01.csproj" />
     <ProjectReference Include="..\..\..\Engine\Core\Engine.Core.Runtime\Engine.Core.Runtime.csproj" />
     <ProjectReference Include="..\..\..\Engine\Modules\Graphics\Graphics.OpenGL\Graphics.OpenGL.csproj" />
+    <ProjectReference Include="..\..\..\Engine\Modules\Graphics\Graphics.Veldrid\Graphics.Veldrid.csproj" />
     <ProjectReference Include="..\..\Contexts\TestingContext\TestingContext.csproj" />
   </ItemGroup>
 

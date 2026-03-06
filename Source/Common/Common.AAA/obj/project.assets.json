@@ -33,11 +33,11 @@
   "project": {
     "version": "0.0.1-alpha",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.AAA\\Common.AAA.csproj",
+      "projectUniqueName": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.AAA\\Common.AAA.csproj",
       "projectName": "Common.AAA",
-      "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.AAA\\Common.AAA.csproj",
+      "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.AAA\\Common.AAA.csproj",
       "packagesPath": "C:\\Users\\Dmitrist10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.AAA\\obj\\",
+      "outputPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.AAA\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -59,8 +59,8 @@
         "net11.0": {
           "targetAlias": "net11.0",
           "projectReferences": {
-            "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
-              "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
+            "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
+              "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
             }
           }
         }
@@ -91,9 +91,11 @@
           "Newtonsoft.Json": "13.0.5-beta1",
           "Silk.NET": "2.23.0",
           "Silk.NET.Input": "2.23.0",
+          "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
           "StbImageSharp": "2.30.15",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "Veldrid": "4.9.0",
+          "Veldrid.SPIRV": "1.0.15",
           "ZeroAllocJobScheduler": "1.1.2"
         },
         "imports": [

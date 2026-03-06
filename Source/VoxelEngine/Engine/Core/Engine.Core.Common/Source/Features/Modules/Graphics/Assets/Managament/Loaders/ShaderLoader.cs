@@ -1,7 +1,7 @@
 using System.IO;
 using System.Text;
 
-namespace VoxelEngine.Core;
+namespace VoxelEngine.Core.Assets;
 
 public class ShaderLoader : IAssetLoader
 {

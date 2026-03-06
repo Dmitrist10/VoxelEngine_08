@@ -1,0 +1,41 @@
+================================================================================
+Engine Log - Started at 2026-03-06 17:54:34
+================================================================================
+
+[17:54:34.449] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[17:54:34.463] [INFO ] [Game:40] Game.A was called!
+[17:54:34.463] [INFO ] [Program:38] Creating engine
+[17:54:34.464] [INFO ] [Program:95] Using Veldrid graphics backend (default). Pass '--renderer-opengl' to override.
+[17:54:34.467] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[17:54:34.469] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[17:54:34.469] [INFO ] [Program:45] Starting engine...
+[17:54:34.469] [LINE ] ================================================================================
+[17:54:34.470] [INFO ] [Engine:27] Starting engine runtime...
+[17:54:34.473] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine [Veldrid]' (800x600)
+[17:54:34.567] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[17:54:34.569] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[17:54:35.060] [INFO ] [VEL_GraphicsDevice:43] [Veldrid] Initialising graphics device...
+[17:54:35.268] [INFO ] [VEL_GraphicsDevice:64] [Veldrid] Graphics device ready.
+[17:54:35.288] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[17:54:35.289] [INFO ] [Engine:70] Post init...
+[17:54:35.289] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[17:54:35.292] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[17:54:35.293] [LINE ] ================================================================================
+[17:54:35.294] [LINE ] ================================================================================
+[17:54:35.294] [ERROR] [Program:54] Exception: Uniform buffer size must be a multiple of 16 bytes.
+[17:54:35.336] [ERROR] [Program:60] Exception Stack Trace:    at Veldrid.ResourceFactory.CreateBuffer(BufferDescription& description)
+   at Veldrid.ResourceFactory.CreateBuffer(BufferDescription description)
+   at VoxelEngine.Graphics.Veldrid.VEL_GraphicsFactory.CreateBuffer(BufferDescription& description) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.Veldrid\Source\VEL_GraphicsFactory.cs:line 49
+   at VoxelEngine.Graphics.Veldrid.VEL_GraphicsFactory.VoxelEngine.Graphics.IGraphicsFactory.CreateBuffer(BufferDescription& description)
+   at VoxelEngine.Graphics.Rendering.RenderManager..ctor() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Rendering\RenderManager.cs:line 29
+   at VoxelEngine.Client.ClientHost.Initialize() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\ClientHost.cs:line 19
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.Init() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 34
+   at VoxelEngine.Core.Runtime.Engine.PostInit() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 72
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 31
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 46
+[17:54:35.337] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-06 17:54:35
+================================================================================

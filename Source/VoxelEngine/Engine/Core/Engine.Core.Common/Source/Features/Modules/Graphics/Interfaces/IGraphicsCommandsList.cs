@@ -9,6 +9,7 @@ public interface IGraphicsCommandsList : IDisposable
 
     void BindPipeline(PipelineHandle pipeline);
     void BindMesh(MeshHandle mesh);
+    void BindTexture(TextureHandle texture, uint slot = 0);
     void BindUniformBuffer(BufferHandle buffer, uint bindingSlot = 0);
 
     void UpdateBuffer<T>(BufferHandle buffer, uint offset, ref T data) where T : unmanaged;

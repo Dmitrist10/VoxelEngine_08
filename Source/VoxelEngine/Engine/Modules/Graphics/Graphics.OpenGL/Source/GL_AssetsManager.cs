@@ -8,6 +8,7 @@ internal sealed class GL_AssetsManager
     private readonly ResourcePool<GL_Mesh> _meshPool = new();
     private readonly ResourcePool<GL_Pipeline> _pipelinePool = new();
     private readonly ResourcePool<GL_Buffer> _bufferPool = new();
+    private readonly ResourcePool<GL_Texture> _texturePool = new();
 
     [MethodImpl(AggressiveInlining)]
     internal GL_Mesh Get(MeshHandle handle)
@@ -23,6 +24,11 @@ internal sealed class GL_AssetsManager
     internal GL_Buffer Get(BufferHandle handle)
     {
         return _bufferPool.Get(handle.Handle);
+    }
+    [MethodImpl(AggressiveInlining)]
+    internal GL_Texture Get(TextureHandle handle)
+    {
+        return _texturePool.Get(handle.Handle);
     }
 
     [MethodImpl(AggressiveInlining)]
@@ -40,9 +46,15 @@ internal sealed class GL_AssetsManager
     {
         return new(_bufferPool.Add(buffer));
     }
+    [MethodImpl(AggressiveInlining)]
+    internal TextureHandle Add(GL_Texture texture)
+    {
+        return new(_texturePool.Add(texture));
+    }
 }
 
 internal record GL_Buffer(uint ID, uint Size);
 
 internal record GL_Pipeline(uint ID);
 internal record GL_Mesh(uint VAO, uint VBO, uint EBO);
+internal record GL_Texture(uint ID, uint Width, uint Height);

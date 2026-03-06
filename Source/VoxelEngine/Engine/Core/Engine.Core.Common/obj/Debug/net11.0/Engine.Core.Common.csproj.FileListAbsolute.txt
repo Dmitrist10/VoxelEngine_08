@@ -6,9 +6,12 @@ C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\E
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.Core.Common.AssemblyInfoInputs.cache
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.Core.Common.AssemblyInfo.cs
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.Core.Common.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.Core.Common.sourcelink.json
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.C.4E2291B7.Up2Date
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.Core.Common.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\refint\Engine.Core.Common.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.Core.Common.pdb
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\ref\Engine.Core.Common.dll
-c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\obj\Debug\net11.0\Engine.Core.Common.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Core.Common\net11.0\Engine.Core.Common.deps.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Core.Common\net11.0\Engine.Core.Common.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Engine.Core.Common\net11.0\Engine.Core.Common.pdb

@@ -1,0 +1,14 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelEngine.Tools\net11.0\VoxelEngine.Tools.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelEngine.Tools\net11.0\VoxelEngine.Tools.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelEngine.Tools\net11.0\VoxelEngine.Tools.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEng.045F21E2.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\refint\VoxelEngine.Tools.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\VoxelEngine.Tools.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Tools\obj\Debug\net11.0\ref\VoxelEngine.Tools.dll

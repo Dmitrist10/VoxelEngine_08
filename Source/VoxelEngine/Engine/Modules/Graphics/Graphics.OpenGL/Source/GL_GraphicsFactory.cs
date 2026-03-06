@@ -127,6 +127,54 @@ internal unsafe class GL_GraphicsFactory : IGraphicsFactory
     }
 
 
+    public TextureHandle CreateTexture(TextureData textureData)
+    {
+        uint texture = _GL.GenTexture();
+        _GL.BindTexture(TextureTarget.Texture2D, texture);
+
+        TextureMinFilter minFilter = textureData.Options.FilterMode switch
+        {
+            VoxelEngine.Core.TextureFilterMode.Nearest => textureData.Options.GenerateMipmaps ? TextureMinFilter.NearestMipmapNearest : TextureMinFilter.Nearest,
+            VoxelEngine.Core.TextureFilterMode.Linear => textureData.Options.GenerateMipmaps ? TextureMinFilter.LinearMipmapLinear : TextureMinFilter.Linear,
+            VoxelEngine.Core.TextureFilterMode.LinearMipmap => TextureMinFilter.LinearMipmapLinear,
+            _ => TextureMinFilter.Linear
+        };
+
+        TextureMagFilter magFilter = textureData.Options.FilterMode switch
+        {
+            VoxelEngine.Core.TextureFilterMode.Nearest => TextureMagFilter.Nearest,
+            VoxelEngine.Core.TextureFilterMode.Linear => TextureMagFilter.Linear,
+            VoxelEngine.Core.TextureFilterMode.LinearMipmap => TextureMagFilter.Linear,
+            _ => TextureMagFilter.Linear
+        };
+
+        Silk.NET.OpenGL.TextureWrapMode wrapMode = textureData.Options.WrapMode switch
+        {
+            VoxelEngine.Core.TextureWrapMode.Repeat => Silk.NET.OpenGL.TextureWrapMode.Repeat,
+            VoxelEngine.Core.TextureWrapMode.ClampToEdge => Silk.NET.OpenGL.TextureWrapMode.ClampToEdge,
+            VoxelEngine.Core.TextureWrapMode.MirroredRepeat => Silk.NET.OpenGL.TextureWrapMode.MirroredRepeat,
+            _ => Silk.NET.OpenGL.TextureWrapMode.Repeat
+        };
+
+        _GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, (int)minFilter);
+        _GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (int)magFilter);
+        _GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapS, (int)wrapMode);
+        _GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapT, (int)wrapMode);
+
+        fixed (byte* ptr = textureData.Data)
+        {
+            _GL.TexImage2D(TextureTarget.Texture2D, 0, (int)InternalFormat.Rgba8, textureData.Width, textureData.Height, 0, PixelFormat.Rgba, PixelType.UnsignedByte, ptr);
+        }
+
+        if (textureData.Options.GenerateMipmaps)
+        {
+            _GL.GenerateMipmap(TextureTarget.Texture2D);
+        }
+
+        return _assetsManager.Add(new GL_Texture(texture, textureData.Width, textureData.Height));
+    }
+
+
     public void Dispose()
     {
     }

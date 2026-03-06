@@ -7,7 +7,7 @@ public record struct TextureAsset : IAsset
     public uint Height;
 }
 
-public record TextureData
+public record TextureData : IAssetData
 {
     public readonly byte[] Data;
     public readonly uint Width;
@@ -21,6 +21,13 @@ public record TextureData
         Width = width;
         Height = height;
         Channels = channels;
+        Options = options;
+    }
+    public TextureData(byte[] data, uint width, uint height, TextureOptions options)
+    {
+        Data = data;
+        Width = width;
+        Height = height;
         Options = options;
     }
 }

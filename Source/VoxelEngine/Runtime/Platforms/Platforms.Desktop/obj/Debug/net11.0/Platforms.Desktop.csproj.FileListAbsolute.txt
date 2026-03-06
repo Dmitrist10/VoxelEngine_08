@@ -1,4 +1,6 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Platforms.Desktop\net11.0\Platforms.Desktop.exe
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Platforms.Desktop\net11.0\Platforms.Desktop.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Platforms.Desktop\net11.0\Platforms.Desktop.runtimeconfig.json
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Platforms.Desktop\net11.0\Platforms.Desktop.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Platforms.Desktop\net11.0\Platforms.Desktop.pdb
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.csproj.AssemblyReference.cache
@@ -6,12 +8,15 @@ C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\R
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.AssemblyInfoInputs.cache
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.AssemblyInfo.cs
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.sourcelink.json
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platform.BFE7E2C1.Up2Date
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\refint\Platforms.Desktop.dll
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.pdb
-C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\ref\Platforms.Desktop.dll
-C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Platforms.Desktop\net11.0\Platforms.Desktop.exe
-C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Platforms.Desktop\net11.0\Platforms.Desktop.runtimeconfig.json
 C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.genruntimeconfig.cache
-c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\Platforms.Desktop.sourcelink.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\obj\Debug\net11.0\ref\Platforms.Desktop.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Desktop\net11.0\Platforms.Desktop.exe
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Desktop\net11.0\Platforms.Desktop.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Desktop\net11.0\Platforms.Desktop.runtimeconfig.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Desktop\net11.0\Platforms.Desktop.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Platforms.Desktop\net11.0\Platforms.Desktop.pdb

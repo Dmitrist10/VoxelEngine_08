@@ -1,0 +1,14 @@
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelGamesContext\net11.0\VoxelGamesContext.deps.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelGamesContext\net11.0\VoxelGamesContext.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\VoxelGamesContext\net11.0\VoxelGamesContext.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGam.6FCAF3A5.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\refint\VoxelGamesContext.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\VoxelGamesContext.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\VoxelGames\obj\Debug\net11.0\ref\VoxelGamesContext.dll

@@ -1,3 +1,5 @@
+using VoxelEngine.Core.Assets;
+
 namespace VoxelEngine.Core;
 
 public sealed class AssetsManager
@@ -14,9 +16,14 @@ public sealed class AssetsManager
         throw new NotImplementedException();
     }
 
-    public MeshAsset LoadMesh(string path)
+    public STDMeshData LoadMesh(string path)
     {
-        return new MeshAsset();
+        return (STDMeshData)_loaders[typeof(STDMeshData)].Load(path);
+    }
+
+    public TextureData LoadTexture(string path, TextureOptions options)
+    {
+        return ((TextureLoader)_loaders[typeof(TextureData)]).LoadWithOptions(path, options);
     }
 
     public ShaderData LoadShaderData(string path)

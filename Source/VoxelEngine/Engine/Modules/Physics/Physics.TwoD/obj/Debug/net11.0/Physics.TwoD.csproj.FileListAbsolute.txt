@@ -1,0 +1,14 @@
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Physics.TwoD\net11.0\Physics.TwoD.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Physics.TwoD\net11.0\Physics.TwoD.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Debug\Physics.TwoD\net11.0\Physics.TwoD.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.csproj.AssemblyReference.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.AssemblyInfoInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.AssemblyInfo.cs
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.csproj.CoreCompileInputs.cache
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.sourcelink.json
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics..F4B29E93.Up2Date
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\refint\Physics.TwoD.dll
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\Physics.TwoD.pdb
+c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.TwoD\obj\Debug\net11.0\ref\Physics.TwoD.dll
