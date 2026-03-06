@@ -1,4 +1,4 @@
-using VoxelEngine.Core.Rendering;
+using VoxelEngine.Graphics.Rendering;
 using VoxelEngine.Core;
 using VoxelEngine.Diagnostics;
 

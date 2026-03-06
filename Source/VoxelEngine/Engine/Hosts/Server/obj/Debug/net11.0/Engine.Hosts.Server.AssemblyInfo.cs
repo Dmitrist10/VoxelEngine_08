@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2026")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1-alpha+eef028e3c9096d6d4d77dbe1c86d2be40b41c983")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1-alpha+5e6e8aee609ca501c622e0373c1d147b99e6a29f")]
 [assembly: System.Reflection.AssemblyProductAttribute("VoxelEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Engine.Hosts.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.1.0")]

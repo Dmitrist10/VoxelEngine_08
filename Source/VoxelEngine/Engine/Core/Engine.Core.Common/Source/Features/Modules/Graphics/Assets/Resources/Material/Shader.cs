@@ -6,7 +6,7 @@ public record struct ShaderAsset : IAsset
 }
 
 
-public record ShaderData
+public record ShaderData : IAssetData
 {
     public readonly string Vert;
     public readonly string Frag;
@@ -17,7 +17,6 @@ public record ShaderData
         Frag = frag;
     }
 }
-
 
 public record struct PipelineAsset : IAsset
 {

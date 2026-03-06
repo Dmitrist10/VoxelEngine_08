@@ -58,6 +58,10 @@ public sealed class Engine
             StrictAllocationMode = false
         };
         World.SharedJobScheduler = new Schedulers.JobScheduler(archJobConfig);
+
+        AssetsManager assetsManager = new AssetsManager();
+        assetsManager.RegisterLoader<ShaderData>(new ShaderLoader());
+        ServiceContainer.Register<AssetsManager>(assetsManager);
     }
     private void PostInit()
     {

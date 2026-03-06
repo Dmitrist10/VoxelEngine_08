@@ -33,10 +33,9 @@ public sealed class RenderManager
         });
     }
 
-    internal void Initialize()
+    public void Initialize()
     {
         _renderGraph.Initialize();
-
     }
 
     public void Submit(RenderCommand renderCommand) => _renderCommands.Add(renderCommand);

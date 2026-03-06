@@ -2,6 +2,13 @@ namespace VoxelEngine.Core;
 
 public sealed class AssetsManager
 {
+    private Dictionary<Type, IAssetLoader> _loaders = new Dictionary<Type, IAssetLoader>();
+
+    public void RegisterLoader<T>(IAssetLoader loader) where T : IAssetData
+    {
+        _loaders.Add(typeof(T), loader);
+    }
+
     public T LoadAsset<T>(string v)
     {
         throw new NotImplementedException();
@@ -10,6 +17,11 @@ public sealed class AssetsManager
     public MeshAsset LoadMesh(string path)
     {
         return new MeshAsset();
+    }
+
+    public ShaderData LoadShaderData(string path)
+    {
+        return (ShaderData)_loaders[typeof(ShaderData)].Load(path);
     }
 
     public PipelineHandle LoadPipeline(string v)
