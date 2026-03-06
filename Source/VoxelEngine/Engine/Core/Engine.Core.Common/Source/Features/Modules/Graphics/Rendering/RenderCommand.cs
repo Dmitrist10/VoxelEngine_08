@@ -1,7 +1,7 @@
 using VoxelEngine.Core;
 using System.Numerics;
 
-namespace VoxelEngine.Core.Rendering;
+namespace VoxelEngine.Graphics.Rendering;
 
 public readonly record struct RenderCommand(
     MeshAsset Mesh,

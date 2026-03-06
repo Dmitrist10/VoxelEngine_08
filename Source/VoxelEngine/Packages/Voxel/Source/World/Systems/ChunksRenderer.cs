@@ -3,7 +3,7 @@ using Arch.Core;
 using VoxelEngine.Core;
 using VoxelEngine.Graphics;
 
-using VoxelEngine.Core.Rendering;
+using VoxelEngine.Graphics.Rendering;
 using System.Numerics;
 
 namespace VoxelEngine.Packages.Voxel;

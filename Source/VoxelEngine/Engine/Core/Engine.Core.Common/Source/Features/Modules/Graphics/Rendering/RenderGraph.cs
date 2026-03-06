@@ -1,7 +1,7 @@
 using VoxelEngine.Core;
 using VoxelEngine.Graphics;
 
-namespace VoxelEngine.Core.Rendering;
+namespace VoxelEngine.Graphics.Rendering;
 
 public sealed class RenderGraph
 {

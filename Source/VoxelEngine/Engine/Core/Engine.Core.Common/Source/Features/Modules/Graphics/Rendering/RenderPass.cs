@@ -1,6 +1,6 @@
 using VoxelEngine.Graphics;
 
-namespace VoxelEngine.Core.Rendering;
+namespace VoxelEngine.Graphics.Rendering;
 
 internal abstract class RenderPass
 {

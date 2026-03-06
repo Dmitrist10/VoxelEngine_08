@@ -2,7 +2,7 @@ using VoxelEngine.Core;
 using VoxelEngine.Diagnostics;
 using VoxelEngine.Graphics;
 
-namespace VoxelEngine.Core.Rendering;
+namespace VoxelEngine.Graphics.Rendering;
 
 internal sealed class RP_ClearColor : RenderPass
 {

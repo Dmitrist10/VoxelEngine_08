@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2026")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1-alpha+d95384d5173650e046d8e8330113a65204c4a040")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1-alpha+eef028e3c9096d6d4d77dbe1c86d2be40b41c983")]
 [assembly: System.Reflection.AssemblyProductAttribute("VoxelEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Physics.ThreeD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.1.0")]

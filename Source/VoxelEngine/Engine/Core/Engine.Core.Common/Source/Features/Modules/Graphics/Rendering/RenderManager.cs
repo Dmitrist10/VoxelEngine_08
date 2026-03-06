@@ -4,7 +4,7 @@ using VoxelEngine.Graphics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace VoxelEngine.Core.Rendering;
+namespace VoxelEngine.Graphics.Rendering;
 
 public sealed class RenderManager
 {
