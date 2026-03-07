@@ -1,35 +1,27 @@
 using StbImageSharp;
 using System.IO;
 using VoxelEngine.Diagnostics;
+using System;
 
 namespace VoxelEngine.Core.Assets;
 
-public class TextureLoader : IAssetLoader
+public class TextureLoader : IAssetLoader<TextureData>
 {
-    /// <summary>
-    /// Default load - uses PixelArt preset (Nearest filtering, flipped for OpenGL)
-    /// </summary>
-    public IAssetData Load(string path)
+    public TextureData Load(Stream stream, AssetId id, string absolutePath)
     {
-        return LoadWithOptions(path, TextureOptions.PixelArt);
-    }
+        // For drag-and-drop, options would ideally be parsed from a `.meta` file.
+        // For now, we will assume a default PixelArt preset unless metadata is added later.
+        TextureOptions options = TextureOptions.PixelArt;
 
-    public TextureData LoadForIcon(string path)
-    {
-        return LoadWithOptions(path, TextureOptions.Icon);
-    }
+        using var ms = new MemoryStream();
+        stream.CopyTo(ms);
+        byte[] fileData = ms.ToArray();
 
-    /// <summary>
-    /// Load with custom options
-    /// </summary>
-    public TextureData LoadWithOptions(string path, TextureOptions options)
-    {
-        byte[] fileData = File.ReadAllBytes(path);
         ImageResult image = ImageResult.FromMemory(fileData, ColorComponents.RedGreenBlueAlpha);
 
         if (image.Data == null || image.Data.Length == 0)
         {
-            Logger.Error($"[TextureLoader] Failed to load {path} or empty.");
+            Logger.Error($"[TextureLoader] Failed to load {absolutePath} or empty.");
             return new TextureData([255, 0, 255, 255], 1, 1, options); // Magenta error texture
         }
 
@@ -43,12 +35,9 @@ public class TextureLoader : IAssetLoader
         return new TextureData(pixelData, (uint)image.Width, (uint)image.Height, options);
     }
 
-    /// <summary>
-    /// Flip image data vertically (required for OpenGL texture upload)
-    /// </summary>
     private static byte[] FlipVertically(byte[] data, int width, int height)
     {
-        int bytesPerRow = width * 4; // RGBA = 4 bytes per pixel
+        int bytesPerRow = width * 4;
         byte[] flipped = new byte[data.Length];
 
         for (int y = 0; y < height; y++)

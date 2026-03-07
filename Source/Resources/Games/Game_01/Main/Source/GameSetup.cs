@@ -8,15 +8,18 @@ namespace CustomGame;
 
 public static class GameSetup
 {
-
     public static void SetUp(Scene scene)
     {
         Logger.Debug("GameSetup.SetUp was called!");
+        var manager = ServiceContainer.Get<AssetsManager>()!;
 
-        MeshAsset triangleAsset = BuildInAssets.GetTriangle();
-        MeshAsset cubeAsset = BuildInAssets.GetCube();
-        STDMeshData treeData = ServiceContainer.Get<AssetsManager>()!.LoadMesh(@"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.obj");
+        MeshAsset triangleAsset = BuildInAssets.GetBuiltInMesh("Triangle");
+        MeshAsset cubeAsset = BuildInAssets.GetBuiltInMesh("Cube");
+
+        string treePath = @"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.obj";
+        STDMeshData treeData = manager.Load<STDMeshData>($"vfs://disk/{treePath.Replace('\\', '/')}").Get();
         MeshAsset treeMesh = new MeshAsset(ServiceContainer.Get<GraphicsContext>()!.Device.Factory.CreateMesh<STDVertex>(treeData), treeData.VertexCount, treeData.IndexCount);
+
         PBRMaterial mat1 = BuildInAssets.GetPBRMaterial();
         TextureMaterial treeMat = BuildInAssets.GetTreeTextureMaterial();
 

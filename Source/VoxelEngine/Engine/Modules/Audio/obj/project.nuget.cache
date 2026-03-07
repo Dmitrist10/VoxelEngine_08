@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qgcBz1BKDQs=",
+  "dgSpecHash": "ip51rlxI3JI=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Audio\\Engine.Modules.Audio.csproj",
+  "projectFilePath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Modules\\Audio\\Engine.Modules.Audio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\arch.lowlevel\\1.1.5\\arch.lowlevel.1.1.5.nupkg.sha512",
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\assimpnet\\4.1.0\\assimpnet.4.1.0.nupkg.sha512",

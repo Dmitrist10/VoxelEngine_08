@@ -1,4 +1,7 @@
+using System;
+using System.Collections.Generic;
 using VoxelEngine.Core.Assets;
+using VoxelEngine.Core.VirtualFileSystem;
 
 namespace VoxelEngine.Core;
 
@@ -6,58 +9,65 @@ public sealed class AssetsManager
 {
     private Dictionary<Type, IAssetLoader> _loaders = new Dictionary<Type, IAssetLoader>();
 
-    public void RegisterLoader<T>(IAssetLoader loader) where T : IAssetData
+    public VFileManager VFM { get; } = new VFileManager();
+
+    private Dictionary<AssetId, ResourceHandle> _loadedAssets = new Dictionary<AssetId, ResourceHandle>();
+    private ResourcePool<IAssetData> _assetPool = new ResourcePool<IAssetData>(1024);
+
+    public AssetsManager()
     {
-        _loaders.Add(typeof(T), loader);
+        VFM.Mount("builtin", new BuiltInFileProvider());
+        // Physical file provider should be mounted elsewhere or here with a root path
+        VFM.Mount("disk", new PhysicalFileProvider("")); // Disk root
+
+        // Register default loaders
+        RegisterLoader(new MeshLoader());
+        RegisterLoader(new TextureLoader());
+        RegisterLoader(new ShaderLoader());
     }
 
-    public T LoadAsset<T>(string v)
+    public void RegisterLoader<T>(IAssetLoader<T> loader) where T : class, IAssetData
     {
-        throw new NotImplementedException();
+        _loaders[typeof(T)] = loader;
     }
 
-    public STDMeshData LoadMesh(string path)
+    public AssetHandle<T> Load<T>(string uri) where T : class, IAssetData
     {
-        return (STDMeshData)_loaders[typeof(STDMeshData)].Load(path);
+        AssetId id = new AssetId(uri);
+
+        if (_loadedAssets.TryGetValue(id, out ResourceHandle handle))
+        {
+            return new AssetHandle<T>(handle);
+        }
+
+        if (!_loaders.TryGetValue(typeof(T), out IAssetLoader? loaderObj) || loaderObj == null)
+        {
+            throw new Exception($"No loader registered for type {typeof(T).Name}");
+        }
+
+        IAssetLoader<T> loader = (IAssetLoader<T>)loaderObj;
+
+        using var stream = VFM.OpenRead(uri);
+        string absolutePath = VFM.GetAbsolutePath(uri);
+
+        T assetData = loader.Load(stream, id, absolutePath);
+
+        ResourceHandle newHandle = _assetPool.Add(assetData);
+        _loadedAssets[id] = newHandle;
+
+        return new AssetHandle<T>(newHandle);
     }
 
-    public TextureData LoadTexture(string path, TextureOptions options)
+    public T GetAsset<T>(ResourceHandle handle) where T : class, IAssetData
     {
-        return ((TextureLoader)_loaders[typeof(TextureData)]).LoadWithOptions(path, options);
+        return (T)_assetPool.Get(handle);
     }
 
-    public ShaderData LoadShaderData(string path)
-    {
-        return (ShaderData)_loaders[typeof(ShaderData)].Load(path);
-    }
+    public bool IsValid(ResourceHandle handle) => _assetPool.IsValid(handle);
 
-    public PipelineHandle LoadPipeline(string v)
-    {
-        throw new NotImplementedException();
-    }
-    // public STDMeshData LoadMeshData(string path)
-    // {
-    //     return new STDMeshData();
-    // }
-
-    // public TextureAsset LoadTexture(string path)
-    // {
-    //     return new TextureAsset();
-    // }
-
-    // public ShaderAsset LoadShader(string path)
-    // {
-    //     return new ShaderAsset();
-    // }
-
-    // public PipelineAsset LoadPipeline(string path)
-    // {
-    //     return new PipelineAsset();
-    // }
-
-    // public Material LoadMaterial(string path)
-    // {
-    //     return new Material();
-    // }
-
+    // Backward compatible shims temporarily for GameSetup and BuildInAssets
+    public STDMeshData LoadMesh(string path) => Load<STDMeshData>(path).Get();
+    public TextureData LoadTexture(string path, TextureOptions options) => Load<TextureData>(path).Get(); // Temporary options ignorning
+    public ShaderData LoadShaderData(string path) => Load<ShaderData>(path).Get();
+    public PipelineHandle LoadPipeline(string v) { throw new NotImplementedException(); }
 }

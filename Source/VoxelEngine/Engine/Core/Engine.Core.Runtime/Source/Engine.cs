@@ -61,9 +61,9 @@ public sealed class Engine
         World.SharedJobScheduler = new Schedulers.JobScheduler(archJobConfig);
 
         AssetsManager assetsManager = new AssetsManager();
-        assetsManager.RegisterLoader<ShaderData>(new ShaderLoader());
-        assetsManager.RegisterLoader<STDMeshData>(new MeshLoader());
-        assetsManager.RegisterLoader<TextureData>(new TextureLoader());
+        // assetsManager.RegisterLoader<ShaderData>(new ShaderLoader());
+        // assetsManager.RegisterLoader<STDMeshData>(new MeshLoader());
+        // assetsManager.RegisterLoader<TextureData>(new TextureLoader());
         ServiceContainer.Register<AssetsManager>(assetsManager);
     }
     private void PostInit()

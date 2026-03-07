@@ -1,0 +1,46 @@
+================================================================================
+Engine Log - Started at 2026-03-06 21:17:52
+================================================================================
+
+[21:17:52.937] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:17:52.950] [INFO ] [Game:40] Game.A was called!
+[21:17:52.950] [INFO ] [Program:38] Creating engine
+[21:17:52.954] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:17:52.955] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:17:52.956] [INFO ] [Program:45] Starting engine...
+[21:17:52.965] [LINE ] ================================================================================
+[21:17:52.965] [INFO ] [Engine:27] Starting engine runtime...
+[21:17:53.027] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:17:53.124] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:17:53.129] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:17:53.758] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[21:17:53.760] [INFO ] [Engine:71] Post init...
+[21:17:53.761] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:17:53.764] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:17:53.767] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[21:17:53.770] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[21:17:53.773] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[21:17:53.777] [INFO ] [Game:19] Game.OnInitialize was called!
+[21:17:53.778] [INFO ] [Game:25] Game.StartMatch was called!
+[21:17:53.779] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[21:17:53.802] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[21:17:53.804] [INFO ] [ClientHost:26] Scene loaded
+[21:17:53.807] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[21:17:53.899] [ERROR] [TestRuntimeContext:59] Loading Game Failed! Invalid virtual path format: vfs://diskC:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.obj stacktrace:   at VoxelEngine.Core.VirtualFileSystem.VFileManager.ResolvePath(String virtualPath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\VirtualFileSystem\VFileManager.cs:line 27
+   at VoxelEngine.Core.VirtualFileSystem.VFileManager.OpenRead(String virtualPath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\VirtualFileSystem\VFileManager.cs:line 56
+   at VoxelEngine.Core.AssetsManager.Load[T](String uri) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\AssetsManager.cs:line 51
+   at CustomGame.GameSetup.SetUp(Scene scene) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\GameSetup.cs:line 20
+   at CustomGame.Game.StartMatch() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\Game.cs:line 29
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 55
+[21:17:53.901] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[21:17:53.901] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:18:06.826] [INFO ] [DesktopWindow:53] Desktop window closing...
+[21:18:06.827] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[21:18:06.827] [INFO ] [Engine:37] Application terminated.
+[21:18:06.827] [LINE ] ================================================================================
+[21:18:06.827] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-06 21:18:06
+================================================================================
