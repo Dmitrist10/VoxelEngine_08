@@ -9,35 +9,35 @@ public sealed partial class Scene
     public Actor CreateActor() => _actorsRegistry.CreateActor();
     public Entity CreateEntity() => _actorsRegistry.CreateEntity();
 
-    // public void Destroy(in Actor actor) => _commandBuffer.Enqueue(() => _actorsRegistry.Destroy(actor));
+    // public void Destroy(Entity e) => _commandBuffer.Enqueue(() => _actorsRegistry.Destroy(e));
     // public void Destroy(in Entity entity) => _commandBuffer.Enqueue(() => _actorsRegistry.Destroy(entity));
 
 
     // Behavior
-    public T AddBehavior<T>(in Actor actor) where T : class, IBehavior, new()
+    public T AddBehavior<T>(Entity e) where T : class, IBehavior, new()
     {
-        return _actorsRegistry.AddBehavior(actor, new T());
+        return _actorsRegistry.AddBehavior(e, new T());
     }
-    public T AddBehavior<T>(in Actor actor, T instance) where T : class, IBehavior
+    public T AddBehavior<T>(Entity e, T instance) where T : class, IBehavior
     {
-        return _actorsRegistry.AddBehavior(actor, instance);
+        return _actorsRegistry.AddBehavior(e, instance);
     }
-    public T? GetBehavior<T>(in Actor actor) where T : class, IBehavior
+    public T? GetBehavior<T>(Entity e) where T : class, IBehavior
     {
-        return _actorsRegistry.GetBehavior<T>(actor);
+        return _actorsRegistry.GetBehavior<T>(e);
     }
-    public bool TryGetBehavior<T>(in Actor actor, [NotNullWhen(true)] out T? behavior) where T : class, IBehavior
+    public bool TryGetBehavior<T>(Entity e, [NotNullWhen(true)] out T? behavior) where T : class, IBehavior
     {
-        behavior = _actorsRegistry.GetBehavior<T>(actor);
+        behavior = _actorsRegistry.GetBehavior<T>(e);
         return behavior != null;
     }
-    public bool HasBehavior<T>(in Actor actor) where T : class, IBehavior
+    public bool HasBehavior<T>(Entity e) where T : class, IBehavior
     {
-        return _actorsRegistry.HasBehavior<T>(actor);
+        return _actorsRegistry.HasBehavior<T>(e);
     }
-    public void RemoveBehavior<T>(in Actor actor) where T : class, IBehavior
+    public void RemoveBehavior<T>(Entity e) where T : class, IBehavior
     {
-        _actorsRegistry.RemoveBehavior<T>(actor);
+        _actorsRegistry.RemoveBehavior<T>(e);
     }
 
 

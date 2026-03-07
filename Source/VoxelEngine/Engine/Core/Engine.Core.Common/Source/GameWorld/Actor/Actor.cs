@@ -9,10 +9,10 @@ public readonly record struct Actor
     public readonly Scene Scene { get; init; }
     public readonly World World => Scene.World;
 
-    public Actor(Entity entity, Scene scene)
+    public Actor(Entity Entity, Scene Scene)
     {
-        Entity = entity;
-        Scene = scene;
+        Entity = Entity;
+        Scene = Scene;
     }
 
     [MethodImpl(AggressiveInlining)]
@@ -63,6 +63,47 @@ public readonly record struct Actor
     public bool HasComponent<TComponent>() where TComponent : struct
     {
         return Scene.World.Has<TComponent>(Entity);
+    }
+
+
+
+
+    public T? GetBehavior<T>() where T : Behavior
+    {
+        return Scene.GetBehavior<T>(Entity);
+    }
+
+    public bool TryGetBehavior<T>(out T behavior) where T : Behavior
+    {
+        var result = Scene.GetBehavior<T>(Entity);
+        if (result != null)
+        {
+            behavior = result;
+            return true;
+        }
+
+        behavior = null!;
+        return false;
+    }
+
+    public void RemoveBehavior<T>() where T : Behavior
+    {
+        Scene.RemoveBehavior<T>(Entity);
+    }
+
+    public bool HasBehavior<T>() where T : Behavior
+    {
+        return Scene.HasBehavior<T>(Entity);
+    }
+
+    public T AddBehavior<T>(T instance) where T : Behavior
+    {
+        return Scene.AddBehavior<T>(Entity, instance);
+    }
+
+    public T AddBehavior<T>() where T : Behavior, new()
+    {
+        return Scene.AddBehavior<T>(Entity);
     }
 
 

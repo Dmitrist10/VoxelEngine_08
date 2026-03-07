@@ -37,6 +37,7 @@
     <Copyright>Apache2.0</Copyright>
 
     <NoWarn>1701;1702;1591;8601;8602;8603;8604;8618;1574</NoWarn>
+      <NoWarn>$(NoWarn);CS0618;SYSLIB1002</NoWarn>
 
     <Configurations>Debug;Debug-PureECS;Debug-Events;Release;Release-PureECS;Release-Events;</Configurations>
 

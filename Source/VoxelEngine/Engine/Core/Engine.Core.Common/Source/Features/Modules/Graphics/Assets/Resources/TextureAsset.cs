@@ -1,10 +1,18 @@
 namespace VoxelEngine.Core;
 
-public record struct TextureAsset : IAsset
+public readonly record struct TextureAsset : IAsset
 {
-    public TextureHandle Handle;
-    public uint Width;
-    public uint Height;
+    public readonly TextureHandle Handle;
+    public readonly uint Width;
+    public readonly uint Height;
+
+    public TextureAsset(TextureHandle handle, uint width, uint height) : this()
+    {
+        Handle = handle;
+        Width = width;
+        Height = height;
+    }
+
 }
 
 public record TextureData : IAssetData

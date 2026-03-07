@@ -7,15 +7,13 @@ namespace VoxelEngine.Core.Assets;
 
 public class TextureLoader : IAssetLoader<TextureData>
 {
-    public TextureData Load(Stream stream, AssetId id, string absolutePath)
+    public TextureData Load(string absolutePath)
     {
         // For drag-and-drop, options would ideally be parsed from a `.meta` file.
         // For now, we will assume a default PixelArt preset unless metadata is added later.
         TextureOptions options = TextureOptions.PixelArt;
 
-        using var ms = new MemoryStream();
-        stream.CopyTo(ms);
-        byte[] fileData = ms.ToArray();
+        byte[] fileData = File.ReadAllBytes(absolutePath);
 
         ImageResult image = ImageResult.FromMemory(fileData, ColorComponents.RedGreenBlueAlpha);
 
@@ -50,8 +48,4 @@ public class TextureLoader : IAssetLoader<TextureData>
         return flipped;
     }
 
-    public TextureData Load(string absolutePath)
-    {
-        throw new NotImplementedException();
-    }
 }

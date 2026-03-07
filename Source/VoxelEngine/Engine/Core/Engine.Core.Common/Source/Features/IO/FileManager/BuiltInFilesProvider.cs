@@ -7,6 +7,8 @@ namespace VoxelEngine.IO;
 internal class BuiltInFilesProvider : IFilesProvider
 {
     private readonly string _alias;
+    private Dictionary<string, Func<Stream>> _generators = new Dictionary<string, Func<Stream>>(StringComparer.OrdinalIgnoreCase);
+    
     public BuiltInFilesProvider(string alias)
     {
         _alias = alias;
@@ -55,14 +57,26 @@ internal class BuiltInFilesProvider : IFilesProvider
         // Indecies
         foreach (var i in mesh.indices)
         {
-            writer.Write(i); 
+            writer.Write(i);
         }
 
         ms.Position = 0;
         return ms;
     }
 
-    private Dictionary<string, Func<Stream>> _generators = new Dictionary<string, Func<Stream>>(StringComparer.OrdinalIgnoreCase);
+    public Stream OpenRead(string path)
+    {
+        // Normalize path separators
+        path = path.Replace('\\', '/');
+
+        if (_generators.TryGetValue(path, out Func<Stream>? generator))
+        {
+            return generator();
+        }
+
+        throw new FileNotFoundException($"Built-in asset not found: {path}");
+    }
+
 
     private (STDVertex[], uint[]) GetTriangle()
     {

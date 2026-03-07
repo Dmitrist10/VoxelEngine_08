@@ -33,20 +33,20 @@ internal sealed class ActorsRegistry
     }
 
     [MethodImpl(AggressiveInlining)]
-    public void Destroy(in Actor actor)
+    public void Destroy(Actor actor)
     {
         Destroy(actor.Entity);
     }
     [MethodImpl(AggressiveInlining)]
-    public void Destroy(in Entity entity)
+    public void Destroy(Entity entity)
     {
-        DestroyAllBehaviorsFrom(in entity);
+        DestroyAllBehaviorsFrom(entity);
         EntitysCount--;
         _world.Destroy(entity);
     }
 
     [MethodImpl(AggressiveInlining)]
-    private void DestroyAllBehaviorsFrom(in Entity entity)
+    private void DestroyAllBehaviorsFrom(Entity entity)
     {
         if (_behaviors.TryGetValue(entity, out var behaviors))
         {
@@ -74,14 +74,14 @@ internal sealed class ActorsRegistry
     }
 
     [MethodImpl(AggressiveInlining)]
-    public T AddBehavior<T>(in Actor actor) where T : class, IBehavior, new()
+    public T AddBehavior<T>(Entity e) where T : class, IBehavior, new()
     {
-        return AddBehavior(actor, new T());
+        return AddBehavior(e, new T());
     }
     [MethodImpl(AggressiveInlining)]
-    public T AddBehavior<T>(in Actor actor, T instance) where T : class, IBehavior
+    public T AddBehavior<T>(Entity e, T instance) where T : class, IBehavior
     {
-        if (_behaviors.TryGetValue(actor.Entity, out var behaviors))
+        if (_behaviors.TryGetValue(e, out var behaviors))
             behaviors.Add(typeof(T), instance);
         else
         {
@@ -89,7 +89,7 @@ internal sealed class ActorsRegistry
             {
                 { typeof(T), instance }
             };
-            _behaviors.Add(actor.Entity, behaviors);
+            _behaviors.Add(e, behaviors);
         }
 
         _allBehaviors.Add(instance);
@@ -111,27 +111,27 @@ internal sealed class ActorsRegistry
     }
 
     [MethodImpl(AggressiveInlining)]
-    public T? GetBehavior<T>(in Actor actor) where T : class, IBehavior
+    public T? GetBehavior<T>(Entity e) where T : class, IBehavior
     {
-        if (_behaviors.TryGetValue(actor.Entity, out var behaviors))
+        if (_behaviors.TryGetValue(e, out var behaviors))
             if (behaviors.TryGetValue(typeof(T), out var behavior))
                 return (T)behavior;
 
         return null;
     }
     [MethodImpl(AggressiveInlining)]
-    public bool HasBehavior<T>(in Actor actor) where T : class, IBehavior
+    public bool HasBehavior<T>(Entity e) where T : class, IBehavior
     {
-        if (_behaviors.TryGetValue(actor.Entity, out var behaviors))
+        if (_behaviors.TryGetValue(e, out var behaviors))
             return behaviors.ContainsKey(typeof(T));
 
         return false;
     }
 
     [MethodImpl(AggressiveInlining)]
-    public void RemoveBehavior<T>(in Actor actor) where T : class, IBehavior
+    public void RemoveBehavior<T>(Entity e) where T : class, IBehavior
     {
-        if (_behaviors.TryGetValue(actor.Entity, out var behaviors))
+        if (_behaviors.TryGetValue(e, out var behaviors))
         {
             if (behaviors.TryGetValue(typeof(T), out var behavior))
             {

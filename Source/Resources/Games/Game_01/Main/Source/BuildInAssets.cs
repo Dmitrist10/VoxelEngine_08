@@ -36,18 +36,15 @@ internal class BuildInAssets
 
         string shaderPath = @"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Resources\Shaders\TextureShader.glsl";
         ShaderData shaderData = manager.GetShaderData(shaderPath);
-        // ShaderData shaderData = manager.GetShaderData($"vfs://disk/{shaderPath.Replace('\\', '/')}");
 
-        PipelineHandle pipeline = manager.GetOrCreatePipeline("treePipeline", shaderData.Vert, shaderData.Frag);
+        PipelineHandle pipeline = manager.GetOrCreatePipeline(new PipelineDescription(shaderData.Vert, shaderData.Frag));
 
-        // string texPath = @"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.png";
-        // TextureData texData = manager.Load<TextureData>($"vfs://disk/{texPath.Replace('\\', '/')}").Get();
-        // TextureHandle texHandle = device.Factory.CreateTexture(texData);
+        TextureAsset texture = manager.GetTexture(@"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.png");
 
         var mat = new TextureMaterial(new TextureMaterialProperties() { Color = Color.White })
         {
             Pipeline = pipeline,
-            // AlbedoTexture = texHandle
+            AlbedoTexture = texture.Handle
         };
 
         return mat;

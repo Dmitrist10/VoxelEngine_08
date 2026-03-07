@@ -69,6 +69,8 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
     public void BindMesh(MeshHandle mesh) => Write(CmdType.BindMesh, ref mesh);
     public void BindTexture(TextureHandle texture, uint slot = 0)
     {
+        if (!texture.Handle.IsValid) return; // small safty check
+
         var cmd = new BindTextureCommand(texture, slot);
         Write(CmdType.BindTexture, ref cmd);
     }
@@ -104,76 +106,84 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
 
     public void Execute()
     {
-        int readOffset = 0;
-
-        // prevent GC from moving the byte[]
-        fixed (byte* pBuffer = _buffer)
+        try
         {
-            while (readOffset < _writeOffset)
+
+            int readOffset = 0;
+
+            // prevent GC from moving the byte[]
+            fixed (byte* pBuffer = _buffer)
             {
-                // Read 1 byte for the command type
-                CmdType cmd = (CmdType)pBuffer[readOffset++];
-
-                switch (cmd)
+                while (readOffset < _writeOffset)
                 {
-                    case CmdType.ClearColor:
-                        E_ClearColor(ref readOffset, pBuffer);
-                        break;
-                    case CmdType.Clear:
-                        _GL.Clear((uint)(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit | ClearBufferMask.StencilBufferBit));
-                        break;
+                    // Read 1 byte for the command type
+                    CmdType cmd = (CmdType)pBuffer[readOffset++];
 
-                    case CmdType.BindPipeline:
-                        var pipeline = Unsafe.ReadUnaligned<PipelineHandle>(pBuffer + readOffset);
-                        readOffset += sizeof(PipelineHandle);
-                        // _GL.BindProgramPipeline(_assetsManager.Get(pipeline).ID);
-                        _GL.UseProgram(_assetsManager.Get(pipeline).ID);
-                        break;
-                    case CmdType.BindMesh:
-                        var mesh = Unsafe.ReadUnaligned<MeshHandle>(pBuffer + readOffset);
-                        readOffset += sizeof(MeshHandle);
-                        // GL_Mesh glMesh = _assetsManager.Get(mesh);
-                        _GL.BindVertexArray(_assetsManager.Get(mesh).VAO);
-                        break;
-                    case CmdType.BindTexture:
-                        // TODO: Right now if no Texture it crashed!
-                        var bindTextureCmd = Unsafe.ReadUnaligned<BindTextureCommand>(pBuffer + readOffset);
-                        readOffset += sizeof(BindTextureCommand);
-                        GL_Texture glTexture = _assetsManager.Get(bindTextureCmd.Texture);
-                        _GL.ActiveTexture((TextureUnit)((uint)TextureUnit.Texture0 + bindTextureCmd.Slot));
-                        _GL.BindTexture(TextureTarget.Texture2D, glTexture.ID);
-                        break;
-                    case CmdType.BindUniformBuffer:
-                        var bindUniformCmd = Unsafe.ReadUnaligned<BindUniformBufferCommand>(pBuffer + readOffset);
-                        readOffset += sizeof(BindUniformBufferCommand);
-                        GL_Buffer glBuffer = _assetsManager.Get(bindUniformCmd.Buffer);
-                        _GL.BindBufferBase(BufferTargetARB.UniformBuffer, bindUniformCmd.BindingSlot, glBuffer.ID);
-                        break;
-                    case CmdType.UpdateBuffer:
-                        var updateBufferCommand = Unsafe.ReadUnaligned<BindBufferCommand>(pBuffer + readOffset);
-                        readOffset += sizeof(BindBufferCommand);
+                    switch (cmd)
+                    {
+                        case CmdType.ClearColor:
+                            E_ClearColor(ref readOffset, pBuffer);
+                            break;
+                        case CmdType.Clear:
+                            _GL.Clear((uint)(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit | ClearBufferMask.StencilBufferBit));
+                            break;
 
-                        GL_Buffer glUpdateBuffer = _assetsManager.Get(updateBufferCommand.Buffer);
-                        _GL.BindBuffer(BufferTargetARB.UniformBuffer, glUpdateBuffer.ID);
-                        _GL.BufferSubData(BufferTargetARB.UniformBuffer, (nint)updateBufferCommand.Offset, (nuint)updateBufferCommand.Size, pBuffer + readOffset);
+                        case CmdType.BindPipeline:
+                            var pipeline = Unsafe.ReadUnaligned<PipelineHandle>(pBuffer + readOffset);
+                            readOffset += sizeof(PipelineHandle);
+                            // _GL.BindProgramPipeline(_assetsManager.Get(pipeline).ID);
+                            _GL.UseProgram(_assetsManager.Get(pipeline).ID);
+                            break;
+                        case CmdType.BindMesh:
+                            var mesh = Unsafe.ReadUnaligned<MeshHandle>(pBuffer + readOffset);
+                            readOffset += sizeof(MeshHandle);
+                            // GL_Mesh glMesh = _assetsManager.Get(mesh);
+                            _GL.BindVertexArray(_assetsManager.Get(mesh).VAO);
+                            break;
+                        case CmdType.BindTexture:
+                            // TODO: Right now if no texture assigned then it uses the last binded
+                            var bindTextureCmd = Unsafe.ReadUnaligned<BindTextureCommand>(pBuffer + readOffset);
+                            readOffset += sizeof(BindTextureCommand);
+                            GL_Texture glTexture = _assetsManager.Get(bindTextureCmd.Texture);
+                            _GL.ActiveTexture((TextureUnit)((uint)TextureUnit.Texture0 + bindTextureCmd.Slot));
+                            _GL.BindTexture(TextureTarget.Texture2D, glTexture.ID);
+                            break;
+                        case CmdType.BindUniformBuffer:
+                            var bindUniformCmd = Unsafe.ReadUnaligned<BindUniformBufferCommand>(pBuffer + readOffset);
+                            readOffset += sizeof(BindUniformBufferCommand);
+                            GL_Buffer glBuffer = _assetsManager.Get(bindUniformCmd.Buffer);
+                            _GL.BindBufferBase(BufferTargetARB.UniformBuffer, bindUniformCmd.BindingSlot, glBuffer.ID);
+                            break;
+                        case CmdType.UpdateBuffer:
+                            var updateBufferCommand = Unsafe.ReadUnaligned<BindBufferCommand>(pBuffer + readOffset);
+                            readOffset += sizeof(BindBufferCommand);
 
-                        readOffset += (int)updateBufferCommand.Size;
-                        break;
-                    case CmdType.Draw:
-                        var vertexCount = Unsafe.ReadUnaligned<uint>(pBuffer + readOffset);
-                        readOffset += sizeof(uint);
-                        _GL.DrawArrays(PrimitiveType.Triangles, 0, vertexCount);
-                        break;
-                    case CmdType.DrawIndexed:
-                        var indexCount = Unsafe.ReadUnaligned<uint>(pBuffer + readOffset);
-                        readOffset += sizeof(uint);
-                        _GL.DrawElements(PrimitiveType.Triangles, indexCount, DrawElementsType.UnsignedInt, (void*)0);
-                        break;
-                    default:
-                        Logger.Error("Unknown command type: " + cmd);
-                        return;
+                            GL_Buffer glUpdateBuffer = _assetsManager.Get(updateBufferCommand.Buffer);
+                            _GL.BindBuffer(BufferTargetARB.UniformBuffer, glUpdateBuffer.ID);
+                            _GL.BufferSubData(BufferTargetARB.UniformBuffer, (nint)updateBufferCommand.Offset, (nuint)updateBufferCommand.Size, pBuffer + readOffset);
+
+                            readOffset += (int)updateBufferCommand.Size;
+                            break;
+                        case CmdType.Draw:
+                            var vertexCount = Unsafe.ReadUnaligned<uint>(pBuffer + readOffset);
+                            readOffset += sizeof(uint);
+                            _GL.DrawArrays(PrimitiveType.Triangles, 0, vertexCount);
+                            break;
+                        case CmdType.DrawIndexed:
+                            var indexCount = Unsafe.ReadUnaligned<uint>(pBuffer + readOffset);
+                            readOffset += sizeof(uint);
+                            _GL.DrawElements(PrimitiveType.Triangles, indexCount, DrawElementsType.UnsignedInt, (void*)0);
+                            break;
+                        default:
+                            Logger.Error("Unknown command type: " + cmd);
+                            return;
+                    }
                 }
             }
+        }
+        catch (Exception e)
+        {
+            Logger.Error("Crashed while executing rendering commands stacktrace: " + e.StackTrace);
         }
     }
 

@@ -6,13 +6,60 @@ namespace VoxelEngine.Core.Assets;
 public class MeshLoader : IAssetLoader<STDMeshData>
 {
 
-    public STDMeshData Load(string absolutePath)
+    public STDMeshData Load(string path)
     {
+        var fileManager = ServiceContainer.Get<IO.FileManager>();
+        if (fileManager == null)
+            throw new Exception("FileManager not found in ServiceContainer!");
+
+        using Stream stream = fileManager.OpenRead(path);
+
+        // Handle built-in VE_MESH format
+        if (path.EndsWith(".ve", StringComparison.OrdinalIgnoreCase) || path.EndsWith(".ve_mesh", StringComparison.OrdinalIgnoreCase))
+        {
+            using var reader = new BinaryReader(stream, System.Text.Encoding.UTF8, true);
+            string magic = reader.ReadString();
+            if (magic != "VE_MESH") throw new Exception("Invalid VE_MESH format!");
+
+            uint vCount = reader.ReadUInt32();
+            uint iCount = reader.ReadUInt32();
+
+            STDVertex[] vertices = new STDVertex[vCount];
+            for (uint i = 0; i < vCount; i++)
+            {
+                vertices[i] = new STDVertex(
+                    new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle()),
+                    new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle()),
+                    new Vector2(reader.ReadSingle(), reader.ReadSingle())
+                );
+            }
+
+            uint[] indices = new uint[iCount];
+            for (uint i = 0; i < iCount; i++)
+            {
+                indices[i] = reader.ReadUInt32();
+            }
+
+            return new STDMeshData(vertices, indices);
+        }
+
+        // Use Assimp for other formats (like .obj, .fbx, etc.)
+        // AssimpContext.ImportFileFromStream requires a format hint (the file extension).
         var context = new AssimpContext();
-        Assimp.Scene scene = context.ImportFile(absolutePath, PostProcessSteps.Triangulate | PostProcessSteps.GenerateNormals);
+        string extension = System.IO.Path.GetExtension(path);
+
+        Assimp.Scene scene;
+        try
+        {
+            scene = context.ImportFileFromStream(stream, PostProcessSteps.Triangulate | PostProcessSteps.GenerateNormals, extension);
+        }
+        catch (Exception ex)
+        {
+            throw new Exception($"Failed to load mesh from stream '{path}': {ex.Message}", ex);
+        }
 
         if (scene == null || scene.Meshes.Count == 0)
-            throw new Exception("Failed to load mesh!");
+            throw new Exception($"Failed to load mesh '{path}'!");
 
         var assimpMesh = scene.Meshes[0]; // TODO: Support multiple meshes
         var assimpVertices = new List<STDVertex>();

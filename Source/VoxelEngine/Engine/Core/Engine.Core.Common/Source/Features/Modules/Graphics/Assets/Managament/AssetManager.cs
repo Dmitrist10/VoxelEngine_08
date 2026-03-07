@@ -35,12 +35,14 @@ public sealed class AssetsManager
 
     private readonly MeshLoader _meshLoader;
     private readonly ShaderLoader _shaderLoader;
+    private readonly TextureLoader _textureLoader;
 
     public AssetsManager()
     {
         _factory = ServiceContainer.Get<GraphicsContext>()!.Device.Factory;
         _meshLoader = new MeshLoader();
         _shaderLoader = new ShaderLoader();
+        _textureLoader = new TextureLoader();
     }
 
     public MeshAsset GetMesh(string virtualPath)
@@ -96,17 +98,28 @@ public sealed class AssetsManager
         throw new NotImplementedException();
     }
 
-    public PipelineHandle GetOrCreatePipeline(string name, string vert, string frag)
+
+    public TextureAsset GetTexture(string virtualPath)
     {
-        if (_assetsCache.TryGetValue(name, out AssetsDatabaseItem item)) // search if we have already cached asset
+        if (_assetsCache.TryGetValue(virtualPath, out AssetsDatabaseItem item)) // search if we have already loaded asset
+            return (TextureAsset)item.Asset!;
+
+        TextureData data = _textureLoader.Load(virtualPath);
+        TextureHandle handle = _factory.CreateTexture(data);
+        TextureAsset asset = new TextureAsset(handle, data.Width, data.Height);
+
+        _assetsCache.Add(virtualPath, new AssetsDatabaseItem(virtualPath, asset));
+        return asset;
+    }
+
+    public PipelineHandle GetOrCreatePipeline(PipelineDescription desc)
+    {
+        string str = desc.ToString();
+        if (_assetsCache.TryGetValue(str, out AssetsDatabaseItem item)) // search if we have already cached asset
             return (PipelineHandle)item.Asset!;
 
-        PipelineHandle pipeline = _factory.CreatePipeline(new PipelineDescription()
-        {
-            VertexShaderSource = vert,
-            FragmentShaderSource = frag,
-        });
-        _assetsCache.Add(name, new AssetsDatabaseItem(name, pipeline));
+        PipelineHandle pipeline = _factory.CreatePipeline(desc);
+        _assetsCache.Add(str, new AssetsDatabaseItem(str, pipeline));
         return pipeline;
     }
 

@@ -60,6 +60,9 @@ public sealed class Engine
         };
         World.SharedJobScheduler = new Schedulers.JobScheduler(archJobConfig);
 
+        VoxelEngine.IO.FileManager fileManager = new VoxelEngine.IO.FileManager();
+        ServiceContainer.Register(fileManager);
+
         AssetsManager assetsManager = new AssetsManager();
         // assetsManager.RegisterLoader<ShaderData>(new ShaderLoader());
         // assetsManager.RegisterLoader<STDMeshData>(new MeshLoader());

@@ -14,21 +14,20 @@ public static class GameSetup
         var assetsManager = ServiceContainer.Get<AssetsManager>()!;
 
         MeshAsset triangleAsset = BuildInAssets.GetBuiltInMesh("Triangle");
-        // MeshAsset cubeAsset = BuildInAssets.GetBuiltInMesh("Cube");
-        // STDMeshData treeData = manager.GetMesh($"vfs://disk/{treePath.Replace('\\', '/')}");
+        MeshAsset cubeAsset = BuildInAssets.GetBuiltInMesh("Cube");
 
         string treePath = @"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.obj";
         MeshAsset treeMesh = assetsManager.GetMesh(treePath);
 
         PBRMaterial mat1 = BuildInAssets.GetPBRMaterial();
-        PBRMaterial treeMat = BuildInAssets.GetPBRMaterial();
-        // TextureMaterial treeMat = BuildInAssets.GetTreeTextureMaterial();
+        // PBRMaterial treeMat = BuildInAssets.GetPBRMaterial();
+        TextureMaterial treeMat = BuildInAssets.GetTreeTextureMaterial();
 
-        // Actor cubeActor = scene.CreateActor();
-        // cubeActor.AddComponent(new C_Mesh(cubeAsset, mat1));
-        // cubeActor.AddComponent<C_ColorChanger>();
-        // cubeActor.AddComponent(new C_Rotator(2));
-        // cubeActor.Position = new Vector3(-2, 0, 0);
+        Actor cubeActor = scene.CreateActor();
+        cubeActor.AddComponent(new C_Mesh(cubeAsset, mat1));
+        cubeActor.AddComponent<C_ColorChanger>();
+        cubeActor.AddComponent(new C_Rotator(2));
+        cubeActor.Position = new Vector3(-2, 0, 0);
 
         Actor triangleActor = scene.CreateActor();
         triangleActor.AddComponent(new C_Mesh(triangleAsset, mat1));
@@ -42,7 +41,9 @@ public static class GameSetup
         // Camera
         Actor cameraActor = scene.CreateActor();
         C_Camera camera = new C_Camera(CameraProjectionType.Perspective);
+        // B_CameraController cameraController = new();
         cameraActor.AddComponent(camera);
+        cameraActor.AddBehavior(cameraController);
         cameraActor.Position = new Vector3(0, 0, -10);
 
         scene.AddProcessor(new EP_ColorChanger());

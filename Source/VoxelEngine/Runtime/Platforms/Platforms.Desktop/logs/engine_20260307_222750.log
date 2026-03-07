@@ -1,0 +1,48 @@
+================================================================================
+Engine Log - Started at 2026-03-07 22:27:50
+================================================================================
+
+[22:27:50.232] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[22:27:50.243] [INFO ] [Game:40] Game.A was called!
+[22:27:50.243] [INFO ] [Program:38] Creating engine
+[22:27:50.244] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[22:27:50.246] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[22:27:50.246] [INFO ] [Program:45] Starting engine...
+[22:27:50.246] [LINE ] ================================================================================
+[22:27:50.247] [INFO ] [Engine:27] Starting engine runtime...
+[22:27:50.250] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[22:27:50.330] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[22:27:50.334] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[22:27:50.578] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[22:27:50.580] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[22:27:50.580] [INFO ] [Engine:74] Post init...
+[22:27:50.580] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[22:27:50.582] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[22:27:50.584] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[22:27:50.585] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[22:27:50.586] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[22:27:50.588] [INFO ] [Game:19] Game.OnInitialize was called!
+[22:27:50.589] [INFO ] [Game:25] Game.StartMatch was called!
+[22:27:50.590] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[22:27:50.606] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[22:27:50.606] [INFO ] [ClientHost:26] Scene loaded
+[22:27:50.608] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[22:27:50.636] [ERROR] [TestRuntimeContext:59] Your game crashed! Invalid path format: C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.obj stacktrace:   at VoxelEngine.IO.FileManager.OpenRead(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\IO\FileManager\FileManager.cs:line 41
+   at VoxelEngine.Core.Assets.MeshLoader.Load(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\Loaders\MeshLoader.cs:line 15
+   at VoxelEngine.Core.AssetsManager.GetMeshData(String virtualPath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\AssetManager.cs:line 63
+   at VoxelEngine.Core.AssetsManager.GetMesh(String virtualPath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\AssetManager.cs:line 51
+   at CustomGame.GameSetup.SetUp(Scene scene) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\GameSetup.cs:line 21
+   at CustomGame.Game.StartMatch() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\Game.cs:line 29
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 55
+[22:27:50.637] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[22:27:50.638] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[22:27:52.202] [INFO ] [DesktopWindow:53] Desktop window closing...
+[22:27:52.202] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[22:27:52.202] [INFO ] [Engine:37] Application terminated.
+[22:27:52.203] [LINE ] ================================================================================
+[22:27:52.203] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-07 22:27:52
+================================================================================
