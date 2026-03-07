@@ -9,10 +9,10 @@ public readonly record struct Actor
     public readonly Scene Scene { get; init; }
     public readonly World World => Scene.World;
 
-    public Actor(Entity Entity, Scene Scene)
+    public Actor(Entity entity, Scene scene)
     {
-        Entity = Entity;
-        Scene = Scene;
+        Entity = entity;
+        Scene = scene;
     }
 
     [MethodImpl(AggressiveInlining)]

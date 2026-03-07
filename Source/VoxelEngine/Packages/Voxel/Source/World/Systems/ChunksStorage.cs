@@ -8,12 +8,18 @@ public sealed class ChunksStorage
     private readonly Dictionary<Int3, Chunk> _chunks = new();
     private readonly List<Chunk> _allChunks = new();
 
+    public void Add(Chunk c)
+    {
+        _allChunks.Add(c);
+        _chunks.Add(c.Position, c);
+    }
+
     public Chunk GetChunk(Int3 pos)
     {
         if (_chunks.TryGetValue(pos, out var chunk))
             return chunk;
 
-        chunk = new Chunk { Position = pos };
+        chunk = new Chunk(pos);
         _chunks.Add(pos, chunk);
         _allChunks.Add(chunk);
         return chunk;

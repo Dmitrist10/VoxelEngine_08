@@ -560,7 +560,8 @@
       "Game_01/0.0.1-alpha": {
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
-          "Engine.Core.Common": "0.0.1-alpha"
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Packages.Voxel": "0.0.1-alpha"
         },
         "runtime": {
           "Game_01.dll": {
@@ -592,6 +593,19 @@
         },
         "runtime": {
           "Graphics.Veldrid.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Packages.Voxel/0.0.1-alpha": {
+        "dependencies": {
+          "Arch": "2.1.0",
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha"
+        },
+        "runtime": {
+          "Packages.Voxel.dll": {
             "assemblyVersion": "0.0.1.0",
             "fileVersion": "0.0.1.0"
           }
@@ -919,6 +933,11 @@
       "sha512": ""
     },
     "Graphics.Veldrid/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Packages.Voxel/0.0.1-alpha": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

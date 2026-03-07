@@ -12,3 +12,6 @@ c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\P
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Voxel\obj\Debug\net11.0\refint\Packages.Voxel.dll
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Voxel\obj\Debug\net11.0\Packages.Voxel.pdb
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Voxel\obj\Debug\net11.0\ref\Packages.Voxel.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Packages.Voxel\net11.0\Packages.Voxel.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Packages.Voxel\net11.0\Packages.Voxel.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Packages.Voxel\net11.0\Packages.Voxel.pdb

@@ -1,12 +1,12 @@
 using System.Numerics;
 using VoxelEngine.Core;
+using VoxelEngine.Diagnostics;
 
 namespace VoxelEngine.Packages.Voxel;
 
 public sealed class ChunksStreamer : IDisposable
 {
     private readonly ChunksStorage _storage;
-    private readonly CamerasRegistries _cameras;
     private Int3 _lastBaseChunkPos;
     private readonly List<Int3> _chunksToLoad = new();
 
@@ -14,21 +14,22 @@ public sealed class ChunksStreamer : IDisposable
     public int ViewDistance { get; set; } = 8;
     private readonly World _world;
 
+    private QueryDescription _query;
+
     public ChunksStreamer(ChunksStorage storage, World world)
     {
         _storage = storage;
-        _cameras = ServiceContainer.Get<CamerasRegistries>()!;
         _world = world;
+        _query = new QueryDescription().WithAll<C_Transform, C_Camera>();
     }
 
     public void OnUpdate()
     {
-        if (!IsChunkStreamingEnabled || _cameras.Cameras.Count == 0) return;
+        if (!IsChunkStreamingEnabled) return;
 
-        var query = new QueryDescription().WithAll<C_Transform, C_Camera>();
         Vector3 cameraPos = Vector3.Zero;
         bool cameraFound = false;
-        _world.Query(in query, (ref C_Transform transform, ref C_Camera camera) =>
+        _world.Query(in _query, (ref C_Transform transform, ref C_Camera camera) =>
         {
             if (!cameraFound)
             {
@@ -59,7 +60,11 @@ public sealed class ChunksStreamer : IDisposable
 
                     Int3 chunkPos = new Int3(x * Chunk.SIZE, y * Chunk.SIZE, z * Chunk.SIZE) + baseChunkPos;
                     if (!_storage.ContainsChunk(chunkPos))
-                        _chunksToLoad.Add(chunkPos);
+                    {
+                        Chunk chunk = new Chunk(chunkPos);
+                        _storage.Add(chunk);
+                    }
+                        // _chunksToLoad.Add(chunkPos);
                 }
             }
         }
@@ -103,6 +108,59 @@ public sealed class ChunksStreamer : IDisposable
             }
         }
     }
+
+    // public void ProcessLoadQueue(ChunkStorage storage, ChunkPhysics physics, B_VoxelPlayer? player, int viewDist, int simDist)
+    // {
+    //     int uploadedThisFrame = 0;
+    //     while (uploadedThisFrame < MAX_CHUNKS_UPLOADED_PER_TICK && _generatedMeshesQueue.TryDequeue(out var chunk))
+    //     {
+    //         _generatingChunks.Remove(chunk.Position);
+
+    //         float unloadDis = ((float)viewDist + 2f) * (float)Chunk.CHUNK_SIZE;
+    //         if (player != null && Vector3.Distance(player.Owner.Position, (Vector3)chunk.Position) > unloadDis)
+    //         {
+    //             chunk.Dispose();
+    //             continue;
+    //         }
+
+    //         if (chunk.Mesh != null)
+    //         {
+    //             chunk.UploadMesh(_factory);
+    //         }
+
+    //         storage.AddChunk(chunk);
+    //         physics.CheckChunk(chunk, player, simDist);
+
+    //         chunk.FreeCPUMeshData();
+    //         uploadedThisFrame++;
+    //     }
+
+    //     int runningTasks = _generatingChunks.Count;
+    //     int maxWorkers = Math.Max(2, Environment.ProcessorCount - 2);
+
+    //     while (_chunksToLoad.Count > 0 && runningTasks < maxWorkers)
+    //     {
+    //         var pos = _chunksToLoad[0];
+    //         _chunksToLoad.RemoveAt(0);
+
+    //         if (_generatingChunks.Contains(pos) || storage.ContainsChunk(pos))
+    //             continue;
+
+    //         _generatingChunks.Add(pos);
+    //         runningTasks++;
+
+    //         Task.Run(() =>
+    //         {
+    //             if (_cts.IsCancellationRequested) return;
+
+    //             var blocks = WorldGenerator.CreateChunk(pos);
+    //             Chunk newChunk = new Chunk(blocks, pos);
+    //             newChunk.GenerateMesh();
+
+    //             _generatedMeshesQueue.Enqueue(newChunk);
+    //         }, _cts.Token);
+    //     }
+    // }
 
     public void Dispose()
     {

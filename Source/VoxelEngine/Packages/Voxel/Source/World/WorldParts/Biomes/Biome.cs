@@ -1,6 +1,6 @@
-namespace VoxelEngine.Packages.Voxel;
+// namespace VoxelEngine.Packages.Voxel;
 
-public sealed class Biome
-{
+// public sealed class Biome
+// {
 
-}
+// }

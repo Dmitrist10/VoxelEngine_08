@@ -12,13 +12,14 @@ public sealed unsafe class Chunk : IDisposable
     private readonly uint* _blocks;
     public Int3 Position { get; internal set; }
     public MeshAsset? Mesh { get; internal set; }
-    public bool IsDirty { get; private set; }
+    public bool IsDirty { get; private set; } = true;
     private bool _isDisposed;
 
-    public Chunk()
+    public Chunk(Int3 chunkPos)
     {
         // _blocks = (uint*)System.Runtime.InteropServices.Marshal.AllocHGlobal(SizeInBytes);
         _blocks = (uint*)NativeMemory.Alloc(SizeInBytes);
+        Position = chunkPos;
     }
 
     [MethodImpl(AggressiveInlining)]

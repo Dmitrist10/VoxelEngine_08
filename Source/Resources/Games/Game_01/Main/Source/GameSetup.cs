@@ -3,6 +3,7 @@ using System.Numerics;
 using VoxelEngine.Core;
 using VoxelEngine.Diagnostics;
 using VoxelEngine.Graphics;
+using VoxelEngine.Packages.Voxel;
 
 namespace CustomGame;
 
@@ -43,11 +44,12 @@ public static class GameSetup
         C_Camera camera = new C_Camera(CameraProjectionType.Perspective);
         // B_CameraController cameraController = new();
         cameraActor.AddComponent(camera);
-        cameraActor.AddBehavior(cameraController);
+        // cameraActor.AddBehavior(cameraController);
         cameraActor.Position = new Vector3(0, 0, -10);
 
         scene.AddProcessor(new EP_ColorChanger());
         scene.AddProcessor(new EP_Rotator());
+        scene.AddService<VoxelWorld>();
 
         // for (int i = -50; i < 50; i++)
         // {

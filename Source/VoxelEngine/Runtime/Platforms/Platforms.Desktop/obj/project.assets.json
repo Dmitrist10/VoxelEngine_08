@@ -780,7 +780,8 @@
         "framework": ".NETCoreApp,Version=v11.0",
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
-          "Engine.Core.Common": "0.0.1-alpha"
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Packages.Voxel": "0.0.1-alpha"
         },
         "compile": {
           "bin/placeholder/Game_01.dll": {}
@@ -819,6 +820,21 @@
         },
         "runtime": {
           "bin/placeholder/Graphics.Veldrid.dll": {}
+        }
+      },
+      "Packages.Voxel/0.0.1-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "Arch": "2.1.0",
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha"
+        },
+        "compile": {
+          "bin/placeholder/Packages.Voxel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Packages.Voxel.dll": {}
         }
       },
       "TestingContext/0.0.1-alpha": {
@@ -1678,6 +1694,11 @@
       "type": "project",
       "path": "../../../Engine/Modules/Graphics/Graphics.Veldrid/Graphics.Veldrid.csproj",
       "msbuildProject": "../../../Engine/Modules/Graphics/Graphics.Veldrid/Graphics.Veldrid.csproj"
+    },
+    "Packages.Voxel/0.0.1-alpha": {
+      "type": "project",
+      "path": "../../../Packages/Voxel/Packages.Voxel.csproj",
+      "msbuildProject": "../../../Packages/Voxel/Packages.Voxel.csproj"
     },
     "TestingContext/0.0.1-alpha": {
       "type": "project",

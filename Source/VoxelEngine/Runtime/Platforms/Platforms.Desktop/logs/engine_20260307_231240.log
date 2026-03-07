@@ -1,0 +1,44 @@
+================================================================================
+Engine Log - Started at 2026-03-07 23:12:40
+================================================================================
+
+[23:12:40.785] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[23:12:40.796] [INFO ] [Game:40] Game.A was called!
+[23:12:40.796] [INFO ] [Program:38] Creating engine
+[23:12:40.858] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[23:12:40.861] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[23:12:40.861] [INFO ] [Program:45] Starting engine...
+[23:12:40.861] [LINE ] ================================================================================
+[23:12:40.862] [INFO ] [Engine:27] Starting engine runtime...
+[23:12:40.920] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[23:12:41.000] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[23:12:41.004] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[23:12:41.489] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[23:12:41.500] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[23:12:41.507] [INFO ] [Engine:74] Post init...
+[23:12:41.519] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[23:12:41.527] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[23:12:41.532] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[23:12:41.533] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[23:12:41.534] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[23:12:41.640] [INFO ] [Game:19] Game.OnInitialize was called!
+[23:12:41.641] [INFO ] [Game:25] Game.StartMatch was called!
+[23:12:41.641] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[23:12:41.662] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[23:12:41.664] [INFO ] [ClientHost:26] Scene loaded
+[23:12:41.668] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[23:12:41.909] [ERROR] [TestRuntimeContext:59] Your game crashed! Object reference not set to an instance of an object. stacktrace:   at CustomGame.GameSetup.SetUp(Scene scene) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\GameSetup.cs:line 28
+   at CustomGame.Game.StartMatch() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\Game.cs:line 29
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 55
+[23:12:41.911] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[23:12:41.911] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[23:12:49.973] [INFO ] [DesktopWindow:53] Desktop window closing...
+[23:12:49.974] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[23:12:49.974] [INFO ] [Engine:37] Application terminated.
+[23:12:49.974] [LINE ] ================================================================================
+[23:12:49.974] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-07 23:12:49
+================================================================================

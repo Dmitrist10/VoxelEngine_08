@@ -5,6 +5,7 @@ using VoxelEngine.Graphics;
 
 using VoxelEngine.Graphics.Rendering;
 using System.Numerics;
+using VoxelEngine.Diagnostics;
 
 namespace VoxelEngine.Packages.Voxel;
 
@@ -12,17 +13,25 @@ public sealed class ChunksRenderer
 {
 
     private readonly ChunksStorage _chunksStorage;
-    private readonly IGraphicsDevice _device;
     private readonly RenderManager _renderManager;
+    private readonly IGraphicsFactory _factory;
 
-    private readonly ChunkMaterial _material;
+    // private readonly ChunkMaterial _material;
+    private readonly PBRMaterial _material;
 
     public ChunksRenderer(ChunksStorage chunksStorage)
     {
         _chunksStorage = chunksStorage;
-        _device = ServiceContainer.Get<GraphicsContext>()!.Device;
         _renderManager = ServiceContainer.Get<RenderManager>()!;
-        _material = new ChunkMaterial(new ChunkMaterialProperties(Color.White));
+        _factory = ServiceContainer.Get<GraphicsContext>()!.Device.Factory;
+        // _material = new ChunkMaterial(new ChunkMaterialProperties(Color.White));
+        var assetsManager = ServiceContainer.Get<AssetsManager>()!;
+        ShaderData data = assetsManager.GetShaderData(@"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Resources\Shaders\UberShader.glsl");
+        PipelineHandle pipeline = assetsManager.GetOrCreatePipeline(new PipelineDescription(data.Vert, data.Frag));
+        _material = new PBRMaterial(new PBRMaterialProperties(Color.White))
+        {
+            Pipeline = pipeline
+        };
     }
 
     public void Render()
@@ -30,28 +39,20 @@ public sealed class ChunksRenderer
         ReadOnlySpan<Chunk> chunks = _chunksStorage.GetAllChunks();
         foreach (var chunk in chunks)
         {
+            Logger.Info("CC");
             if (chunk.IsDirty)
             {
                 chunk.ClearDirty();
 
                 var meshData = ChunkMesher.CreateMesh(chunk);
                 if (meshData != null)
-                {
-                    // if (chunk.Mesh != null)
-                    // {
-                    //    ServiceContainer.Get<AssetsManager>()?.Unload(chunk.Mesh);
-                    // }
-
-                    // _device.Factory.CreateMesh doesn't exist yet, we will use AssetsManager? 
-                    // Let's assume there is something to load VoxelMeshData into a MeshAsset. 
-                    // For now, I'll just write it as a TODO or assuming the method exists since the user wrote standard mesh creation.
-                    // Actually, let's leave chunk.Mesh assignment empty for a moment if there's no clear API.
-                    // chunk.Mesh = ServiceContainer.Get<AssetsManager>()?.CreateMesh(meshData);
-                }
+                    chunk.Mesh = new MeshAsset(_factory.CreateMesh(meshData), meshData.VertexCount, meshData.IndexCount);
+                Logger.Info("BB");
             }
 
             if (chunk.Mesh is { } mesh)
             {
+                Logger.Info("AA");
                 _renderManager.Submit(new RenderCommand(mesh, _material, Matrix4x4.CreateTranslation(chunk.Position.X, chunk.Position.Y, chunk.Position.Z)));
             }
         }

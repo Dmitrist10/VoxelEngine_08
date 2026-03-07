@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\VoxelEngine\Engine\Core\Engine.Core.Common\Engine.Core.Common.csproj" />
+    <ProjectReference Include="..\..\..\..\VoxelEngine\Packages\Voxel\Packages.Voxel.csproj" />
   </ItemGroup>
 
 </Project>

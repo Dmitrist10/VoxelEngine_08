@@ -1,0 +1,37 @@
+================================================================================
+Engine Log - Started at 2026-03-07 23:18:29
+================================================================================
+
+[23:18:29.574] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[23:18:29.584] [INFO ] [Game:40] Game.A was called!
+[23:18:29.585] [INFO ] [Program:38] Creating engine
+[23:18:29.586] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[23:18:29.587] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[23:18:29.587] [INFO ] [Program:45] Starting engine...
+[23:18:29.588] [LINE ] ================================================================================
+[23:18:29.588] [INFO ] [Engine:27] Starting engine runtime...
+[23:18:29.591] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[23:18:29.662] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[23:18:29.666] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[23:18:29.909] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[23:18:29.911] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[23:18:29.911] [INFO ] [Engine:74] Post init...
+[23:18:29.911] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[23:18:29.913] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[23:18:29.915] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[23:18:29.916] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[23:18:29.917] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[23:18:29.977] [INFO ] [Game:19] Game.OnInitialize was called!
+[23:18:29.978] [INFO ] [Game:25] Game.StartMatch was called!
+[23:18:29.978] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[23:18:29.995] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[23:18:29.996] [INFO ] [ClientHost:26] Scene loaded
+[23:18:30.095] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[23:18:30.291] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[23:18:30.292] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[23:18:30.304] [INFO ] [ChunksStreamer:40] A
+[23:18:30.305] [INFO ] [ChunksStreamer:42] Ok
+[23:18:30.339] [INFO ] [ChunksStreamer:40] A
+[23:18:30.339] [INFO ] [ChunksStreamer:42] Ok
+[23:18:30.349] [INFO ] [ChunksStreamer:40] A
+[23:18:30.349] [INFO ] [ChunksStreamer:42] Ok
