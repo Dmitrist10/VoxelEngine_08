@@ -1,5 +1,5 @@
 namespace VoxelEngine.Core;
 
-public interface IAssetData
+public interface IAssetData : IAsset
 {
 }

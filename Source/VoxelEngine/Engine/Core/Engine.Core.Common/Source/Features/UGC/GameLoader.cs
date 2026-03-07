@@ -14,8 +14,16 @@ public sealed class GameLoader
 
     public IGame? LoadGame(string path)
     {
-        Logger.Info($"Loading game from {path}");
-        LoadGameDll(path);
+        try
+        {
+            Logger.Info($"Loading game from {path}");
+            LoadGameDll(path);
+        }
+        catch (Exception e)
+        {
+            Logger.Error($"Loading Game Failed! {e.Message} stacktrace:{e.StackTrace}");
+        }
+
         return _currentGame;
     }
 

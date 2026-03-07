@@ -1,0 +1,48 @@
+================================================================================
+Engine Log - Started at 2026-03-07 21:51:23
+================================================================================
+
+[21:51:23.369] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:51:23.380] [INFO ] [Game:40] Game.A was called!
+[21:51:23.381] [INFO ] [Program:38] Creating engine
+[21:51:23.382] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:51:23.384] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:51:23.384] [INFO ] [Program:45] Starting engine...
+[21:51:23.384] [LINE ] ================================================================================
+[21:51:23.384] [INFO ] [Engine:27] Starting engine runtime...
+[21:51:23.389] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:51:23.491] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:51:23.496] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:51:23.761] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[21:51:23.761] [INFO ] [Engine:71] Post init...
+[21:51:23.762] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:51:23.763] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:51:23.767] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[21:51:23.768] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[21:51:23.769] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[21:51:23.771] [INFO ] [Game:19] Game.OnInitialize was called!
+[21:51:23.772] [INFO ] [Game:25] Game.StartMatch was called!
+[21:51:23.773] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[21:51:23.789] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[21:51:23.790] [INFO ] [ClientHost:26] Scene loaded
+[21:51:23.793] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[21:51:23.895] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[21:51:23.896] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:51:23.933] [LINE ] ================================================================================
+[21:51:23.933] [LINE ] ================================================================================
+[21:51:23.933] [ERROR] [Program:54] Exception: Invalid or expired ResourceHandle: ResourceHandle { Index = 0, Generation = 0, IsValid = False }
+[21:51:23.963] [ERROR] [Program:60] Exception Stack Trace:    at VoxelEngine.Graphics.OpenGL.GL_GraphicsCommandsList.Execute() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\Source\GL_GraphicsCommandsList.cs:line 144
+   at VoxelEngine.Graphics.OpenGL.GL_GraphicsDevice.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Graphics\Graphics.OpenGL\Source\GL_GraphicsDevice.cs:line 44
+   at VoxelEngine.Graphics.Rendering.RenderManager.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Rendering\RenderManager.cs:line 61
+   at VoxelEngine.Client.ClientHost.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Client\Source\ClientHost.cs:line 37
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 75
+   at VoxelEngine.Core.Runtime.Heartbeat.Start(IUpdateCallbacksHandler callbacks, IWindowSurface window) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Heartbeat.cs:line 104
+   at VoxelEngine.Core.Runtime.Engine.StartRuntime() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 79
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 33
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 46
+[21:51:23.963] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-07 21:51:23
+================================================================================

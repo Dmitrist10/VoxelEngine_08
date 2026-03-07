@@ -34,7 +34,7 @@ public class ResourcePool<T>
 
         uint index = _freeIndices.Dequeue();
 
-        // We do NOT reset the generation. It keeps incrementing forever for this slot.
+        // We do NOT reset the generation. It keeps incrementing forever for this slot. Atleast untill uint.MaxValue
         _slots[index].Item = item;
         uint gen = _slots[index].Generation;
 

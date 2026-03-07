@@ -49,4 +49,9 @@ public class TextureLoader : IAssetLoader<TextureData>
 
         return flipped;
     }
+
+    public TextureData Load(string absolutePath)
+    {
+        throw new NotImplementedException();
+    }
 }

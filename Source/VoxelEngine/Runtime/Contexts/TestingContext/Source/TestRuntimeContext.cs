@@ -56,7 +56,7 @@ public sealed class TestRuntimeContext : IRuntimeContext
         }
         catch (Exception e)
         {
-            Logger.Error($"Loading Game Failed! {e.Message} stacktrace:{e.StackTrace}");
+            Logger.Error($"Your game crashed! {e.Message} stacktrace:{e.StackTrace}");
         }
     }
 

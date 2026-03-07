@@ -2,13 +2,16 @@ using System.IO;
 using System.Text;
 
 namespace VoxelEngine.Core.Assets;
-
+/// <summary>
+/// Loads shader source code from file.
+/// <c>.vert, .frag, .glsl</c> (both defined by <c>#type vertex/fragment</c>)
+/// </summary>
 public class ShaderLoader : IAssetLoader<ShaderData>
 {
-    public ShaderData Load(Stream stream, AssetId id, string absolutePath)
+
+    public ShaderData Load(string absolutePath)
     {
-        using var reader = new StreamReader(stream, Encoding.UTF8, true, 1024, true);
-        string source = reader.ReadToEnd();
+        string source = File.ReadAllText(absolutePath);
 
         if (absolutePath.EndsWith(".glsl", System.StringComparison.OrdinalIgnoreCase))
         {

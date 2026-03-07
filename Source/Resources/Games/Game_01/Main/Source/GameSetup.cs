@@ -11,23 +11,24 @@ public static class GameSetup
     public static void SetUp(Scene scene)
     {
         Logger.Debug("GameSetup.SetUp was called!");
-        var manager = ServiceContainer.Get<AssetsManager>()!;
+        var assetsManager = ServiceContainer.Get<AssetsManager>()!;
 
         MeshAsset triangleAsset = BuildInAssets.GetBuiltInMesh("Triangle");
-        MeshAsset cubeAsset = BuildInAssets.GetBuiltInMesh("Cube");
+        // MeshAsset cubeAsset = BuildInAssets.GetBuiltInMesh("Cube");
+        // STDMeshData treeData = manager.GetMesh($"vfs://disk/{treePath.Replace('\\', '/')}");
 
         string treePath = @"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.obj";
-        STDMeshData treeData = manager.Load<STDMeshData>($"vfs://disk/{treePath.Replace('\\', '/')}").Get();
-        MeshAsset treeMesh = new MeshAsset(ServiceContainer.Get<GraphicsContext>()!.Device.Factory.CreateMesh<STDVertex>(treeData), treeData.VertexCount, treeData.IndexCount);
+        MeshAsset treeMesh = assetsManager.GetMesh(treePath);
 
         PBRMaterial mat1 = BuildInAssets.GetPBRMaterial();
-        TextureMaterial treeMat = BuildInAssets.GetTreeTextureMaterial();
+        PBRMaterial treeMat = BuildInAssets.GetPBRMaterial();
+        // TextureMaterial treeMat = BuildInAssets.GetTreeTextureMaterial();
 
-        Actor cubeActor = scene.CreateActor();
-        cubeActor.AddComponent(new C_Mesh(cubeAsset, mat1));
-        cubeActor.AddComponent<C_ColorChanger>();
-        cubeActor.AddComponent(new C_Rotator(2));
-        cubeActor.Position = new Vector3(-2, 0, 0);
+        // Actor cubeActor = scene.CreateActor();
+        // cubeActor.AddComponent(new C_Mesh(cubeAsset, mat1));
+        // cubeActor.AddComponent<C_ColorChanger>();
+        // cubeActor.AddComponent(new C_Rotator(2));
+        // cubeActor.Position = new Vector3(-2, 0, 0);
 
         Actor triangleActor = scene.CreateActor();
         triangleActor.AddComponent(new C_Mesh(triangleAsset, mat1));

@@ -1,6 +1,6 @@
 namespace VoxelEngine.Core;
 
-public record struct MeshAsset : IAsset
+public record struct MeshAsset : IGPUAsset
 {
     public MeshHandle Handle;
     public uint VertexCount;

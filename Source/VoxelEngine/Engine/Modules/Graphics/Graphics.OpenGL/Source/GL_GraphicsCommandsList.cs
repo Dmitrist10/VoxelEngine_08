@@ -117,10 +117,7 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
                 switch (cmd)
                 {
                     case CmdType.ClearColor:
-                        var color = Unsafe.ReadUnaligned<Color>(pBuffer + readOffset);
-                        readOffset += sizeof(Color);
-                        _GL.ClearColor(color.R, color.G, color.B, color.A);
-                        _GL.Clear((uint)ClearBufferMask.ColorBufferBit);
+                        E_ClearColor(ref readOffset, pBuffer);
                         break;
                     case CmdType.Clear:
                         _GL.Clear((uint)(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit | ClearBufferMask.StencilBufferBit));
@@ -139,6 +136,7 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
                         _GL.BindVertexArray(_assetsManager.Get(mesh).VAO);
                         break;
                     case CmdType.BindTexture:
+                        // TODO: Right now if no Texture it crashed!
                         var bindTextureCmd = Unsafe.ReadUnaligned<BindTextureCommand>(pBuffer + readOffset);
                         readOffset += sizeof(BindTextureCommand);
                         GL_Texture glTexture = _assetsManager.Get(bindTextureCmd.Texture);
@@ -177,6 +175,15 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
                 }
             }
         }
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private void E_ClearColor(ref int readOffset, byte* pBuffer)
+    {
+        var color = Unsafe.ReadUnaligned<Color>(pBuffer + readOffset);
+        readOffset += sizeof(Color);
+        _GL.ClearColor(color.R, color.G, color.B, color.A);
+        _GL.Clear((uint)ClearBufferMask.ColorBufferBit);
     }
 
     public void Dispose()

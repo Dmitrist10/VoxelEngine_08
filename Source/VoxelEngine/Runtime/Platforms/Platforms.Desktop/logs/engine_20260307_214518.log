@@ -1,0 +1,46 @@
+================================================================================
+Engine Log - Started at 2026-03-07 21:45:18
+================================================================================
+
+[21:45:18.713] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[21:45:18.724] [INFO ] [Game:40] Game.A was called!
+[21:45:18.724] [INFO ] [Program:38] Creating engine
+[21:45:18.790] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[21:45:18.792] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[21:45:18.792] [INFO ] [Program:45] Starting engine...
+[21:45:18.793] [LINE ] ================================================================================
+[21:45:18.793] [INFO ] [Engine:27] Starting engine runtime...
+[21:45:19.037] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[21:45:19.236] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[21:45:19.335] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[21:45:19.889] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[21:45:19.889] [INFO ] [Engine:71] Post init...
+[21:45:19.890] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[21:45:19.891] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[21:45:19.894] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[21:45:19.895] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[21:45:19.896] [INFO ] [GameLoader:17] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[21:45:19.950] [INFO ] [Game:19] Game.OnInitialize was called!
+[21:45:19.950] [INFO ] [Game:25] Game.StartMatch was called!
+[21:45:19.951] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[21:45:20.026] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[21:45:20.027] [INFO ] [ClientHost:26] Scene loaded
+[21:45:20.029] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[21:45:20.285] [ERROR] [TestRuntimeContext:59] Loading Game Failed! An item with the same key has already been added. Key: C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Models\Tree\Tree.obj stacktrace:   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at VoxelEngine.Core.AssetsManager.GetMesh(String virtualPath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\AssetManager.cs:line 55
+   at CustomGame.GameSetup.SetUp(Scene scene) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\GameSetup.cs:line 21
+   at CustomGame.Game.StartMatch() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\Game.cs:line 29
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 55
+[21:45:20.286] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[21:45:20.286] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[21:45:38.120] [INFO ] [DesktopWindow:53] Desktop window closing...
+[21:45:38.120] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[21:45:38.120] [INFO ] [Engine:37] Application terminated.
+[21:45:38.120] [LINE ] ================================================================================
+[21:45:38.121] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-07 21:45:38
+================================================================================

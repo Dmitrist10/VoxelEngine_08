@@ -1,0 +1,38 @@
+================================================================================
+Engine Log - Started at 2026-03-07 22:21:03
+================================================================================
+
+[22:21:03.076] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[22:21:03.087] [INFO ] [Game:40] Game.A was called!
+[22:21:03.087] [INFO ] [Program:38] Creating engine
+[22:21:03.090] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[22:21:03.091] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[22:21:03.091] [INFO ] [Program:45] Starting engine...
+[22:21:03.095] [LINE ] ================================================================================
+[22:21:03.095] [INFO ] [Engine:27] Starting engine runtime...
+[22:21:03.153] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[22:21:03.225] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[22:21:03.230] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[22:21:03.483] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[22:21:03.484] [INFO ] [Engine:71] Post init...
+[22:21:03.484] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[22:21:03.486] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[22:21:03.489] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[22:21:03.491] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[22:21:03.491] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[22:21:03.550] [INFO ] [Game:19] Game.OnInitialize was called!
+[22:21:03.551] [INFO ] [Game:25] Game.StartMatch was called!
+[22:21:03.551] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[22:21:03.565] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[22:21:03.566] [INFO ] [ClientHost:26] Scene loaded
+[22:21:03.568] [DEBUG] [GameSetup:13] GameSetup.SetUp was called!
+[22:21:03.617] [ERROR] [TestRuntimeContext:59] Your game crashed! Filename was null or could not be found stacktrace:   at Assimp.AssimpContext.ImportFile(String file, PostProcessSteps postProcessFlags)
+   at VoxelEngine.Core.Assets.MeshLoader.Load(String absolutePath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\Loaders\MeshLoader.cs:line 12
+   at VoxelEngine.Core.AssetsManager.GetMeshData(String virtualPath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\AssetManager.cs:line 63
+   at VoxelEngine.Core.AssetsManager.GetMesh(String virtualPath) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\Features\Modules\Graphics\Assets\Managament\AssetManager.cs:line 51
+   at CustomGame.BuildInAssets.GetBuiltInMesh(String primitiveName) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\BuildInAssets.cs:line 58
+   at CustomGame.GameSetup.SetUp(Scene scene) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\GameSetup.cs:line 16
+   at CustomGame.Game.StartMatch() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\Source\Game.cs:line 29
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.LoadGame(String path) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 55
+[22:21:03.617] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[22:21:03.618] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
