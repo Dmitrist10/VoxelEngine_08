@@ -45,7 +45,8 @@ public static class GameSetup
         // B_CameraController cameraController = new();
         cameraActor.AddComponent(camera);
         // cameraActor.AddBehavior(cameraController);
-        cameraActor.Position = new Vector3(0, 0, -10);
+        cameraActor.Position = new Vector3(0, 15, -10);
+        // cameraActor.Rotation = Quaternion.CreateFromYawPitchRoll(0, 50, 0);
 
         scene.AddProcessor(new EP_ColorChanger());
         scene.AddProcessor(new EP_Rotator());

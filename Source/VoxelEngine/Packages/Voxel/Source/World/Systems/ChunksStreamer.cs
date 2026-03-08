@@ -11,7 +11,7 @@ public sealed class ChunksStreamer : IDisposable
     private readonly List<Int3> _chunksToLoad = new();
 
     public bool IsChunkStreamingEnabled { get; set; } = true;
-    public int ViewDistance { get; set; } = 8;
+    public int ViewDistance { get; set; } = 3;
     private readonly World _world;
 
     private QueryDescription _query;
@@ -61,10 +61,10 @@ public sealed class ChunksStreamer : IDisposable
                     Int3 chunkPos = new Int3(x * Chunk.SIZE, y * Chunk.SIZE, z * Chunk.SIZE) + baseChunkPos;
                     if (!_storage.ContainsChunk(chunkPos))
                     {
-                        Chunk chunk = new Chunk(chunkPos);
+                        Chunk chunk = new Chunk(chunkPos, WorldGenerator.CreateChunk(chunkPos));
                         _storage.Add(chunk);
                     }
-                        // _chunksToLoad.Add(chunkPos);
+                    // _chunksToLoad.Add(chunkPos);
                 }
             }
         }

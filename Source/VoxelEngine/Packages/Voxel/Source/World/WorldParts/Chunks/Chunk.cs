@@ -15,12 +15,24 @@ public sealed unsafe class Chunk : IDisposable
     public bool IsDirty { get; private set; } = true;
     private bool _isDisposed;
 
-    public Chunk(Int3 chunkPos)
+    public Chunk(Int3 chunkPos, uint[] uints)
     {
         // _blocks = (uint*)System.Runtime.InteropServices.Marshal.AllocHGlobal(SizeInBytes);
         _blocks = (uint*)NativeMemory.Alloc(SizeInBytes);
         Position = chunkPos;
+
+        // Copy the managed array data into the newly allocated unmanaged memory
+        uints.AsSpan().CopyTo(new Span<uint>(_blocks, VOLUME));
     }
+    // public Chunk(Int3 chunkPos, uint* blocks)
+    // {
+    //     // _blocks = (uint*)System.Runtime.InteropServices.Marshal.AllocHGlobal(SizeInBytes);
+    //     // _blocks = (uint*)NativeMemory.Alloc(SizeInBytes);
+    //     _blocks = blocks;
+    //     Position = chunkPos;
+
+    //     // Copy the managed array data into the newly allocated unmanaged memory
+    // }
 
     [MethodImpl(AggressiveInlining)]
     public static int GetBlockIndex(int x, int y, int z) => x | (y << 5) | (z << 10);
@@ -88,6 +100,7 @@ public sealed unsafe class Chunk : IDisposable
         if (Mesh != null)
         {
             // ServiceContainer.Get<AssetsManager>()?.Unload(Mesh);
+            // TODO: Unload GPU mesh
             Mesh = null;
         }
         GC.SuppressFinalize(this);

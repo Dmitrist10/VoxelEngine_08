@@ -1,21 +1,26 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using VoxelEngine.Core;
 
 namespace VoxelEngine.Packages.Voxel;
 
-public sealed class WorldGenerator
+public sealed unsafe class WorldGenerator
 {
     private static SimplexNoise _noise = new SimplexNoise(seed: 137);
 
     public static uint[] CreateChunk(Int3 chunkPos)
+    // public static uint* CreateChunk(Int3 chunkPos)
     {
-        uint[] blocks = new uint[Chunk.SIZE * Chunk.SIZE * Chunk.SIZE];
+        // uint* blocks = (uint*)NativeMemory.Alloc(Chunk.SizeInBytes);
+        uint[] blocks = new uint[Chunk.VOLUME];
 
         int topY = chunkPos.Y + Chunk.SIZE - 1;
         if (topY < 20)
         {
             Array.Fill(blocks, 5u);
+            // for (int i = 0; i < Chunk.VOLUME; i++)
+            // blocks[i] = 5u;
             return blocks;
         }
 

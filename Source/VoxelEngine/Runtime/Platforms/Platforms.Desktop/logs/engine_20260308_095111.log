@@ -1,0 +1,287 @@
+================================================================================
+Engine Log - Started at 2026-03-08 09:51:11
+================================================================================
+
+[09:51:11.855] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[09:51:11.867] [INFO ] [Game:40] Game.A was called!
+[09:51:11.867] [INFO ] [Program:38] Creating engine
+[09:51:11.869] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[09:51:11.871] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[09:51:11.871] [INFO ] [Program:45] Starting engine...
+[09:51:11.872] [LINE ] ================================================================================
+[09:51:11.872] [INFO ] [Engine:27] Starting engine runtime...
+[09:51:11.875] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[09:51:11.963] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[09:51:11.967] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[09:51:12.276] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[09:51:12.278] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[09:51:12.278] [INFO ] [Engine:74] Post init...
+[09:51:12.279] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[09:51:12.280] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[09:51:12.283] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[09:51:12.284] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[09:51:12.285] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[09:51:12.337] [INFO ] [Game:19] Game.OnInitialize was called!
+[09:51:12.337] [INFO ] [Game:25] Game.StartMatch was called!
+[09:51:12.338] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[09:51:12.352] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[09:51:12.353] [INFO ] [ClientHost:26] Scene loaded
+[09:51:12.425] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[09:51:12.646] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[09:51:12.647] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[09:51:12.701] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.709] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.710] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.711] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.712] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.712] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.713] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.714] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.714] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.715] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.715] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.715] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.716] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.716] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.716] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.717] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.717] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.718] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.718] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.722] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.722] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.726] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.726] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.730] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.730] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.734] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.734] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.738] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.738] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.741] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.742] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.745] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.745] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.749] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.749] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.752] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.752] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.757] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.758] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.762] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.763] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.766] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.767] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.771] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.771] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.772] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.772] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.773] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.773] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.774] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.774] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.775] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.775] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.776] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.776] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.776] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.777] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.777] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.777] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.778] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.778] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.778] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.779] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.779] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.779] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.783] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.784] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.787] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.787] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.791] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.791] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.796] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.796] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.800] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.800] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.803] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.804] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.806] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.807] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.811] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.811] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.816] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.816] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.820] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.821] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.824] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.825] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.829] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.829] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.832] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.832] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.836] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.836] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.839] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.839] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.840] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.840] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.840] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.840] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.841] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.841] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.841] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.841] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.842] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.842] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.842] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.843] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.843] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.843] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.843] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.844] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.844] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.844] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.844] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.845] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.845] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.845] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.848] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.848] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.851] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.851] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.854] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.854] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.857] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.857] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.859] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.860] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.862] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.863] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.865] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.865] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.868] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.868] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.871] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.871] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.874] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.874] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.877] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.877] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.879] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.880] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.882] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.882] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.885] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.885] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.887] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.888] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.890] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.890] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.893] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.893] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.896] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.896] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.896] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.897] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.897] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.897] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.897] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.898] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.899] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.899] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.900] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.900] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.900] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.900] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.901] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.901] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.901] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.902] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.902] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.902] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.902] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.903] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.905] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.906] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.908] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.909] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.911] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.912] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.914] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.914] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.917] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.917] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.920] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.920] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.923] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.923] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.926] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.926] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.929] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.929] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.931] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.932] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.934] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.935] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.937] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.938] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.940] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.940] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.943] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.943] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.945] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.946] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.946] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.946] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.947] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.947] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.947] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.947] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.948] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.948] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.948] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.948] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.949] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.949] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.949] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.949] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.949] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.950] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.952] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.952] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.955] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.955] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.958] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.958] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.961] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.961] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.964] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.964] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.967] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.968] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.970] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.970] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.973] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.973] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.976] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.976] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.978] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.979] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.981] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.981] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.984] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.984] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.987] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:12.988] [INFO ] [ChunksStreamer:64] Chunk not found
+[09:51:12.991] [INFO ] [ChunksStreamer:68] hfrjhir
+[09:51:21.134] [INFO ] [DesktopWindow:53] Desktop window closing...
+[09:51:21.135] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[09:51:21.135] [INFO ] [Engine:37] Application terminated.
+[09:51:21.136] [LINE ] ================================================================================
+[09:51:21.136] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 09:51:21
+================================================================================

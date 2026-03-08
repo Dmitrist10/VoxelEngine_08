@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PsDK2Bz2YIs=",
+  "dgSpecHash": "Xvr6m6iwjQE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
+  "projectFilePath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\arch.lowlevel\\1.1.5\\arch.lowlevel.1.1.5.nupkg.sha512",
     "C:\\Users\\Dmitrist10\\.nuget\\packages\\collections.pooled\\2.0.0-preview.27\\collections.pooled.2.0.0-preview.27.nupkg.sha512",
@@ -16,9 +16,9 @@
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference System.Runtime.CompilerServices.Unsafe wird nicht gekürzt. Erwägen Sie, dieses Paket aus Ihren Abhängigkeiten zu entfernen, da es wahrscheinlich nicht erforderlich ist.",
-      "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
+      "projectPath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
+      "filePath": "c:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Librarys\\ECS\\Arch\\Arch.csproj",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
       "targetGraphs": [
         "net11.0"

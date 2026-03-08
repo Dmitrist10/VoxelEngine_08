@@ -23,6 +23,7 @@ public sealed partial class Scene
     }
     internal void OnRender()
     {
+        _servicesRegistry.OnRender();
         _entityProcessorsRegistry.OnRender();
         // _actorsRegistry.OnRender();
     }
