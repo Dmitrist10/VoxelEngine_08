@@ -162,4 +162,24 @@ internal sealed class VEL_GraphicsFactory : IGraphicsFactory
     }
 
     public void Dispose() { }
+
+    public TextureHandle CreateTextureArray(Texture2DArrayData textureData)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void DestroyMesh(MeshHandle handle)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void DestroyTexture(TextureHandle handle)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void DestroyBuffer(BufferHandle handle)
+    {
+        throw new NotImplementedException();
+    }
 }

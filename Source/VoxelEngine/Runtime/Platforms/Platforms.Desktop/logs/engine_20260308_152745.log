@@ -1,0 +1,63 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:27:45
+================================================================================
+
+[15:27:45.282] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:27:45.292] [INFO ] [Game:40] Game.A was called!
+[15:27:45.292] [INFO ] [Program:38] Creating engine
+[15:27:45.294] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:27:45.295] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:27:45.295] [INFO ] [Program:45] Starting engine...
+[15:27:45.304] [LINE ] ================================================================================
+[15:27:45.304] [INFO ] [Engine:28] Starting engine runtime...
+[15:27:45.307] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:27:45.384] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:27:45.388] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:27:45.393] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:27:45.734] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:27:45.735] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:27:45.736] [INFO ] [Engine:84] Post init...
+[15:27:45.736] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:27:45.738] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:27:45.740] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:27:45.740] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:27:45.742] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:27:45.744] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:27:45.744] [INFO ] [Game:25] Game.StartMatch was called!
+[15:27:45.745] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:27:45.762] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:27:45.763] [INFO ] [ClientHost:26] Scene loaded
+[15:27:45.835] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:27:45.962] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:27:45.962] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:27:45.992] [INFO ] [ChunksRenderer:70] Rendering took: 0
+[15:27:46.009] [INFO ] [ChunksRenderer:70] Rendering took: 0
+[15:27:46.010] [INFO ] [ChunksRenderer:70] Rendering took: 0
+[15:27:46.992] [INFO ] [ChunksRenderer:70] Rendering took: 788
+[15:27:47.342] [INFO ] [ChunksRenderer:70] Rendering took: 347
+[15:27:47.665] [INFO ] [ChunksRenderer:70] Rendering took: 321
+[15:27:47.980] [INFO ] [ChunksRenderer:70] Rendering took: 311
+[15:27:48.296] [INFO ] [ChunksRenderer:70] Rendering took: 313
+[15:27:48.608] [INFO ] [ChunksRenderer:70] Rendering took: 310
+[15:27:48.921] [INFO ] [ChunksRenderer:70] Rendering took: 310
+[15:27:49.234] [INFO ] [ChunksRenderer:70] Rendering took: 311
+[15:27:49.553] [INFO ] [ChunksRenderer:70] Rendering took: 309
+[15:27:50.009] [INFO ] [ChunksRenderer:70] Rendering took: 442
+[15:27:50.379] [INFO ] [ChunksRenderer:70] Rendering took: 366
+[15:27:50.750] [INFO ] [ChunksRenderer:70] Rendering took: 370
+[15:27:51.120] [INFO ] [ChunksRenderer:70] Rendering took: 367
+[15:27:51.493] [INFO ] [ChunksRenderer:70] Rendering took: 370
+[15:27:51.872] [INFO ] [ChunksRenderer:70] Rendering took: 378
+[15:27:52.248] [INFO ] [ChunksRenderer:70] Rendering took: 371
+[15:27:52.621] [INFO ] [ChunksRenderer:70] Rendering took: 370
+[15:27:53.005] [INFO ] [ChunksRenderer:70] Rendering took: 382
+[15:27:53.008] [INFO ] [DesktopWindow:53] Desktop window closing...
+[15:27:53.008] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[15:27:53.008] [INFO ] [Engine:38] Application terminated.
+[15:27:53.009] [LINE ] ================================================================================
+[15:27:53.009] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 15:27:53
+================================================================================

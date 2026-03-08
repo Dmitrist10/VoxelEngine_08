@@ -19,6 +19,7 @@ public sealed partial class Scene
 
     internal void OnTick()
     {
+        _servicesRegistry.OnTick();
         _entityProcessorsRegistry.OnTick();
     }
     internal void OnRender()

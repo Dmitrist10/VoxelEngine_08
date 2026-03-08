@@ -1,5 +1,6 @@
 using System.Security.Principal;
 using Arch.Core;
+using VoxelEngine.Audio;
 using VoxelEngine.Core.Assets;
 using VoxelEngine.Diagnostics;
 using VoxelEngine.Graphics;
@@ -53,6 +54,9 @@ public sealed class Engine
 
         IInputModule input = new InputModule();
         modulesManager.Register(input);
+
+        IAudioModule audio = new AudioModule();
+        modulesManager.Register(audio);
 
         modulesManager.Initialize();
 

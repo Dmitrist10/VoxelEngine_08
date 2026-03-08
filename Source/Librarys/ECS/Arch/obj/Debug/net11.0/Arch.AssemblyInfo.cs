@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("A high performance c# net.7 and net.8 archetype based ECS ( Entity component syst" +
     "em )."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0+4d0e8781f72025dde6026751b8988aea42bdfbc2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0+143acdf14fb97da09f3366404045b07140f294d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("VoxelEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.0")]

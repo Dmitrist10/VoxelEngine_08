@@ -1,0 +1,53 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:12:52
+================================================================================
+
+[15:12:52.111] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:12:52.122] [INFO ] [Game:40] Game.A was called!
+[15:12:52.123] [INFO ] [Program:38] Creating engine
+[15:12:52.124] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:12:52.126] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:12:52.126] [INFO ] [Program:45] Starting engine...
+[15:12:52.130] [LINE ] ================================================================================
+[15:12:52.131] [INFO ] [Engine:28] Starting engine runtime...
+[15:12:52.135] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:12:52.217] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:12:52.221] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:12:52.225] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:12:52.597] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:12:52.599] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:12:52.599] [INFO ] [Engine:84] Post init...
+[15:12:52.599] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:12:52.601] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:12:52.603] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:12:52.603] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:12:52.604] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:12:52.607] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:12:52.607] [INFO ] [Game:25] Game.StartMatch was called!
+[15:12:52.608] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:12:52.621] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:12:52.621] [INFO ] [ClientHost:26] Scene loaded
+[15:12:52.692] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:12:52.825] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:12:52.825] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:12:52.949] [INFO ] [ChunksStreamer:88] pos: Int3 { X = -32, Y = 0, Z = 0 }
+[15:12:52.951] [INFO ] [ChunksStreamer:88] pos: Int3 { X = 0, Y = -32, Z = 0 }
+[15:12:52.951] [INFO ] [ChunksStreamer:88] pos: Int3 { X = 0, Y = 0, Z = -32 }
+[15:12:52.951] [INFO ] [ChunksStreamer:88] pos: Int3 { X = 0, Y = 0, Z = 0 }
+[15:12:52.952] [INFO ] [ChunksStreamer:88] pos: Int3 { X = 0, Y = 0, Z = 32 }
+[15:12:52.952] [INFO ] [ChunksStreamer:88] pos: Int3 { X = 0, Y = 32, Z = 0 }
+[15:12:52.952] [INFO ] [ChunksStreamer:88] pos: Int3 { X = 32, Y = 0, Z = 0 }
+[15:12:52.953] [DEBUG] [ChunksStorage:30] AAAAInt3 { X = -32, Y = 0, Z = 0 }
+[15:12:52.953] [INFO ] [WorldGenerator:106] Generated chunk at Y: 0
+[15:12:52.955] [DEBUG] [ChunksStorage:30] AAAAInt3 { X = 0, Y = -32, Z = 0 }
+[15:12:52.955] [INFO ] [WorldGenerator:106] Generated chunk at Y: -32
+[15:12:52.955] [DEBUG] [ChunksStorage:30] AAAAInt3 { X = 0, Y = 0, Z = -32 }
+[15:12:52.955] [INFO ] [WorldGenerator:106] Generated chunk at Y: 0
+[15:12:52.956] [DEBUG] [ChunksStorage:30] AAAAInt3 { X = 0, Y = 0, Z = 0 }
+[15:12:52.956] [INFO ] [WorldGenerator:106] Generated chunk at Y: 0
+[15:12:52.957] [DEBUG] [ChunksStorage:30] AAAAInt3 { X = 0, Y = 0, Z = 32 }
+[15:12:52.957] [INFO ] [WorldGenerator:106] Generated chunk at Y: 0
+[15:12:52.957] [DEBUG] [ChunksStorage:30] AAAAInt3 { X = 0, Y = 32, Z = 0 }
+[15:12:52.957] [INFO ] [WorldGenerator:106] Generated chunk at Y: 32
+[15:12:52.958] [DEBUG] [ChunksStorage:30] AAAAInt3 { X = 32, Y = 0, Z = 0 }
+[15:12:52.958] [INFO ] [WorldGenerator:106] Generated chunk at Y: 0

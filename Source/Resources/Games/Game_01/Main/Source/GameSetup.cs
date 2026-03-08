@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Numerics;
+using VoxelEngine.Audio;
 using VoxelEngine.Core;
 using VoxelEngine.Diagnostics;
 using VoxelEngine.Graphics;
@@ -24,6 +25,8 @@ public static class GameSetup
         // PBRMaterial treeMat = BuildInAssets.GetPBRMaterial();
         TextureMaterial treeMat = BuildInAssets.GetTreeTextureMaterial();
 
+        AudioAsset audioAsset = assetsManager.GetAudio(@"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Assets\Audio\Runes.wav");
+
         Actor cubeActor = scene.CreateActor();
         cubeActor.AddComponent(new C_Mesh(cubeAsset, mat1));
         cubeActor.AddComponent<C_ColorChanger>();
@@ -44,9 +47,20 @@ public static class GameSetup
         C_Camera camera = new C_Camera(CameraProjectionType.Perspective);
         B_CameraController cameraController = new();
         cameraActor.AddComponent(camera);
+        cameraActor.AddComponent<C_AudioListener>(new C_AudioListener());
         cameraActor.AddBehavior(cameraController);
         cameraActor.Position = new Vector3(0, 15, -10);
         // cameraActor.Rotation = Quaternion.CreateFromYawPitchRoll(0, 50, 0);
+
+        // Actor audioActor = scene.CreateActor();
+        // audioActor.AddComponent(new C_Mesh(cubeAsset, mat1));
+        // audioActor.AddComponent(new C_AudioSource() { Audio = audioAsset, Looping = true });
+        // audioActor.Position = new Vector3(-5, 10, -5);
+
+        // Actor audio2Actor = scene.CreateActor();
+        // audio2Actor.AddComponent(new C_Mesh(cubeAsset, mat1));
+        // audio2Actor.AddComponent(new C_AudioSource() { Audio = audioAsset });
+        // audio2Actor.Position = new Vector3(-5, 10, -5);
 
         scene.AddProcessor(new EP_ColorChanger());
         scene.AddProcessor(new EP_Rotator());

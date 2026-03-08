@@ -1,0 +1,50 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:28:16
+================================================================================
+
+[15:28:16.585] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:28:16.597] [INFO ] [Game:40] Game.A was called!
+[15:28:16.598] [INFO ] [Program:38] Creating engine
+[15:28:16.599] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:28:16.600] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:28:16.600] [INFO ] [Program:45] Starting engine...
+[15:28:16.604] [LINE ] ================================================================================
+[15:28:16.605] [INFO ] [Engine:28] Starting engine runtime...
+[15:28:16.610] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:28:16.692] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:28:16.696] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:28:16.700] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:28:17.046] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:28:17.047] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:28:17.048] [INFO ] [Engine:84] Post init...
+[15:28:17.048] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:28:17.050] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:28:17.052] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:28:17.053] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:28:17.054] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:28:17.056] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:28:17.057] [INFO ] [Game:25] Game.StartMatch was called!
+[15:28:17.057] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:28:17.071] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:28:17.071] [INFO ] [ClientHost:26] Scene loaded
+[15:28:17.150] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:28:17.285] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:28:17.285] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:28:17.316] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.0001118
+[15:28:17.333] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.0000013
+[15:28:17.334] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.0000008
+[15:28:18.198] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.7327924
+[15:28:18.519] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3168645
+[15:28:18.832] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3114444
+[15:28:19.141] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3087144
+[15:28:19.455] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3123297
+[15:28:19.764] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3079270
+[15:28:20.079] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3126332
+[15:28:20.389] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3082599
+[15:28:20.708] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3174292
+[15:28:21.032] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3223386
+[15:28:21.345] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3115866
+[15:28:21.655] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3089117
+[15:28:21.965] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3096223
+[15:28:22.298] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3309017
+[15:28:22.660] [INFO ] [ChunksRenderer:70] Rendering took: 00:00:00.3574698

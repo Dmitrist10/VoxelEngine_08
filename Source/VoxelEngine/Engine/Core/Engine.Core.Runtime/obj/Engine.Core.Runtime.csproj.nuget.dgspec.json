@@ -58,9 +58,13 @@
             "Collections.Pooled": "2.0.0-preview.27",
             "CommunityToolkit.HighPerformance": "8.2.2",
             "Microsoft.Extensions.ObjectPool": "7.0.0",
+            "NAudio": "2.2.1",
             "Newtonsoft.Json": "13.0.5-beta1",
+            "NVorbis": "0.10.5",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.OpenAL": "2.23.0",
+            "Silk.NET.OpenAL.Soft.Native": "1.23.1",
             "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -453,9 +457,13 @@
             "Collections.Pooled": "2.0.0-preview.27",
             "CommunityToolkit.HighPerformance": "8.2.2",
             "Microsoft.Extensions.ObjectPool": "7.0.0",
+            "NAudio": "2.2.1",
             "Newtonsoft.Json": "13.0.5-beta1",
+            "NVorbis": "0.10.5",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.OpenAL": "2.23.0",
+            "Silk.NET.OpenAL.Soft.Native": "1.23.1",
             "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -816,6 +824,16 @@
               "version": "[4.1.0, )",
               "versionCentrallyManaged": true
             },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "NVorbis": {
+              "target": "Package",
+              "version": "[0.10.5, )",
+              "versionCentrallyManaged": true
+            },
             "StbImageSharp": {
               "target": "Package",
               "version": "[2.30.15, )",
@@ -830,9 +848,13 @@
             "Collections.Pooled": "2.0.0-preview.27",
             "CommunityToolkit.HighPerformance": "8.2.2",
             "Microsoft.Extensions.ObjectPool": "7.0.0",
+            "NAudio": "2.2.1",
             "Newtonsoft.Json": "13.0.5-beta1",
+            "NVorbis": "0.10.5",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.OpenAL": "2.23.0",
+            "Silk.NET.OpenAL.Soft.Native": "1.23.1",
             "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -1204,9 +1226,13 @@
             "Collections.Pooled": "2.0.0-preview.27",
             "CommunityToolkit.HighPerformance": "8.2.2",
             "Microsoft.Extensions.ObjectPool": "7.0.0",
+            "NAudio": "2.2.1",
             "Newtonsoft.Json": "13.0.5-beta1",
+            "NVorbis": "0.10.5",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.OpenAL": "2.23.0",
+            "Silk.NET.OpenAL.Soft.Native": "1.23.1",
             "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -1566,6 +1592,11 @@
               "target": "Package",
               "version": "[2.23.0, )",
               "versionCentrallyManaged": true
+            },
+            "Silk.NET.OpenAL.Soft.Native": {
+              "target": "Package",
+              "version": "[1.23.1, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -1576,9 +1607,13 @@
             "Collections.Pooled": "2.0.0-preview.27",
             "CommunityToolkit.HighPerformance": "8.2.2",
             "Microsoft.Extensions.ObjectPool": "7.0.0",
+            "NAudio": "2.2.1",
             "Newtonsoft.Json": "13.0.5-beta1",
+            "NVorbis": "0.10.5",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.OpenAL": "2.23.0",
+            "Silk.NET.OpenAL.Soft.Native": "1.23.1",
             "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -1948,9 +1983,13 @@
             "Collections.Pooled": "2.0.0-preview.27",
             "CommunityToolkit.HighPerformance": "8.2.2",
             "Microsoft.Extensions.ObjectPool": "7.0.0",
+            "NAudio": "2.2.1",
             "Newtonsoft.Json": "13.0.5-beta1",
+            "NVorbis": "0.10.5",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.OpenAL": "2.23.0",
+            "Silk.NET.OpenAL.Soft.Native": "1.23.1",
             "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -2283,6 +2322,9 @@
             "projectReferences": {
               "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj": {
                 "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\Common\\Common.Core\\Common.Core.csproj"
+              },
+              "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj": {
+                "projectPath": "C:\\Users\\Dmitrist10\\Desktop\\VoxelGames\\Source\\Project_08_VE\\Source\\VoxelEngine\\Engine\\Core\\Engine.Core.Common\\Engine.Core.Common.csproj"
               }
             }
           }
@@ -2322,9 +2364,13 @@
             "Collections.Pooled": "2.0.0-preview.27",
             "CommunityToolkit.HighPerformance": "8.2.2",
             "Microsoft.Extensions.ObjectPool": "7.0.0",
+            "NAudio": "2.2.1",
             "Newtonsoft.Json": "13.0.5-beta1",
+            "NVorbis": "0.10.5",
             "Silk.NET": "2.23.0",
             "Silk.NET.Input": "2.23.0",
+            "Silk.NET.OpenAL": "2.23.0",
+            "Silk.NET.OpenAL.Soft.Native": "1.23.1",
             "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
             "StbImageSharp": "2.30.15",
             "System.Runtime.CompilerServices.Unsafe": "6.0.0",

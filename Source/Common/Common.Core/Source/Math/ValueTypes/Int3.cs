@@ -33,6 +33,9 @@ public record struct Int3
     public static Int3 UnitY => new(0, 1, 0);
     public static Int3 UnitZ => new(0, 0, 1);
 
+    public static Int3 MaxValue => new(int.MaxValue, int.MaxValue, int.MaxValue);
+    // public static Int3 MinValue => new (int.MaxValue, int.MaxValue, int.MaxValue);
+
     public static Int3 operator +(Int3 a, Int3 b) => new(a.X + b.X, a.Y + b.Y, a.Z + b.Z);
     public static Int3 operator -(Int3 a, Int3 b) => new(a.X - b.X, a.Y - b.Y, a.Z - b.Z);
     public static Int3 operator *(Int3 a, int b) => new(a.X * b, a.Y * b, a.Z * b);

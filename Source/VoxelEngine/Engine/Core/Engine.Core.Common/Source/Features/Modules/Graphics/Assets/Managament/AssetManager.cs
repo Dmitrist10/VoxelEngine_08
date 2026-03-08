@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Numerics;
+using VoxelEngine.Audio;
 using VoxelEngine.Core.Assets;
 using VoxelEngine.Graphics;
 
@@ -36,6 +37,7 @@ public sealed class AssetsManager
     private readonly MeshLoader _meshLoader;
     private readonly ShaderLoader _shaderLoader;
     private readonly TextureLoader _textureLoader;
+    private readonly AudioLoader _audioLoader;
 
     public AssetsManager()
     {
@@ -43,6 +45,7 @@ public sealed class AssetsManager
         _meshLoader = new MeshLoader();
         _shaderLoader = new ShaderLoader();
         _textureLoader = new TextureLoader();
+        _audioLoader = new AudioLoader();
     }
 
     public MeshAsset GetMesh(string virtualPath)
@@ -96,6 +99,23 @@ public sealed class AssetsManager
     public TextureMaterial GetTextureMaterial(string virtualPath)
     {
         throw new NotImplementedException();
+    }
+
+    public AudioAsset GetAudio(string virtualPath)
+    {
+        if (_assetsCache.TryGetValue(virtualPath, out AssetsDatabaseItem item)) // search if we have already loaded asset
+            return (AudioAsset)item.Asset!;
+
+        AudioData data = _audioLoader.Load(virtualPath);
+        AudioHandle handle = AudioManager.LoadAudioBuffer(data);
+        AudioAsset asset = new(handle, data);
+
+        _assetsCache.Add(virtualPath, new AssetsDatabaseItem(virtualPath, asset));
+        return asset;
+    }
+    public AudioData GetAudioData(string virtualPath)
+    {
+        return _audioLoader.Load(virtualPath);
     }
 
 

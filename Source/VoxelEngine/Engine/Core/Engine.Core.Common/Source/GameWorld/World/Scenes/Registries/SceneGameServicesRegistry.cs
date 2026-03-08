@@ -8,6 +8,7 @@ internal sealed class SceneGameServicesRegistry
     private readonly List<IUpdatable> _allUpdatables = new();
     private readonly List<IFixedUpdatable> _allFixedUpdatables = new();
     private readonly List<IRenderable> _allRenderables = new();
+    private readonly List<ITickable> _allTickable = new();
 
     private readonly Scene _scene;
 
@@ -29,6 +30,9 @@ internal sealed class SceneGameServicesRegistry
 
         if (service is IRenderable renderable)
             _allRenderables.Add(renderable);
+
+        if (service is ITickable tickable)
+            _allTickable.Add(tickable);
 
         service.SetUp(_scene);
         service.OnInitialized();
@@ -61,6 +65,9 @@ internal sealed class SceneGameServicesRegistry
 
             if (service is IRenderable renderable)
                 _allRenderables.Remove(renderable);
+
+            if (service is ITickable t)
+                _allTickable.Remove(t);
         }
     }
 
@@ -76,6 +83,13 @@ internal sealed class SceneGameServicesRegistry
         foreach (var i in _allFixedUpdatables)
         {
             i.OnFixedUpdate();
+        }
+    }
+    internal void OnTick()
+    {
+        foreach (var i in _allTickable)
+        {
+            i.OnTick();
         }
     }
     internal void OnRender()

@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Silk.NET" />
+    <PackageReference Include="Silk.NET.OpenAL.Soft.Native" />
   </ItemGroup>
 
 </Project>

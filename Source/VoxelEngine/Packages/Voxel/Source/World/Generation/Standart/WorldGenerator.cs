@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using VoxelEngine.Core;
+using VoxelEngine.Diagnostics;
 
 namespace VoxelEngine.Packages.Voxel;
 
@@ -75,6 +76,43 @@ public sealed unsafe class WorldGenerator
                 }
             }
         }
+        return blocks;
+    }
+
+    public static uint[] A(Int3 chunkPos)
+    // public static uint* CreateChunk(Int3 chunkPos)
+    {
+        // uint* blocks = (uint*)NativeMemory.Alloc(Chunk.SizeInBytes);
+        uint[] blocks = new uint[Chunk.VOLUME];
+
+        if (chunkPos.Y < 0)
+        {
+            for (int x = 0; x < Chunk.SIZE; x++)
+            {
+                for (int z = 0; z < Chunk.SIZE; z++)
+                {
+                    for (int y = 0; y < Chunk.SIZE; y++)
+                    {
+                        blocks[Chunk.GetBlockIndex(x, y, z)] = (uint)EMath.RandomRange(1, 5);
+                    }
+                }
+            }
+        }
+        else
+        {
+            // Do other generation here
+            for (int x = 0; x < Chunk.SIZE; x++)
+            {
+                for (int z = 0; z < Chunk.SIZE; z++)
+                {
+                    for (int y = 0; y < Chunk.SIZE; y++)
+                    {
+                        blocks[Chunk.GetBlockIndex(x, y, z)] = 0;
+                    }
+                }
+            }
+        }
+
         return blocks;
     }
 }

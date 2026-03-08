@@ -5,6 +5,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AssimpNet" />
+    <PackageReference Include="NAudio" />
+    <PackageReference Include="NVorbis" />
     <PackageReference Include="StbImageSharp" />
   </ItemGroup>
 

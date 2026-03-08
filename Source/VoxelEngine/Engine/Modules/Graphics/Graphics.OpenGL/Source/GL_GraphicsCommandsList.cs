@@ -144,9 +144,12 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
                             // TODO: Right now if no texture assigned then it uses the last binded
                             var bindTextureCmd = Unsafe.ReadUnaligned<BindTextureCommand>(pBuffer + readOffset);
                             readOffset += sizeof(BindTextureCommand);
-                            GL_Texture glTexture = _assetsManager.Get(bindTextureCmd.Texture);
+                            GL_TextureResource glTexture = _assetsManager.Get(bindTextureCmd.Texture);
+                            var textureTarget = glTexture.Type == GL_TextureType.Texture2DArray
+                                ? TextureTarget.Texture2DArray
+                                : TextureTarget.Texture2D;
                             _GL.ActiveTexture((TextureUnit)((uint)TextureUnit.Texture0 + bindTextureCmd.Slot));
-                            _GL.BindTexture(TextureTarget.Texture2D, glTexture.ID);
+                            _GL.BindTexture(textureTarget, glTexture.ID);
                             break;
                         case CmdType.BindUniformBuffer:
                             var bindUniformCmd = Unsafe.ReadUnaligned<BindUniformBufferCommand>(pBuffer + readOffset);

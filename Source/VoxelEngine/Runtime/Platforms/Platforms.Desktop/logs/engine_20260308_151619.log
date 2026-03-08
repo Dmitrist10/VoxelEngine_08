@@ -1,0 +1,65 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:16:19
+================================================================================
+
+[15:16:19.962] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:16:19.972] [INFO ] [Game:40] Game.A was called!
+[15:16:19.973] [INFO ] [Program:38] Creating engine
+[15:16:19.974] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:16:19.975] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:16:19.975] [INFO ] [Program:45] Starting engine...
+[15:16:19.979] [LINE ] ================================================================================
+[15:16:19.979] [INFO ] [Engine:28] Starting engine runtime...
+[15:16:19.982] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:16:20.069] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:16:20.073] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:16:20.078] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:16:20.443] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:16:20.444] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:16:20.445] [INFO ] [Engine:84] Post init...
+[15:16:20.445] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:16:20.447] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:16:20.448] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:16:20.449] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:16:20.450] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:16:20.453] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:16:20.453] [INFO ] [Game:25] Game.StartMatch was called!
+[15:16:20.454] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:16:20.467] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:16:20.468] [INFO ] [ClientHost:26] Scene loaded
+[15:16:20.533] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:16:20.672] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:16:20.672] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:16:20.802] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:20.804] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:20.804] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:20.805] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:20.806] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:20.806] [INFO ] [WorldGenerator:116] Generated chunk at Y: 32
+[15:16:20.806] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:22.377] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:22.378] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:22.379] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:22.380] [INFO ] [WorldGenerator:116] Generated chunk at Y: 32
+[15:16:22.381] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:22.675] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:22.675] [INFO ] [WorldGenerator:116] Generated chunk at Y: -64
+[15:16:22.676] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:22.676] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:25.274] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:25.275] [INFO ] [WorldGenerator:116] Generated chunk at Y: 32
+[15:16:25.275] [INFO ] [WorldGenerator:116] Generated chunk at Y: 0
+[15:16:25.426] [INFO ] [WorldGenerator:116] Generated chunk at Y: -64
+[15:16:25.426] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:25.427] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:25.427] [INFO ] [WorldGenerator:116] Generated chunk at Y: -32
+[15:16:26.946] [INFO ] [DesktopWindow:53] Desktop window closing...
+[15:16:26.946] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[15:16:26.947] [INFO ] [Engine:38] Application terminated.
+[15:16:26.947] [LINE ] ================================================================================
+[15:16:26.947] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 15:16:26
+================================================================================

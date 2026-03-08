@@ -1,6 +1,7 @@
 using VoxelEngine.Graphics.Rendering;
 using VoxelEngine.Core;
 using VoxelEngine.Diagnostics;
+using VoxelEngine.Audio.ECS;
 
 namespace VoxelEngine.Client;
 
@@ -26,6 +27,7 @@ public class ClientHost : IHostBase
         Logger.Info("Scene loaded");
         scene.AddProcessor(new EP_MeshRenderer());
         scene.AddProcessor(new EP_Camera());
+        scene.AddProcessor(new EP_Audio());
     }
 
     public void Update()

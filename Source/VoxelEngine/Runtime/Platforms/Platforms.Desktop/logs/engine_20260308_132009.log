@@ -1,0 +1,113 @@
+================================================================================
+Engine Log - Started at 2026-03-08 13:20:09
+================================================================================
+
+[13:20:09.385] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[13:20:09.395] [INFO ] [Game:40] Game.A was called!
+[13:20:09.395] [INFO ] [Program:38] Creating engine
+[13:20:09.396] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[13:20:09.398] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[13:20:09.398] [INFO ] [Program:45] Starting engine...
+[13:20:09.399] [LINE ] ================================================================================
+[13:20:09.399] [INFO ] [Engine:28] Starting engine runtime...
+[13:20:09.402] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[13:20:09.474] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[13:20:09.478] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[13:20:09.482] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[13:20:09.831] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[13:20:09.833] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[13:20:09.833] [INFO ] [Engine:84] Post init...
+[13:20:09.833] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[13:20:09.835] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[13:20:09.837] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[13:20:09.838] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[13:20:09.839] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[13:20:09.841] [INFO ] [Game:19] Game.OnInitialize was called!
+[13:20:09.842] [INFO ] [Game:25] Game.StartMatch was called!
+[13:20:09.842] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[13:20:09.855] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[13:20:09.856] [INFO ] [ClientHost:26] Scene loaded
+[13:20:09.859] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[13:20:09.986] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[13:20:09.987] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[13:20:10.099] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.101] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.138] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.190] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.238] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.293] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.341] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.390] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.438] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.487] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.542] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.590] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.638] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.693] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.741] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.790] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.838] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.893] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.941] [INFO ] [VoxelWorld:34] Tick
+[13:20:10.990] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.038] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.093] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.141] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.190] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.239] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.293] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.341] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.390] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.439] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.493] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.542] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.590] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.638] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.693] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.742] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.790] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.838] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.889] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.942] [INFO ] [VoxelWorld:34] Tick
+[13:20:11.991] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.039] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.093] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.141] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.191] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.239] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.293] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.341] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.390] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.439] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.493] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.542] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.591] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.639] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.687] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.742] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.790] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.838] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.893] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.941] [INFO ] [VoxelWorld:34] Tick
+[13:20:12.991] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.039] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.093] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.141] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.190] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.238] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.293] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.342] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.390] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.438] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.493] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.541] [INFO ] [VoxelWorld:34] Tick
+[13:20:13.690] [INFO ] [DesktopWindow:53] Desktop window closing...
+[13:20:13.691] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[13:20:13.691] [INFO ] [Engine:38] Application terminated.
+[13:20:13.691] [LINE ] ================================================================================
+[13:20:13.691] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 13:20:13
+================================================================================

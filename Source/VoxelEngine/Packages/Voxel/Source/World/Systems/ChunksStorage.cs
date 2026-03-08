@@ -1,5 +1,7 @@
 using System.Runtime.InteropServices;
 using VoxelEngine.Core;
+using VoxelEngine.Diagnostics;
+using VoxelEngine.Graphics;
 
 namespace VoxelEngine.Packages.Voxel;
 
@@ -9,10 +11,12 @@ public sealed class ChunksStorage
     private readonly List<Chunk> _allChunks = new();
 
     private WorldGenerator _worldGenerator;
+    private IGraphicsFactory _factory;
 
     public ChunksStorage()
     {
         _worldGenerator = new WorldGenerator();
+        _factory = ServiceContainer.Get<GraphicsContext>()!.Device.Factory;
     }
 
     public void Add(Chunk c)
@@ -26,7 +30,7 @@ public sealed class ChunksStorage
         if (_chunks.TryGetValue(pos, out var chunk))
             return chunk;
 
-        chunk = new Chunk(pos, WorldGenerator.CreateChunk(pos));
+        chunk = new Chunk(pos, WorldGenerator.A(pos));
         _chunks.Add(pos, chunk);
         _allChunks.Add(chunk);
         return chunk;
@@ -56,6 +60,8 @@ public sealed class ChunksStorage
                 _allChunks[index] = _allChunks[lastIndex];
                 _allChunks.RemoveAt(lastIndex);
             }
+            if (chunk.Mesh.Handle.Handle.IsValid)
+                _factory.DestroyMesh(chunk.Mesh.Handle);
         }
     }
 

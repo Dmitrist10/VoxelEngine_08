@@ -1,0 +1,84 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:07:28
+================================================================================
+
+[15:07:28.965] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:07:28.977] [INFO ] [Game:40] Game.A was called!
+[15:07:28.977] [INFO ] [Program:38] Creating engine
+[15:07:28.979] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:07:28.980] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:07:28.980] [INFO ] [Program:45] Starting engine...
+[15:07:28.990] [LINE ] ================================================================================
+[15:07:28.991] [INFO ] [Engine:28] Starting engine runtime...
+[15:07:28.995] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:07:29.075] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:07:29.078] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:07:29.082] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:07:29.425] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:07:29.427] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:07:29.427] [INFO ] [Engine:84] Post init...
+[15:07:29.427] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:07:29.429] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:07:29.430] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:07:29.431] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:07:29.432] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:07:29.435] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:07:29.435] [INFO ] [Game:25] Game.StartMatch was called!
+[15:07:29.436] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:07:29.451] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:07:29.451] [INFO ] [ClientHost:26] Scene loaded
+[15:07:29.521] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:07:29.658] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:07:29.659] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:07:29.785] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:29.820] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.207] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.208] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.208] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.208] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.209] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.578] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.579] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.579] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.580] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.580] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.958] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.959] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.960] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.960] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:30.960] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.327] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.327] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.327] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.327] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.328] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.695] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.696] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.696] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.696] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:31.697] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.070] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.071] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.071] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.071] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.072] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.447] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.448] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.448] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.448] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.448] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.820] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.821] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.821] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.821] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:32.821] [INFO ] [ChunksStreamer:46] to load: System.Collections.Generic.List`1[VoxelEngine.Core.Int3]
+[15:07:33.221] [INFO ] [DesktopWindow:53] Desktop window closing...
+[15:07:33.221] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[15:07:33.222] [INFO ] [Engine:38] Application terminated.
+[15:07:33.222] [LINE ] ================================================================================
+[15:07:33.222] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 15:07:33
+================================================================================

@@ -331,9 +331,13 @@
           "Collections.Pooled": "2.0.0-preview.27",
           "CommunityToolkit.HighPerformance": "8.2.2",
           "Microsoft.Extensions.ObjectPool": "7.0.0",
+          "NAudio": "2.2.1",
           "Newtonsoft.Json": "13.0.5-beta1",
+          "NVorbis": "0.10.5",
           "Silk.NET": "2.23.0",
           "Silk.NET.Input": "2.23.0",
+          "Silk.NET.OpenAL": "2.23.0",
+          "Silk.NET.OpenAL.Soft.Native": "1.23.1",
           "Silk.NET.Windowing.Extensions.Veldrid": "2.23.0",
           "StbImageSharp": "2.30.15",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -640,7 +644,7 @@
       "code": "NU1510",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "PackageReference System.Runtime.CompilerServices.Unsafe will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "message": "PackageReference System.Runtime.CompilerServices.Unsafe wird nicht gekürzt. Erwägen Sie, dieses Paket aus Ihren Abhängigkeiten zu entfernen, da es wahrscheinlich nicht erforderlich ist.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
       "targetGraphs": [
         "net11.0"

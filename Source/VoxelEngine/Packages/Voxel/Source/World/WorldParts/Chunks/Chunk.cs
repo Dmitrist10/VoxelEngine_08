@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using VoxelEngine.Core;
 
@@ -11,7 +12,7 @@ public sealed unsafe class Chunk : IDisposable
 
     private readonly uint* _blocks;
     public Int3 Position { get; internal set; }
-    public MeshAsset? Mesh { get; internal set; }
+    public MeshAsset Mesh { get; internal set; }
     public bool IsDirty { get; private set; } = true;
     private bool _isDisposed;
 
@@ -21,7 +22,6 @@ public sealed unsafe class Chunk : IDisposable
         _blocks = (uint*)NativeMemory.Alloc(SizeInBytes);
         Position = chunkPos;
 
-        // Copy the managed array data into the newly allocated unmanaged memory
         uints.AsSpan().CopyTo(new Span<uint>(_blocks, VOLUME));
     }
     // public Chunk(Int3 chunkPos, uint* blocks)
@@ -31,7 +31,6 @@ public sealed unsafe class Chunk : IDisposable
     //     _blocks = blocks;
     //     Position = chunkPos;
 
-    //     // Copy the managed array data into the newly allocated unmanaged memory
     // }
 
     [MethodImpl(AggressiveInlining)]
@@ -84,6 +83,18 @@ public sealed unsafe class Chunk : IDisposable
     }
 
 
+    // public bool TryGetMesh([NotNullWhen(true)] out MeshAsset? mesh)
+    // {
+    //     if (Mesh == null)
+    //     {
+    //         mesh = default;
+    //         return false;
+    //     }
+
+    //     mesh = Mesh.Value;
+    //     return true;
+    // }
+
     // public ref uint[] GetBlocks()
     // {
     //     return ref blocks;
@@ -92,23 +103,17 @@ public sealed unsafe class Chunk : IDisposable
 
     public void Dispose()
     {
-        if (_isDisposed)
-            return;
-        _isDisposed = true;
+        // if (_isDisposed)
+        //     return;
+        // _isDisposed = true;
 
         NativeMemory.Free(_blocks);
-        if (Mesh != null)
-        {
-            // ServiceContainer.Get<AssetsManager>()?.Unload(Mesh);
-            // TODO: Unload GPU mesh
-            Mesh = null;
-        }
-        GC.SuppressFinalize(this);
+        // GC.SuppressFinalize(this);
     }
 
-    ~Chunk()
-    {
-        Dispose();
-    }
+    // ~Chunk()
+    // {
+    //     Dispose();
+    // }
 
 }

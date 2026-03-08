@@ -62,6 +62,25 @@
           }
         }
       },
+      "BepuPhysics/2.4.0": {
+        "dependencies": {
+          "BepuUtilities": "2.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/BepuPhysics.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        }
+      },
+      "BepuUtilities/2.4.0": {
+        "runtime": {
+          "lib/net6.0/BepuUtilities.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        }
+      },
       "Collections.Pooled/2.0.0-preview.27": {
         "runtime": {
           "lib/netcoreapp3.0/Collections.Pooled.dll": {
@@ -110,6 +129,81 @@
           "lib/netstandard2.0/NativeLibraryLoader.dll": {
             "assemblyVersion": "1.0.13.0",
             "fileVersion": "1.0.13.0"
+          }
+        }
+      },
+      "NAudio/2.2.1": {
+        "dependencies": {
+          "NAudio.Asio": "2.2.1",
+          "NAudio.Core": "2.2.1",
+          "NAudio.Midi": "2.2.1",
+          "NAudio.Wasapi": "2.2.1",
+          "NAudio.WinMM": "2.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/NAudio.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NAudio.Asio/2.2.1": {
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NAudio.Core/2.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NAudio.Midi/2.2.1": {
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.2.1": {
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NAudio.WinMM/2.2.1": {
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NVorbis/0.10.5": {
+        "runtime": {
+          "lib/netstandard2.0/NVorbis.dll": {
+            "assemblyVersion": "0.10.5.0",
+            "fileVersion": "0.10.5.0"
           }
         }
       },
@@ -212,6 +306,50 @@
           "lib/net5.0/Silk.NET.OpenAL.dll": {
             "assemblyVersion": "2.23.0.0",
             "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.OpenAL.Soft.Native/1.23.1": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libopenal.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libopenal.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libopenal.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libopenal.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libopenal.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/soft_oal.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.23.1.0"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.23.1.0"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.23.1.0"
           }
         }
       },
@@ -511,6 +649,8 @@
           "Arch": "2.1.0",
           "AssimpNet": "4.1.0",
           "Common.Core": "0.0.1-alpha",
+          "NAudio": "2.2.1",
+          "NVorbis": "0.10.5",
           "StbImageSharp": "2.30.15"
         },
         "runtime": {
@@ -523,7 +663,10 @@
       "Engine.Core.Runtime/0.0.1-alpha": {
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
-          "Engine.Core.Common": "0.0.1-alpha"
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Engine.Modules.Audio": "0.0.1-alpha",
+          "Engine.Modules.Input": "0.0.1-alpha",
+          "Physics.ThreeD": "0.0.1-alpha"
         },
         "runtime": {
           "Engine.Core.Runtime.dll": {
@@ -557,10 +700,38 @@
           }
         }
       },
+      "Engine.Modules.Audio/0.0.1-alpha": {
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Silk.NET": "2.23.0",
+          "Silk.NET.OpenAL.Soft.Native": "1.23.1"
+        },
+        "runtime": {
+          "Engine.Modules.Audio.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Engine.Modules.Input/0.0.1-alpha": {
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Silk.NET": "2.23.0"
+        },
+        "runtime": {
+          "Engine.Modules.Input.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
       "Game_01/0.0.1-alpha": {
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
-          "Engine.Core.Common": "0.0.1-alpha"
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Packages.Voxel": "0.0.1-alpha"
         },
         "runtime": {
           "Game_01.dll": {
@@ -592,6 +763,33 @@
         },
         "runtime": {
           "Graphics.Veldrid.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Packages.Voxel/0.0.1-alpha": {
+        "dependencies": {
+          "Arch": "2.1.0",
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha"
+        },
+        "runtime": {
+          "Packages.Voxel.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Physics.ThreeD/0.0.1-alpha": {
+        "dependencies": {
+          "BepuPhysics": "2.4.0",
+          "BepuUtilities": "2.4.0",
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha"
+        },
+        "runtime": {
+          "Physics.ThreeD.dll": {
             "assemblyVersion": "0.0.1.0",
             "fileVersion": "0.0.1.0"
           }
@@ -632,6 +830,20 @@
       "sha512": "sha512-z/4Tmf3Q2r1+vN6o/szArEZvPsdYNRYiS0L/yArybQd7n7KCiS9L4lRZhwwlHJb/edECM+Jky0XisVspr5aQWQ==",
       "path": "assimpnet/4.1.0",
       "hashPath": "assimpnet.4.1.0.nupkg.sha512"
+    },
+    "BepuPhysics/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ck/BJgSQrBqYrj0T9jGljDdHNILBP5kTPTylc7N/hCzR1XJJc7p6ORzwtjTfjgoYkkdajvLHxEQv6BRC8kaysQ==",
+      "path": "bepuphysics/2.4.0",
+      "hashPath": "bepuphysics.2.4.0.nupkg.sha512"
+    },
+    "BepuUtilities/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KNMxkzKLHAvV7jRtErxs3rPv71fHToqo/WN96HlT6iomWuwL97tohEbt0B1WA8A6sO5t6PP+qF08d4T9A8k2uA==",
+      "path": "bepuutilities/2.4.0",
+      "hashPath": "bepuutilities.2.4.0.nupkg.sha512"
     },
     "Collections.Pooled/2.0.0-preview.27": {
       "type": "package",
@@ -674,6 +886,55 @@
       "sha512": "sha512-78Lg887CZb4W8ZwmcNuoE75/7x//ljw/wnCuaUnThfe/RcAyuorfK9YkxBBpMWXTqfmjCb/FEsBFniySs+HcOQ==",
       "path": "nativelibraryloader/1.0.13",
       "hashPath": "nativelibraryloader.1.0.13.nupkg.sha512"
+    },
+    "NAudio/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c0DzwiyyklM0TP39Y7RObwO3QkWecgM6H60ikiEnsV/aEAJPbj5MFCLaD8BSfKuZe0HGuh9GRGWWlJmSxDc9MA==",
+      "path": "naudio/2.2.1",
+      "hashPath": "naudio.2.2.1.nupkg.sha512"
+    },
+    "NAudio.Asio/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hQglyOT5iT3XuGpBP8ZG0+aoqwRfidHjTNehpoWwX0g6KJEgtH2VaqM2nuJ2mheKZa/IBqB4YQTZVvrIapzfOA==",
+      "path": "naudio.asio/2.2.1",
+      "hashPath": "naudio.asio.2.2.1.nupkg.sha512"
+    },
+    "NAudio.Core/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GgkdP6K/7FqXFo7uHvoqGZTJvW4z8g2IffhOO4JHaLzKCdDOUEzVKtveoZkCuUX8eV2HAINqi7VFqlFndrnz/g==",
+      "path": "naudio.core/2.2.1",
+      "hashPath": "naudio.core.2.2.1.nupkg.sha512"
+    },
+    "NAudio.Midi/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6r23ylGo5aeP02WFXsPquz0T0hFJWyh+7t++tz19tc3Kr38NHm+Z9j+FiAv+xkH8tZqXJqus9Q8p6u7bidIgbw==",
+      "path": "naudio.midi/2.2.1",
+      "hashPath": "naudio.midi.2.2.1.nupkg.sha512"
+    },
+    "NAudio.Wasapi/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lFfXoqacZZe0WqNChJgGYI+XV/n/61LzPHT3C1CJp4khoxeo2sziyX5wzNYWeCMNbsWxFvT3b3iXeY1UYjBhZw==",
+      "path": "naudio.wasapi/2.2.1",
+      "hashPath": "naudio.wasapi.2.2.1.nupkg.sha512"
+    },
+    "NAudio.WinMM/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFHRFwH4x6aq3IxRbewvO33ugJRvZFEOfO62i7uQJRUNW2cnu6BeBTHUS0JD5KBucZbHZaYqxQG8dwZ47ezQuQ==",
+      "path": "naudio.winmm/2.2.1",
+      "hashPath": "naudio.winmm.2.2.1.nupkg.sha512"
+    },
+    "NVorbis/0.10.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o+IptCG4Avze39HrGeztC+xIp6fOOwGVAwkoa1J++4Ji1WmZ+KIKlFl5wsgxsXqBkmdpfs/vFSUproiLKYa2bw==",
+      "path": "nvorbis/0.10.5",
+      "hashPath": "nvorbis.0.10.5.nupkg.sha512"
     },
     "SharpGen.Runtime/2.0.0-beta.13": {
       "type": "package",
@@ -744,6 +1005,13 @@
       "sha512": "sha512-O8EaDRWGOcKniZ2VxKD/xOmugzUJz747KpqGRw3cezDsz8nD66OZW217o1rT06cG76f8eYigy/yY6eRdhRqHHQ==",
       "path": "silk.net.openal/2.23.0",
       "hashPath": "silk.net.openal.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.OpenAL.Soft.Native/1.23.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gZIbksInoiXbJZmepYnTs5O6Edg5O5k86c1+Uus0zSaVnQx5WRbInGz2VTlvudbs0qAqXs/asL1YvJzco/nfAQ==",
+      "path": "silk.net.openal.soft.native/1.23.1",
+      "hashPath": "silk.net.openal.soft.native.1.23.1.nupkg.sha512"
     },
     "Silk.NET.OpenGL/2.23.0": {
       "type": "package",
@@ -908,6 +1176,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Engine.Modules.Audio/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Engine.Modules.Input/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Game_01/0.0.1-alpha": {
       "type": "project",
       "serviceable": false,
@@ -919,6 +1197,16 @@
       "sha512": ""
     },
     "Graphics.Veldrid/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Packages.Voxel/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Physics.ThreeD/0.0.1-alpha": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

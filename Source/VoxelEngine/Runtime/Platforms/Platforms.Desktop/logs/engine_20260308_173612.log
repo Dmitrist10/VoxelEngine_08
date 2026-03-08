@@ -1,0 +1,35 @@
+================================================================================
+Engine Log - Started at 2026-03-08 17:36:12
+================================================================================
+
+[17:36:12.331] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[17:36:12.342] [INFO ] [Game:40] Game.A was called!
+[17:36:12.342] [INFO ] [Program:38] Creating engine
+[17:36:12.345] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[17:36:12.347] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[17:36:12.347] [INFO ] [Program:45] Starting engine...
+[17:36:12.350] [LINE ] ================================================================================
+[17:36:12.351] [INFO ] [Engine:29] Starting engine runtime...
+[17:36:12.414] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[17:36:12.498] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[17:36:12.503] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[17:36:12.800] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[17:36:13.387] [LINE ] ================================================================================
+[17:36:13.387] [LINE ] ================================================================================
+[17:36:13.388] [ERROR] [Program:54] Exception: Could not load from any of the possible library names! Please make sure that the library is installed and in the right place!
+[17:36:13.433] [ERROR] [Program:60] Exception Stack Trace:    at Silk.NET.OpenAL.ALContext.CreateDefaultContext(String[] n)
+   at Silk.NET.OpenAL.ALContext.GetApi(Boolean soft)
+   at VoxelEngine.Audio.AudioModule.OnLoad(IWindowSurface window) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Audio\Source\Module.Audio.cs:line 12
+   at VoxelEngine.Core.Runtime.ModulesManager.Load() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\ModulesRegistrie.cs:line 45
+   at VoxelEngine.Runtime.Platforms.Desktop.DesktopWindow.Load() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Source\DesktopWindow.cs:line 47
+   at Silk.NET.Windowing.Internals.ViewImplementationBase.Initialize()
+   at VoxelEngine.Runtime.Platforms.Desktop.DesktopWindow.Initialize() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Source\DesktopWindow.cs:line 66
+   at VoxelEngine.Core.Runtime.Engine.Init() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 63
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 32
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 46
+[17:36:13.434] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 17:36:13
+================================================================================

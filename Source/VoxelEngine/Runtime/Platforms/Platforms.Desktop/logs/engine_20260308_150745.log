@@ -1,0 +1,119 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:07:45
+================================================================================
+
+[15:07:45.204] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:07:45.215] [INFO ] [Game:40] Game.A was called!
+[15:07:45.215] [INFO ] [Program:38] Creating engine
+[15:07:45.216] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:07:45.218] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:07:45.218] [INFO ] [Program:45] Starting engine...
+[15:07:45.222] [LINE ] ================================================================================
+[15:07:45.222] [INFO ] [Engine:28] Starting engine runtime...
+[15:07:45.226] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:07:45.318] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:07:45.323] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:07:45.327] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:07:45.711] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:07:45.714] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:07:45.714] [INFO ] [Engine:84] Post init...
+[15:07:45.715] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:07:45.717] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:07:45.720] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:07:45.721] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:07:45.722] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:07:45.725] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:07:45.725] [INFO ] [Game:25] Game.StartMatch was called!
+[15:07:45.725] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:07:45.740] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:07:45.741] [INFO ] [ClientHost:26] Scene loaded
+[15:07:45.820] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:07:45.947] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:07:45.948] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:07:46.067] [INFO ] [ChunksStreamer:46] to load: 123
+[15:07:46.100] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.487] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.488] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.488] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.488] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.488] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.867] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.867] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.868] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.868] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:46.868] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.238] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.238] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.239] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.239] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.239] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.618] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.619] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.619] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.619] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.619] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.983] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.984] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.984] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.984] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:47.984] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.350] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.350] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.351] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.351] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.351] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.717] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.718] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.718] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.718] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:48.718] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.088] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.088] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.089] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.089] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.089] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.461] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.461] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.462] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.462] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.462] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.829] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.830] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.830] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.830] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:49.830] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.437] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.438] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.438] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.438] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.438] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.800] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.800] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.800] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.801] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:50.801] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.163] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.163] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.163] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.164] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.164] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.532] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.533] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.533] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.533] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.534] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.893] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.893] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.894] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.894] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:51.894] [INFO ] [ChunksStreamer:46] to load: 0
+[15:07:52.259] [INFO ] [DesktopWindow:53] Desktop window closing...
+[15:07:52.260] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[15:07:52.260] [INFO ] [Engine:38] Application terminated.
+[15:07:52.260] [LINE ] ================================================================================
+[15:07:52.260] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 15:07:52
+================================================================================

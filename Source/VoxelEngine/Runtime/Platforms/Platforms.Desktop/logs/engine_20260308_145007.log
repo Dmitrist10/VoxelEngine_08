@@ -1,0 +1,201 @@
+================================================================================
+Engine Log - Started at 2026-03-08 14:50:07
+================================================================================
+
+[14:50:07.670] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[14:50:07.680] [INFO ] [Game:40] Game.A was called!
+[14:50:07.680] [INFO ] [Program:38] Creating engine
+[14:50:07.681] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[14:50:07.683] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[14:50:07.683] [INFO ] [Program:45] Starting engine...
+[14:50:07.684] [LINE ] ================================================================================
+[14:50:07.684] [INFO ] [Engine:28] Starting engine runtime...
+[14:50:07.688] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[14:50:07.766] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[14:50:07.771] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[14:50:07.774] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[14:50:08.152] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[14:50:08.154] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[14:50:08.154] [INFO ] [Engine:84] Post init...
+[14:50:08.154] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[14:50:08.156] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[14:50:08.158] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[14:50:08.158] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[14:50:08.159] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[14:50:08.162] [INFO ] [Game:19] Game.OnInitialize was called!
+[14:50:08.162] [INFO ] [Game:25] Game.StartMatch was called!
+[14:50:08.163] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[14:50:08.179] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[14:50:08.180] [INFO ] [ClientHost:26] Scene loaded
+[14:50:08.257] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[14:50:08.410] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[14:50:08.411] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[14:50:08.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.553] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.764] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.812] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.915] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:08.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.013] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.115] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.413] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.764] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.812] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.915] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:09.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.012] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.115] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.412] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.764] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.812] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.915] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:10.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.013] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.115] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.412] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.764] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.812] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.915] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:11.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.012] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.115] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.412] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.764] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.813] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.915] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:12.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.012] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.115] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.412] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.764] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.812] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.915] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:13.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.012] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.115] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.412] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.762] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.812] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.916] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:14.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.012] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.115] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.412] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.716] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.765] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.813] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.867] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.915] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:15.964] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.012] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.067] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.124] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.164] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.212] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.267] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.315] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.364] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.412] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.467] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.515] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.564] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.612] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.667] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.715] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.764] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.812] [INFO ] [ChunksStreamer:61] before cam check
+[14:50:16.867] [INFO ] [ChunksStreamer:61] before cam check

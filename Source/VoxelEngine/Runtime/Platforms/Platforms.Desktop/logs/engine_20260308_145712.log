@@ -1,0 +1,118 @@
+================================================================================
+Engine Log - Started at 2026-03-08 14:57:12
+================================================================================
+
+[14:57:12.049] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[14:57:12.059] [INFO ] [Game:40] Game.A was called!
+[14:57:12.059] [INFO ] [Program:38] Creating engine
+[14:57:12.061] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[14:57:12.062] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[14:57:12.062] [INFO ] [Program:45] Starting engine...
+[14:57:12.066] [LINE ] ================================================================================
+[14:57:12.066] [INFO ] [Engine:28] Starting engine runtime...
+[14:57:12.070] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[14:57:12.145] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[14:57:12.149] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[14:57:12.152] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[14:57:12.518] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[14:57:12.519] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[14:57:12.520] [INFO ] [Engine:84] Post init...
+[14:57:12.520] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[14:57:12.522] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[14:57:12.524] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[14:57:12.525] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[14:57:12.525] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[14:57:12.528] [INFO ] [Game:19] Game.OnInitialize was called!
+[14:57:12.528] [INFO ] [Game:25] Game.StartMatch was called!
+[14:57:12.529] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[14:57:12.544] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[14:57:12.545] [INFO ] [ClientHost:26] Scene loaded
+[14:57:12.622] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[14:57:12.763] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[14:57:12.763] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[14:57:12.893] [DEBUG] [ChunksStreamer:55] Al
+[14:57:12.893] [INFO ] [ChunksStreamer:60] camera found
+[14:57:12.894] [DEBUG] [ChunksStreamer:55] Al
+[14:57:12.895] [INFO ] [ChunksStreamer:60] camera found
+[14:57:12.919] [DEBUG] [ChunksStreamer:55] Al
+[14:57:12.919] [INFO ] [ChunksStreamer:60] camera found
+[14:57:12.965] [DEBUG] [ChunksStreamer:55] Al
+[14:57:12.966] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.020] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.020] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.068] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.069] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.117] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.117] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.165] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.165] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.220] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.220] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.268] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.268] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.317] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.317] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.365] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.366] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.414] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.414] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.468] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.469] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.517] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.517] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.566] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.566] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.620] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.620] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.668] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.669] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.717] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.721] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.766] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.766] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.820] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.820] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.868] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.869] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.917] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.917] [INFO ] [ChunksStreamer:60] camera found
+[14:57:13.965] [DEBUG] [ChunksStreamer:55] Al
+[14:57:13.966] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.020] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.020] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.068] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.069] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.117] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.117] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.165] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.165] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.220] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.220] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.268] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.269] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.317] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.317] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.365] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.365] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.414] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.414] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.468] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.469] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.517] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.517] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.565] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.566] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.620] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.620] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.668] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.669] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.717] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.717] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.765] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.766] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.814] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.814] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.868] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.868] [INFO ] [ChunksStreamer:60] camera found
+[14:57:14.917] [DEBUG] [ChunksStreamer:55] Al
+[14:57:14.917] [INFO ] [ChunksStreamer:60] camera found

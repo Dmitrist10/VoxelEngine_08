@@ -161,7 +161,7 @@ internal unsafe class GL_GraphicsFactory : IGraphicsFactory
         _GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapS, (int)wrapMode);
         _GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapT, (int)wrapMode);
 
-        fixed (byte* ptr = textureData.Data)
+        fixed (byte* ptr = textureData.pixelsData)
         {
             _GL.TexImage2D(TextureTarget.Texture2D, 0, (int)InternalFormat.Rgba8, textureData.Width, textureData.Height, 0, PixelFormat.Rgba, PixelType.UnsignedByte, ptr);
         }
@@ -171,9 +171,79 @@ internal unsafe class GL_GraphicsFactory : IGraphicsFactory
             _GL.GenerateMipmap(TextureTarget.Texture2D);
         }
 
-        return _assetsManager.Add(new GL_Texture(texture, textureData.Width, textureData.Height));
+        return _assetsManager.Add(new GL_TextureResource(texture, textureData.Width, textureData.Height, GL_TextureType.Texture2D));
     }
 
+    public TextureHandle CreateTextureArray(Texture2DArrayData textureData)
+    {
+        uint texture = _GL.GenTexture();
+        _GL.BindTexture(TextureTarget.Texture2DArray, texture);
+
+        fixed (byte* ptr = textureData.pixelsData)
+        {
+            _GL.TexImage3D(TextureTarget.Texture2DArray, 0, InternalFormat.Rgba8, textureData.Width, textureData.Height, textureData.Layers, 0, PixelFormat.Rgba, PixelType.UnsignedByte, ptr);
+        }
+
+        if (textureData.Options.GenerateMipmaps)
+        {
+            _GL.GenerateMipmap(TextureTarget.Texture2DArray);
+        }
+
+        TextureMinFilter minFilter = textureData.Options.FilterMode switch
+        {
+            VoxelEngine.Core.TextureFilterMode.Nearest => textureData.Options.GenerateMipmaps ? TextureMinFilter.NearestMipmapNearest : TextureMinFilter.Nearest,
+            VoxelEngine.Core.TextureFilterMode.Linear => textureData.Options.GenerateMipmaps ? TextureMinFilter.LinearMipmapLinear : TextureMinFilter.Linear,
+            VoxelEngine.Core.TextureFilterMode.LinearMipmap => TextureMinFilter.LinearMipmapLinear,
+            _ => TextureMinFilter.Linear
+        };
+
+        TextureMagFilter magFilter = textureData.Options.FilterMode switch
+        {
+            VoxelEngine.Core.TextureFilterMode.Nearest => TextureMagFilter.Nearest,
+            VoxelEngine.Core.TextureFilterMode.Linear => TextureMagFilter.Linear,
+            VoxelEngine.Core.TextureFilterMode.LinearMipmap => TextureMagFilter.Linear,
+            _ => TextureMagFilter.Linear
+        };
+
+        Silk.NET.OpenGL.TextureWrapMode wrapMode = textureData.Options.WrapMode switch
+        {
+            VoxelEngine.Core.TextureWrapMode.Repeat => Silk.NET.OpenGL.TextureWrapMode.Repeat,
+            VoxelEngine.Core.TextureWrapMode.ClampToEdge => Silk.NET.OpenGL.TextureWrapMode.ClampToEdge,
+            VoxelEngine.Core.TextureWrapMode.MirroredRepeat => Silk.NET.OpenGL.TextureWrapMode.MirroredRepeat,
+            _ => Silk.NET.OpenGL.TextureWrapMode.Repeat
+        };
+
+        _GL.TexParameter(TextureTarget.Texture2DArray, TextureParameterName.TextureMinFilter, (int)minFilter);
+        _GL.TexParameter(TextureTarget.Texture2DArray, TextureParameterName.TextureMagFilter, (int)magFilter);
+        _GL.TexParameter(TextureTarget.Texture2DArray, TextureParameterName.TextureWrapS, (int)wrapMode);
+        _GL.TexParameter(TextureTarget.Texture2DArray, TextureParameterName.TextureWrapT, (int)wrapMode);
+
+        return _assetsManager.Add(new GL_TextureResource(texture, textureData.Width, textureData.Height, GL_TextureType.Texture2DArray, textureData.Layers));
+    }
+
+
+    public void DestroyMesh(MeshHandle handle)
+    {
+        GL_Mesh mesh = _assetsManager.Get(handle);
+        _GL.DeleteVertexArray(mesh.VAO);
+        _GL.DeleteBuffer(mesh.VBO);
+        _GL.DeleteBuffer(mesh.EBO);
+        _assetsManager.Remove(handle);  // invalidates the handle in the pool
+    }
+
+    public void DestroyTexture(TextureHandle handle)
+    {
+        GL_TextureResource texture = _assetsManager.Get(handle);
+        _GL.DeleteTexture(texture.ID);
+        _assetsManager.Remove(handle);  // invalidates the handle in the pool
+    }
+
+    public void DestroyBuffer(BufferHandle handle)
+    {
+        GL_Buffer buffer = _assetsManager.Get(handle);
+        _GL.DeleteBuffer(buffer.ID);
+        _assetsManager.Remove(handle);  // invalidates the handle in the pool
+    }
 
     public void Dispose()
     {

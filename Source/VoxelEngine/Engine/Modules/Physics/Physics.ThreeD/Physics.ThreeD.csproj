@@ -5,11 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BepuPhysics" />
+    <PackageReference Include="BepuUtilities" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BepuPhysics" />
-    <PackageReference Include="BepuUtilities" />
+    <ProjectReference Include="..\..\..\Core\Engine.Core.Common\Engine.Core.Common.csproj" />
   </ItemGroup>
 
 </Project>

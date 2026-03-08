@@ -188,11 +188,11 @@ public sealed class ChunkMesher
             vertices.Add(new VoxelVertex(p3, new Vector2(0, h), textureLayerIndex, (int)face));
 
             indices.Add(baseIdx + 0);
-            indices.Add(baseIdx + 2);
             indices.Add(baseIdx + 1);
-            indices.Add(baseIdx + 0);
-            indices.Add(baseIdx + 3);
             indices.Add(baseIdx + 2);
+            indices.Add(baseIdx + 0);
+            indices.Add(baseIdx + 2);
+            indices.Add(baseIdx + 3);
         }
         else
         {
@@ -203,11 +203,11 @@ public sealed class ChunkMesher
 
             // Flipped indices
             indices.Add(baseIdx + 0);
+            indices.Add(baseIdx + 2);
             indices.Add(baseIdx + 1);
-            indices.Add(baseIdx + 2);
             indices.Add(baseIdx + 0);
-            indices.Add(baseIdx + 2);
             indices.Add(baseIdx + 3);
+            indices.Add(baseIdx + 2);
         }
     }
 

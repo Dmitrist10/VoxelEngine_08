@@ -35,7 +35,7 @@ public record Texture2DArrayData : TextureData
 
 public record TextureData : IAssetData
 {
-    public readonly byte[] Data;
+    public readonly byte[] pixelsData;
     public readonly uint Width;
     public readonly uint Height;
     public readonly uint Channels;
@@ -43,7 +43,7 @@ public record TextureData : IAssetData
 
     public TextureData(byte[] data, uint width, uint height, uint channels, TextureOptions options)
     {
-        Data = data;
+        pixelsData = data;
         Width = width;
         Height = height;
         Channels = channels;
@@ -51,7 +51,7 @@ public record TextureData : IAssetData
     }
     public TextureData(byte[] data, uint width, uint height, TextureOptions options)
     {
-        Data = data;
+        pixelsData = data;
         Width = width;
         Height = height;
         Options = options;

@@ -1,0 +1,747 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:03:00
+================================================================================
+
+[15:03:00.182] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:03:00.192] [INFO ] [Game:40] Game.A was called!
+[15:03:00.192] [INFO ] [Program:38] Creating engine
+[15:03:00.193] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:03:00.194] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:03:00.195] [INFO ] [Program:45] Starting engine...
+[15:03:00.198] [LINE ] ================================================================================
+[15:03:00.198] [INFO ] [Engine:28] Starting engine runtime...
+[15:03:00.202] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:03:00.281] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:03:00.285] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:03:00.289] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:03:00.639] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:03:00.640] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:03:00.640] [INFO ] [Engine:84] Post init...
+[15:03:00.641] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:03:00.642] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:03:00.644] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:03:00.645] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:03:00.646] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:03:00.648] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:03:00.648] [INFO ] [Game:25] Game.StartMatch was called!
+[15:03:00.649] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:03:00.663] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:03:00.663] [INFO ] [ClientHost:26] Scene loaded
+[15:03:00.730] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:03:00.864] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:03:00.865] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:03:00.986] [INFO ] [ChunksStreamer:84] added
+[15:03:00.987] [INFO ] [ChunksStreamer:84] added
+[15:03:00.987] [INFO ] [ChunksStreamer:84] added
+[15:03:00.987] [INFO ] [ChunksStreamer:84] added
+[15:03:00.987] [INFO ] [ChunksStreamer:84] added
+[15:03:00.987] [INFO ] [ChunksStreamer:84] added
+[15:03:00.988] [INFO ] [ChunksStreamer:84] added
+[15:03:00.988] [INFO ] [ChunksStreamer:84] added
+[15:03:00.988] [INFO ] [ChunksStreamer:84] added
+[15:03:00.988] [INFO ] [ChunksStreamer:84] added
+[15:03:00.988] [INFO ] [ChunksStreamer:84] added
+[15:03:00.989] [INFO ] [ChunksStreamer:84] added
+[15:03:00.989] [INFO ] [ChunksStreamer:84] added
+[15:03:00.989] [INFO ] [ChunksStreamer:84] added
+[15:03:00.989] [INFO ] [ChunksStreamer:84] added
+[15:03:00.989] [INFO ] [ChunksStreamer:84] added
+[15:03:00.989] [INFO ] [ChunksStreamer:84] added
+[15:03:00.990] [INFO ] [ChunksStreamer:84] added
+[15:03:00.990] [INFO ] [ChunksStreamer:84] added
+[15:03:00.990] [INFO ] [ChunksStreamer:84] added
+[15:03:00.990] [INFO ] [ChunksStreamer:84] added
+[15:03:00.990] [INFO ] [ChunksStreamer:84] added
+[15:03:00.991] [INFO ] [ChunksStreamer:84] added
+[15:03:00.991] [INFO ] [ChunksStreamer:84] added
+[15:03:00.991] [INFO ] [ChunksStreamer:84] added
+[15:03:00.991] [INFO ] [ChunksStreamer:84] added
+[15:03:00.991] [INFO ] [ChunksStreamer:84] added
+[15:03:00.992] [INFO ] [ChunksStreamer:84] added
+[15:03:00.992] [INFO ] [ChunksStreamer:84] added
+[15:03:00.992] [INFO ] [ChunksStreamer:84] added
+[15:03:00.992] [INFO ] [ChunksStreamer:84] added
+[15:03:00.992] [INFO ] [ChunksStreamer:84] added
+[15:03:00.993] [INFO ] [ChunksStreamer:84] added
+[15:03:00.993] [INFO ] [ChunksStreamer:84] added
+[15:03:00.993] [INFO ] [ChunksStreamer:84] added
+[15:03:00.993] [INFO ] [ChunksStreamer:84] added
+[15:03:00.993] [INFO ] [ChunksStreamer:84] added
+[15:03:00.993] [INFO ] [ChunksStreamer:84] added
+[15:03:00.994] [INFO ] [ChunksStreamer:84] added
+[15:03:00.994] [INFO ] [ChunksStreamer:84] added
+[15:03:00.994] [INFO ] [ChunksStreamer:84] added
+[15:03:00.994] [INFO ] [ChunksStreamer:84] added
+[15:03:00.994] [INFO ] [ChunksStreamer:84] added
+[15:03:00.995] [INFO ] [ChunksStreamer:84] added
+[15:03:00.995] [INFO ] [ChunksStreamer:84] added
+[15:03:00.995] [INFO ] [ChunksStreamer:84] added
+[15:03:00.995] [INFO ] [ChunksStreamer:84] added
+[15:03:00.995] [INFO ] [ChunksStreamer:84] added
+[15:03:00.995] [INFO ] [ChunksStreamer:84] added
+[15:03:00.996] [INFO ] [ChunksStreamer:84] added
+[15:03:00.996] [INFO ] [ChunksStreamer:84] added
+[15:03:00.996] [INFO ] [ChunksStreamer:84] added
+[15:03:00.996] [INFO ] [ChunksStreamer:84] added
+[15:03:00.996] [INFO ] [ChunksStreamer:84] added
+[15:03:00.996] [INFO ] [ChunksStreamer:84] added
+[15:03:00.997] [INFO ] [ChunksStreamer:84] added
+[15:03:00.997] [INFO ] [ChunksStreamer:84] added
+[15:03:00.997] [INFO ] [ChunksStreamer:84] added
+[15:03:00.997] [INFO ] [ChunksStreamer:84] added
+[15:03:00.997] [INFO ] [ChunksStreamer:84] added
+[15:03:00.997] [INFO ] [ChunksStreamer:84] added
+[15:03:00.998] [INFO ] [ChunksStreamer:84] added
+[15:03:00.998] [INFO ] [ChunksStreamer:84] added
+[15:03:00.998] [INFO ] [ChunksStreamer:84] added
+[15:03:00.998] [INFO ] [ChunksStreamer:84] added
+[15:03:00.998] [INFO ] [ChunksStreamer:84] added
+[15:03:00.999] [INFO ] [ChunksStreamer:84] added
+[15:03:00.999] [INFO ] [ChunksStreamer:84] added
+[15:03:00.999] [INFO ] [ChunksStreamer:84] added
+[15:03:00.999] [INFO ] [ChunksStreamer:84] added
+[15:03:00.999] [INFO ] [ChunksStreamer:84] added
+[15:03:00.999] [INFO ] [ChunksStreamer:84] added
+[15:03:01.000] [INFO ] [ChunksStreamer:84] added
+[15:03:01.000] [INFO ] [ChunksStreamer:84] added
+[15:03:01.000] [INFO ] [ChunksStreamer:84] added
+[15:03:01.000] [INFO ] [ChunksStreamer:84] added
+[15:03:01.000] [INFO ] [ChunksStreamer:84] added
+[15:03:01.000] [INFO ] [ChunksStreamer:84] added
+[15:03:01.001] [INFO ] [ChunksStreamer:84] added
+[15:03:01.001] [INFO ] [ChunksStreamer:84] added
+[15:03:01.001] [INFO ] [ChunksStreamer:84] added
+[15:03:01.001] [INFO ] [ChunksStreamer:84] added
+[15:03:01.001] [INFO ] [ChunksStreamer:84] added
+[15:03:01.002] [INFO ] [ChunksStreamer:84] added
+[15:03:01.002] [INFO ] [ChunksStreamer:84] added
+[15:03:01.002] [INFO ] [ChunksStreamer:84] added
+[15:03:01.002] [INFO ] [ChunksStreamer:84] added
+[15:03:01.002] [INFO ] [ChunksStreamer:84] added
+[15:03:01.002] [INFO ] [ChunksStreamer:84] added
+[15:03:01.003] [INFO ] [ChunksStreamer:84] added
+[15:03:01.003] [INFO ] [ChunksStreamer:84] added
+[15:03:01.003] [INFO ] [ChunksStreamer:84] added
+[15:03:01.003] [INFO ] [ChunksStreamer:84] added
+[15:03:01.003] [INFO ] [ChunksStreamer:84] added
+[15:03:01.004] [INFO ] [ChunksStreamer:84] added
+[15:03:01.004] [INFO ] [ChunksStreamer:84] added
+[15:03:01.004] [INFO ] [ChunksStreamer:84] added
+[15:03:01.004] [INFO ] [ChunksStreamer:84] added
+[15:03:01.004] [INFO ] [ChunksStreamer:84] added
+[15:03:01.004] [INFO ] [ChunksStreamer:84] added
+[15:03:01.005] [INFO ] [ChunksStreamer:84] added
+[15:03:01.005] [INFO ] [ChunksStreamer:84] added
+[15:03:01.005] [INFO ] [ChunksStreamer:84] added
+[15:03:01.005] [INFO ] [ChunksStreamer:84] added
+[15:03:01.005] [INFO ] [ChunksStreamer:84] added
+[15:03:01.005] [INFO ] [ChunksStreamer:84] added
+[15:03:01.006] [INFO ] [ChunksStreamer:84] added
+[15:03:01.006] [INFO ] [ChunksStreamer:84] added
+[15:03:01.006] [INFO ] [ChunksStreamer:84] added
+[15:03:01.006] [INFO ] [ChunksStreamer:84] added
+[15:03:01.006] [INFO ] [ChunksStreamer:84] added
+[15:03:01.006] [INFO ] [ChunksStreamer:84] added
+[15:03:01.007] [INFO ] [ChunksStreamer:84] added
+[15:03:01.007] [INFO ] [ChunksStreamer:84] added
+[15:03:01.007] [INFO ] [ChunksStreamer:84] added
+[15:03:01.007] [INFO ] [ChunksStreamer:84] added
+[15:03:01.007] [INFO ] [ChunksStreamer:84] added
+[15:03:01.008] [INFO ] [ChunksStreamer:84] added
+[15:03:01.008] [INFO ] [ChunksStreamer:84] added
+[15:03:01.008] [INFO ] [ChunksStreamer:84] added
+[15:03:01.008] [INFO ] [ChunksStreamer:84] added
+[15:03:01.008] [INFO ] [ChunksStreamer:84] added
+[15:03:01.008] [INFO ] [ChunksStreamer:84] added
+[15:03:01.009] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.010] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 0, Z = 0 }
+[15:03:01.012] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.012] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -64, Z = -32 }
+[15:03:01.013] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.013] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -64, Z = 0 }
+[15:03:01.013] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.013] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -64, Z = 32 }
+[15:03:01.014] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.014] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -32, Z = -64 }
+[15:03:01.015] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.015] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -32, Z = -32 }
+[15:03:01.016] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.016] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -32, Z = 0 }
+[15:03:01.016] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.016] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -32, Z = 32 }
+[15:03:01.017] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.017] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -32, Z = 64 }
+[15:03:01.017] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.017] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 0, Z = -64 }
+[15:03:01.018] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.018] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 0, Z = -32 }
+[15:03:01.018] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.018] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 0, Z = 0 }
+[15:03:01.018] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.019] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 0, Z = 32 }
+[15:03:01.019] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.019] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 0, Z = 64 }
+[15:03:01.019] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.019] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 32, Z = -64 }
+[15:03:01.020] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.020] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 32, Z = -32 }
+[15:03:01.020] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.021] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 32, Z = 0 }
+[15:03:01.021] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.021] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 32, Z = 32 }
+[15:03:01.022] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.022] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 32, Z = 64 }
+[15:03:01.022] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.022] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 64, Z = -32 }
+[15:03:01.022] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.023] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 64, Z = 0 }
+[15:03:01.023] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.023] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 64, Z = 32 }
+[15:03:01.023] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.023] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -64, Z = -64 }
+[15:03:01.024] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.024] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -64, Z = -32 }
+[15:03:01.025] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.025] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -64, Z = 0 }
+[15:03:01.025] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.025] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -64, Z = 32 }
+[15:03:01.026] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.026] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -64, Z = 64 }
+[15:03:01.027] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.027] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -32, Z = -64 }
+[15:03:01.027] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.027] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -32, Z = -32 }
+[15:03:01.028] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.028] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -32, Z = 0 }
+[15:03:01.028] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.029] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -32, Z = 32 }
+[15:03:01.029] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.029] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -32, Z = 64 }
+[15:03:01.030] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.030] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 0, Z = -64 }
+[15:03:01.030] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.030] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 0, Z = -32 }
+[15:03:01.030] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.031] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 0, Z = 0 }
+[15:03:01.031] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.031] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 0, Z = 32 }
+[15:03:01.031] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.031] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 0, Z = 64 }
+[15:03:01.032] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.032] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 32, Z = -64 }
+[15:03:01.032] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.033] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 32, Z = -32 }
+[15:03:01.033] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.033] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 32, Z = 0 }
+[15:03:01.034] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.034] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 32, Z = 32 }
+[15:03:01.034] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.034] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 32, Z = 64 }
+[15:03:01.035] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.035] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 64, Z = -64 }
+[15:03:01.035] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.035] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 64, Z = -32 }
+[15:03:01.036] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.036] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 64, Z = 0 }
+[15:03:01.036] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.036] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 64, Z = 32 }
+[15:03:01.036] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.037] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 64, Z = 64 }
+[15:03:01.037] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.038] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -96, Z = 0 }
+[15:03:01.038] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.038] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -64, Z = -64 }
+[15:03:01.039] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.039] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -64, Z = -32 }
+[15:03:01.040] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.040] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -64, Z = 0 }
+[15:03:01.040] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.040] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -64, Z = 32 }
+[15:03:01.041] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.041] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -64, Z = 64 }
+[15:03:01.041] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.041] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = -64 }
+[15:03:01.042] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.042] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = -32 }
+[15:03:01.042] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.043] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = 0 }
+[15:03:01.043] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.043] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = 32 }
+[15:03:01.044] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.044] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = 64 }
+[15:03:01.044] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.045] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 0, Z = -96 }
+[15:03:01.045] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.045] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 0, Z = -64 }
+[15:03:01.045] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.046] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 0, Z = -32 }
+[15:03:01.046] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.046] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 0, Z = 0 }
+[15:03:01.046] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.046] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 0, Z = 32 }
+[15:03:01.047] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.047] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 0, Z = 64 }
+[15:03:01.047] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.047] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 0, Z = 96 }
+[15:03:01.047] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.048] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 32, Z = -64 }
+[15:03:01.048] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.048] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 32, Z = -32 }
+[15:03:01.048] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.049] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 32, Z = 0 }
+[15:03:01.049] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.049] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 32, Z = 32 }
+[15:03:01.050] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.050] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 32, Z = 64 }
+[15:03:01.050] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.050] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 64, Z = -64 }
+[15:03:01.051] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.051] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 64, Z = -32 }
+[15:03:01.051] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.051] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 64, Z = 0 }
+[15:03:01.052] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.052] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 64, Z = 32 }
+[15:03:01.052] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.052] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 64, Z = 64 }
+[15:03:01.052] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.053] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 96, Z = 0 }
+[15:03:01.053] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.053] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -64, Z = -64 }
+[15:03:01.053] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.054] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -64, Z = -32 }
+[15:03:01.054] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.054] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -64, Z = 0 }
+[15:03:01.055] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.055] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -64, Z = 32 }
+[15:03:01.055] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.055] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -64, Z = 64 }
+[15:03:01.056] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.056] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -32, Z = -64 }
+[15:03:01.057] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.057] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -32, Z = -32 }
+[15:03:01.057] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.058] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -32, Z = 0 }
+[15:03:01.058] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.060] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -32, Z = 32 }
+[15:03:01.061] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.061] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -32, Z = 64 }
+[15:03:01.062] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.062] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 0, Z = -64 }
+[15:03:01.062] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.063] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 0, Z = -32 }
+[15:03:01.063] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.063] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 0, Z = 0 }
+[15:03:01.063] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.063] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 0, Z = 32 }
+[15:03:01.064] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.064] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 0, Z = 64 }
+[15:03:01.064] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.064] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 32, Z = -64 }
+[15:03:01.065] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.065] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 32, Z = -32 }
+[15:03:01.065] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.065] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 32, Z = 0 }
+[15:03:01.066] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.066] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 32, Z = 32 }
+[15:03:01.066] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.066] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 32, Z = 64 }
+[15:03:01.067] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.067] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 64, Z = -64 }
+[15:03:01.067] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.067] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 64, Z = -32 }
+[15:03:01.068] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.068] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 64, Z = 0 }
+[15:03:01.068] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.068] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 64, Z = 32 }
+[15:03:01.069] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.069] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 64, Z = 64 }
+[15:03:01.069] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.069] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -64, Z = -32 }
+[15:03:01.070] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.070] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -64, Z = 0 }
+[15:03:01.070] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.070] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -64, Z = 32 }
+[15:03:01.071] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.071] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -32, Z = -64 }
+[15:03:01.071] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.072] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -32, Z = -32 }
+[15:03:01.072] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.072] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -32, Z = 0 }
+[15:03:01.073] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.073] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -32, Z = 32 }
+[15:03:01.073] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.076] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -32, Z = 64 }
+[15:03:01.076] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.077] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 0, Z = -64 }
+[15:03:01.077] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.077] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 0, Z = -32 }
+[15:03:01.077] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.078] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 0, Z = 0 }
+[15:03:01.078] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.078] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 0, Z = 32 }
+[15:03:01.078] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.078] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 0, Z = 64 }
+[15:03:01.079] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.079] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 32, Z = -64 }
+[15:03:01.079] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.079] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 32, Z = -32 }
+[15:03:01.080] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.080] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 32, Z = 0 }
+[15:03:01.080] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.080] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 32, Z = 32 }
+[15:03:01.081] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.081] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 32, Z = 64 }
+[15:03:01.081] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.081] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 64, Z = -32 }
+[15:03:01.082] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.082] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 64, Z = 0 }
+[15:03:01.082] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.082] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 64, Z = 32 }
+[15:03:01.082] [INFO ] [ChunksStorage:30] BBB
+[15:03:01.083] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 0, Z = 0 }
+[15:03:04.819] [INFO ] [ChunksStreamer:84] added
+[15:03:04.820] [INFO ] [ChunksStreamer:84] added
+[15:03:04.820] [INFO ] [ChunksStreamer:84] added
+[15:03:04.820] [INFO ] [ChunksStreamer:84] added
+[15:03:04.820] [INFO ] [ChunksStreamer:84] added
+[15:03:04.820] [INFO ] [ChunksStreamer:84] added
+[15:03:04.821] [INFO ] [ChunksStreamer:84] added
+[15:03:04.821] [INFO ] [ChunksStreamer:84] added
+[15:03:04.821] [INFO ] [ChunksStreamer:84] added
+[15:03:04.821] [INFO ] [ChunksStreamer:84] added
+[15:03:04.821] [INFO ] [ChunksStreamer:84] added
+[15:03:04.821] [INFO ] [ChunksStreamer:84] added
+[15:03:04.822] [INFO ] [ChunksStreamer:84] added
+[15:03:04.822] [INFO ] [ChunksStreamer:84] added
+[15:03:04.822] [INFO ] [ChunksStreamer:84] added
+[15:03:04.822] [INFO ] [ChunksStreamer:84] added
+[15:03:04.822] [INFO ] [ChunksStreamer:84] added
+[15:03:04.822] [INFO ] [ChunksStreamer:84] added
+[15:03:04.823] [INFO ] [ChunksStreamer:84] added
+[15:03:04.823] [INFO ] [ChunksStreamer:84] added
+[15:03:04.823] [INFO ] [ChunksStreamer:84] added
+[15:03:04.823] [INFO ] [ChunksStreamer:84] added
+[15:03:04.823] [INFO ] [ChunksStreamer:84] added
+[15:03:04.823] [INFO ] [ChunksStreamer:84] added
+[15:03:04.823] [INFO ] [ChunksStreamer:84] added
+[15:03:04.824] [INFO ] [ChunksStreamer:84] added
+[15:03:04.824] [INFO ] [ChunksStreamer:84] added
+[15:03:04.824] [INFO ] [ChunksStreamer:84] added
+[15:03:04.824] [INFO ] [ChunksStreamer:84] added
+[15:03:04.824] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.824] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -32, Z = 0 }
+[15:03:04.825] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.825] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -96, Z = -32 }
+[15:03:04.825] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.825] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -96, Z = 0 }
+[15:03:04.826] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.826] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -96, Z = 32 }
+[15:03:04.826] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.826] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -64, Z = -64 }
+[15:03:04.827] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.827] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -64, Z = 64 }
+[15:03:04.827] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.828] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -96, Z = -64 }
+[15:03:04.828] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.828] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -96, Z = -32 }
+[15:03:04.828] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.829] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -96, Z = 0 }
+[15:03:04.829] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.829] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -96, Z = 32 }
+[15:03:04.829] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.830] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -96, Z = 64 }
+[15:03:04.830] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.830] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -128, Z = 0 }
+[15:03:04.830] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.831] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -96, Z = -64 }
+[15:03:04.831] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.831] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -96, Z = -32 }
+[15:03:04.831] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.832] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -96, Z = 32 }
+[15:03:04.832] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.832] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -96, Z = 64 }
+[15:03:04.833] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.833] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = -96 }
+[15:03:04.833] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.833] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = 96 }
+[15:03:04.834] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.834] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -96, Z = -64 }
+[15:03:04.834] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.835] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -96, Z = -32 }
+[15:03:04.835] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.835] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -96, Z = 0 }
+[15:03:04.836] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.836] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -96, Z = 32 }
+[15:03:04.836] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.836] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -96, Z = 64 }
+[15:03:04.837] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.837] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -96, Z = -32 }
+[15:03:04.837] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.837] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -96, Z = 0 }
+[15:03:04.838] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.838] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -96, Z = 32 }
+[15:03:04.838] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.839] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -64, Z = -64 }
+[15:03:04.839] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.839] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -64, Z = 64 }
+[15:03:04.840] [INFO ] [ChunksStorage:30] BBB
+[15:03:04.840] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -32, Z = 0 }
+[15:03:06.068] [INFO ] [ChunksStreamer:84] added
+[15:03:06.068] [INFO ] [ChunksStreamer:84] added
+[15:03:06.068] [INFO ] [ChunksStreamer:84] added
+[15:03:06.068] [INFO ] [ChunksStreamer:84] added
+[15:03:06.069] [INFO ] [ChunksStreamer:84] added
+[15:03:06.069] [INFO ] [ChunksStreamer:84] added
+[15:03:06.069] [INFO ] [ChunksStreamer:84] added
+[15:03:06.069] [INFO ] [ChunksStreamer:84] added
+[15:03:06.069] [INFO ] [ChunksStreamer:84] added
+[15:03:06.069] [INFO ] [ChunksStreamer:84] added
+[15:03:06.070] [INFO ] [ChunksStreamer:84] added
+[15:03:06.070] [INFO ] [ChunksStreamer:84] added
+[15:03:06.070] [INFO ] [ChunksStreamer:84] added
+[15:03:06.070] [INFO ] [ChunksStreamer:84] added
+[15:03:06.070] [INFO ] [ChunksStreamer:84] added
+[15:03:06.070] [INFO ] [ChunksStreamer:84] added
+[15:03:06.071] [INFO ] [ChunksStreamer:84] added
+[15:03:06.071] [INFO ] [ChunksStreamer:84] added
+[15:03:06.071] [INFO ] [ChunksStreamer:84] added
+[15:03:06.071] [INFO ] [ChunksStreamer:84] added
+[15:03:06.071] [INFO ] [ChunksStreamer:84] added
+[15:03:06.071] [INFO ] [ChunksStreamer:84] added
+[15:03:06.072] [INFO ] [ChunksStreamer:84] added
+[15:03:06.072] [INFO ] [ChunksStreamer:84] added
+[15:03:06.072] [INFO ] [ChunksStreamer:84] added
+[15:03:06.072] [INFO ] [ChunksStreamer:84] added
+[15:03:06.072] [INFO ] [ChunksStreamer:84] added
+[15:03:06.072] [INFO ] [ChunksStreamer:84] added
+[15:03:06.072] [INFO ] [ChunksStreamer:84] added
+[15:03:06.073] [INFO ] [ChunksStreamer:84] added
+[15:03:06.073] [INFO ] [ChunksStreamer:84] added
+[15:03:06.073] [INFO ] [ChunksStreamer:84] added
+[15:03:06.073] [INFO ] [ChunksStreamer:84] added
+[15:03:06.073] [INFO ] [ChunksStreamer:84] added
+[15:03:06.073] [INFO ] [ChunksStreamer:84] added
+[15:03:06.074] [INFO ] [ChunksStreamer:84] added
+[15:03:06.074] [INFO ] [ChunksStreamer:84] added
+[15:03:06.074] [INFO ] [ChunksStreamer:84] added
+[15:03:06.074] [INFO ] [ChunksStreamer:84] added
+[15:03:06.074] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.075] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -128, Y = -32, Z = -32 }
+[15:03:06.075] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.075] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -96, Z = -64 }
+[15:03:06.076] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.076] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -96, Z = -32 }
+[15:03:06.076] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.076] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -96, Z = 0 }
+[15:03:06.077] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.077] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -64, Z = -96 }
+[15:03:06.077] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.077] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -64, Z = -64 }
+[15:03:06.078] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.078] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -64, Z = -32 }
+[15:03:06.078] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.078] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -64, Z = 0 }
+[15:03:06.079] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.079] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -64, Z = 32 }
+[15:03:06.079] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.079] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -32, Z = -96 }
+[15:03:06.080] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.080] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -32, Z = -64 }
+[15:03:06.080] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.080] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -32, Z = -32 }
+[15:03:06.081] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.081] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = -32, Z = 32 }
+[15:03:06.081] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.081] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 0, Z = -96 }
+[15:03:06.082] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.082] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 0, Z = -64 }
+[15:03:06.082] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.082] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 0, Z = -32 }
+[15:03:06.082] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.083] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 0, Z = 32 }
+[15:03:06.083] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.083] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 32, Z = -64 }
+[15:03:06.083] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.083] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 32, Z = -32 }
+[15:03:06.084] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.084] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -96, Y = 32, Z = 0 }
+[15:03:06.084] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.084] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -96, Z = -96 }
+[15:03:06.085] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.085] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -96, Z = -64 }
+[15:03:06.085] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.085] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -64, Z = -96 }
+[15:03:06.086] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.086] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = -32, Z = -96 }
+[15:03:06.086] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.087] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 0, Z = -96 }
+[15:03:06.087] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.087] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -64, Y = 32, Z = -96 }
+[15:03:06.087] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.088] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -128, Z = -32 }
+[15:03:06.088] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.088] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -96, Z = -96 }
+[15:03:06.089] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.089] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -64, Z = -96 }
+[15:03:06.089] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.089] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -32, Z = -128 }
+[15:03:06.090] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.090] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = -32, Z = -96 }
+[15:03:06.090] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.090] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 0, Z = -96 }
+[15:03:06.091] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.091] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = -32, Y = 32, Z = -96 }
+[15:03:06.091] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.091] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -96, Z = -96 }
+[15:03:06.092] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.092] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -64, Z = -96 }
+[15:03:06.092] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.092] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 32, Z = -96 }
+[15:03:06.093] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.093] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -64, Z = -96 }
+[15:03:06.093] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.093] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -32, Z = -96 }
+[15:03:06.094] [INFO ] [ChunksStorage:30] BBB
+[15:03:06.094] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 0, Z = -96 }
+[15:03:07.619] [INFO ] [ChunksStreamer:84] added
+[15:03:07.620] [INFO ] [ChunksStreamer:84] added
+[15:03:07.620] [INFO ] [ChunksStreamer:84] added
+[15:03:07.620] [INFO ] [ChunksStreamer:84] added
+[15:03:07.620] [INFO ] [ChunksStreamer:84] added
+[15:03:07.621] [INFO ] [ChunksStreamer:84] added
+[15:03:07.621] [INFO ] [ChunksStreamer:84] added
+[15:03:07.621] [INFO ] [ChunksStreamer:84] added
+[15:03:07.621] [INFO ] [ChunksStreamer:84] added
+[15:03:07.621] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.621] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -128, Z = -32 }
+[15:03:07.622] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.622] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = -32, Z = -128 }
+[15:03:07.622] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.622] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -96, Z = -96 }
+[15:03:07.623] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.623] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 32, Z = -96 }
+[15:03:07.623] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.623] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -96, Z = -64 }
+[15:03:07.623] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.624] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -64, Z = -96 }
+[15:03:07.624] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.624] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -32, Z = -96 }
+[15:03:07.624] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.624] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 0, Z = -96 }
+[15:03:07.625] [INFO ] [ChunksStorage:30] BBB
+[15:03:07.625] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -32, Z = -32 }
+[15:03:11.517] [INFO ] [ChunksStreamer:84] added
+[15:03:11.517] [INFO ] [ChunksStreamer:84] added
+[15:03:11.518] [INFO ] [ChunksStreamer:84] added
+[15:03:11.518] [INFO ] [ChunksStreamer:84] added
+[15:03:11.518] [INFO ] [ChunksStreamer:84] added
+[15:03:11.518] [INFO ] [ChunksStreamer:84] added
+[15:03:11.518] [INFO ] [ChunksStreamer:84] added
+[15:03:11.518] [INFO ] [ChunksStreamer:84] added
+[15:03:11.519] [INFO ] [ChunksStreamer:84] added
+[15:03:11.519] [INFO ] [ChunksStreamer:84] added
+[15:03:11.519] [INFO ] [ChunksStreamer:84] added
+[15:03:11.519] [INFO ] [ChunksStreamer:84] added
+[15:03:11.519] [INFO ] [ChunksStreamer:84] added
+[15:03:11.519] [INFO ] [ChunksStreamer:84] added
+[15:03:11.519] [INFO ] [ChunksStreamer:84] added
+[15:03:11.520] [INFO ] [ChunksStreamer:84] added
+[15:03:11.520] [INFO ] [ChunksStreamer:84] added
+[15:03:11.520] [INFO ] [ChunksStreamer:84] added
+[15:03:11.520] [INFO ] [ChunksStreamer:84] added
+[15:03:11.520] [INFO ] [ChunksStreamer:84] added
+[15:03:11.520] [INFO ] [ChunksStreamer:84] added
+[15:03:11.521] [INFO ] [ChunksStreamer:84] added
+[15:03:11.521] [INFO ] [ChunksStreamer:84] added
+[15:03:11.521] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.521] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -128, Z = -32 }
+[15:03:11.521] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.522] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = -32, Z = -128 }
+[15:03:11.522] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.522] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = -96, Z = -96 }
+[15:03:11.523] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.523] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 32, Z = -96 }
+[15:03:11.523] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.523] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -96, Z = -64 }
+[15:03:11.524] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.524] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -96, Z = -32 }
+[15:03:11.524] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.524] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -96, Z = 0 }
+[15:03:11.525] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.525] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -64, Z = -96 }
+[15:03:11.525] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.525] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -64, Z = -64 }
+[15:03:11.526] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.526] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -64, Z = -32 }
+[15:03:11.526] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.527] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -64, Z = 0 }
+[15:03:11.527] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.527] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -64, Z = 32 }
+[15:03:11.527] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.528] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -32, Z = -96 }
+[15:03:11.528] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.528] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -32, Z = -64 }
+[15:03:11.528] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.529] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = -32, Z = 32 }
+[15:03:11.529] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.529] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 0, Z = -96 }
+[15:03:11.529] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.530] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 0, Z = -64 }
+[15:03:11.530] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.530] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 0, Z = -32 }
+[15:03:11.531] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.531] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 0, Z = 32 }
+[15:03:11.531] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.531] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 32, Z = -64 }
+[15:03:11.531] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.532] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 32, Z = -32 }
+[15:03:11.532] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.532] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 32, Z = 0 }
+[15:03:11.532] [INFO ] [ChunksStorage:30] BBB
+[15:03:11.532] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 128, Y = -32, Z = -32 }
+[15:03:26.917] [INFO ] [ChunksStreamer:84] added
+[15:03:26.917] [INFO ] [ChunksStreamer:84] added
+[15:03:26.918] [INFO ] [ChunksStreamer:84] added
+[15:03:26.918] [INFO ] [ChunksStreamer:84] added
+[15:03:26.918] [INFO ] [ChunksStreamer:84] added
+[15:03:26.918] [INFO ] [ChunksStreamer:84] added
+[15:03:26.918] [INFO ] [ChunksStreamer:84] added
+[15:03:26.918] [INFO ] [ChunksStreamer:84] added
+[15:03:26.919] [INFO ] [ChunksStreamer:84] added
+[15:03:26.919] [INFO ] [ChunksStreamer:84] added
+[15:03:26.919] [INFO ] [ChunksStreamer:84] added
+[15:03:26.919] [INFO ] [ChunksStreamer:84] added
+[15:03:26.919] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.919] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 0, Y = 64, Z = -96 }
+[15:03:26.920] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.920] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 0, Z = -128 }
+[15:03:26.920] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.920] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 64, Z = -96 }
+[15:03:26.920] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.920] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 32, Y = 96, Z = -32 }
+[15:03:26.921] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.921] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 64, Z = -96 }
+[15:03:26.921] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.921] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 64, Y = 64, Z = -64 }
+[15:03:26.921] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.922] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 32, Z = -96 }
+[15:03:26.922] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.922] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 32, Z = 32 }
+[15:03:26.923] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.923] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 64, Z = -64 }
+[15:03:26.923] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.923] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 64, Z = -32 }
+[15:03:26.923] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.924] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 96, Y = 64, Z = 0 }
+[15:03:26.924] [INFO ] [ChunksStorage:30] BBB
+[15:03:26.924] [INFO ] [WorldGenerator:88] Chunk Pos:Int3 { X = 128, Y = 0, Z = -32 }
+[15:03:27.701] [INFO ] [DesktopWindow:53] Desktop window closing...
+[15:03:27.701] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[15:03:27.702] [INFO ] [Engine:38] Application terminated.
+[15:03:27.702] [LINE ] ================================================================================
+[15:03:27.702] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 15:03:27
+================================================================================

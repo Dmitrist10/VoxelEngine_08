@@ -1,0 +1,43 @@
+================================================================================
+Engine Log - Started at 2026-03-08 16:34:42
+================================================================================
+
+[16:34:42.532] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[16:34:42.548] [INFO ] [Game:40] Game.A was called!
+[16:34:42.549] [INFO ] [Program:38] Creating engine
+[16:34:42.550] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[16:34:42.552] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[16:34:42.552] [INFO ] [Program:45] Starting engine...
+[16:34:42.562] [LINE ] ================================================================================
+[16:34:42.562] [INFO ] [Engine:28] Starting engine runtime...
+[16:34:42.568] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[16:34:42.688] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[16:34:42.695] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[16:34:42.700] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[16:34:43.227] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[16:34:43.229] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[16:34:43.230] [INFO ] [Engine:84] Post init...
+[16:34:43.230] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[16:34:43.232] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[16:34:43.235] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[16:34:43.236] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[16:34:43.237] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[16:34:43.241] [INFO ] [Game:19] Game.OnInitialize was called!
+[16:34:43.242] [INFO ] [Game:25] Game.StartMatch was called!
+[16:34:43.242] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[16:34:43.259] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[16:34:43.260] [INFO ] [ClientHost:26] Scene loaded
+[16:34:43.264] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[16:34:43.550] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[16:34:43.552] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[16:34:52.679] [DEBUG] [ChunksStreamer:34] Chunk streming toggled to: False
+[16:35:09.131] [INFO ] [DesktopWindow:53] Desktop window closing...
+[16:35:09.132] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[16:35:09.132] [INFO ] [Engine:38] Application terminated.
+[16:35:09.132] [LINE ] ================================================================================
+[16:35:09.132] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 16:35:09
+================================================================================

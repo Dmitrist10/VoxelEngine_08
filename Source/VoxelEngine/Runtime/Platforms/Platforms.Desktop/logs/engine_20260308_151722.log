@@ -1,0 +1,55 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:17:22
+================================================================================
+
+[15:17:22.390] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:17:22.403] [INFO ] [Game:40] Game.A was called!
+[15:17:22.404] [INFO ] [Program:38] Creating engine
+[15:17:22.406] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:17:22.407] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:17:22.407] [INFO ] [Program:45] Starting engine...
+[15:17:22.417] [LINE ] ================================================================================
+[15:17:22.418] [INFO ] [Engine:28] Starting engine runtime...
+[15:17:22.421] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:17:22.514] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:17:22.518] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:17:22.522] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:17:22.910] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:17:22.912] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:17:22.912] [INFO ] [Engine:84] Post init...
+[15:17:22.913] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:17:22.914] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:17:22.916] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:17:22.917] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:17:22.918] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:17:22.921] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:17:22.921] [INFO ] [Game:25] Game.StartMatch was called!
+[15:17:22.922] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:17:22.938] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:17:22.939] [INFO ] [ClientHost:26] Scene loaded
+[15:17:23.021] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:17:23.170] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:17:23.171] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:17:23.316] [LINE ] ================================================================================
+[15:17:23.316] [LINE ] ================================================================================
+[15:17:23.317] [ERROR] [Program:54] Exception: Nullable object must have a value.
+[15:17:23.340] [ERROR] [Program:60] Exception Stack Trace:    at System.Nullable`1.get_Value()
+   at VoxelEngine.Packages.Voxel.Chunk.TryGetMesh(Nullable`1& mesh) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Voxel\Source\World\WorldParts\Chunks\Chunk.cs:line 90
+   at VoxelEngine.Packages.Voxel.ChunksRenderer.OnRender() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Voxel\Source\World\Systems\ChunksRenderer.cs:line 59
+   at VoxelEngine.Packages.Voxel.VoxelWorld.OnRender() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Voxel\Source\World\VoxelWorld.cs:line 29
+   at VoxelEngine.Core.SceneGameServicesRegistry.OnRender() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Scenes\Registries\SceneGameServicesRegistry.cs:line 99
+   at VoxelEngine.Core.Scene.OnRender() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Scenes\Scene.Lifecycle.cs:line 27
+   at VoxelEngine.Core.Universe.OnRender() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\Universe\Universe.Lifecycle.cs:line 32
+   at VoxelEngine.Core.UniverseManager.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Common\Source\GameWorld\World\UniverseManager.cs:line 44
+   at VoxelEngine.Server.ServerHost.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Hosts\Server\Source\ServerHost.cs:line 23
+   at VoxelEngine.Runtime.Contexts.TestingContext.TestRuntimeContext.Render() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Contexts\TestingContext\Source\TestRuntimeContext.cs:line 74
+   at VoxelEngine.Core.Runtime.Heartbeat.Start(IUpdateCallbacksHandler callbacks, IWindowSurface window) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Heartbeat.cs:line 104
+   at VoxelEngine.Core.Runtime.Engine.StartRuntime() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 92
+   at VoxelEngine.Core.Runtime.Engine.Run() in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Core\Engine.Core.Runtime\Source\Engine.cs:line 34
+   at VoxelEngine.Runtime.Platforms.Desktop.Program.Main(String[] args) in C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Runtime\Platforms\Platforms.Desktop\Program.cs:line 46
+[15:17:23.341] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 15:17:23
+================================================================================

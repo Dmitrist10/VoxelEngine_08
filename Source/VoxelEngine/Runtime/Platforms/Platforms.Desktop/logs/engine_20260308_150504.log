@@ -1,0 +1,219 @@
+================================================================================
+Engine Log - Started at 2026-03-08 15:05:04
+================================================================================
+
+[15:05:04.684] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[15:05:04.694] [INFO ] [Game:40] Game.A was called!
+[15:05:04.695] [INFO ] [Program:38] Creating engine
+[15:05:04.696] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[15:05:04.697] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[15:05:04.698] [INFO ] [Program:45] Starting engine...
+[15:05:04.698] [LINE ] ================================================================================
+[15:05:04.698] [INFO ] [Engine:28] Starting engine runtime...
+[15:05:04.701] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[15:05:04.774] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[15:05:04.778] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[15:05:04.781] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[15:05:05.136] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[15:05:05.138] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[15:05:05.138] [INFO ] [Engine:84] Post init...
+[15:05:05.138] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[15:05:05.140] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[15:05:05.141] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[15:05:05.142] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[15:05:05.143] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[15:05:05.146] [INFO ] [Game:19] Game.OnInitialize was called!
+[15:05:05.146] [INFO ] [Game:25] Game.StartMatch was called!
+[15:05:05.147] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[15:05:05.162] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[15:05:05.163] [INFO ] [ClientHost:26] Scene loaded
+[15:05:05.227] [DEBUG] [GameSetup:14] GameSetup.SetUp was called!
+[15:05:05.354] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[15:05:05.355] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
+[15:05:05.473] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.475] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.475] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.476] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.477] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.477] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.478] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.478] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.479] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.479] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.479] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.480] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.480] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.480] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.481] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.481] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.482] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.482] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.483] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.483] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.484] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.484] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.485] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.485] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.485] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.486] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.486] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.486] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.487] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.487] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.488] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.488] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.489] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.489] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.490] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.491] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.491] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.491] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.492] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.492] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.493] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.493] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.494] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.494] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.495] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.495] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.496] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.496] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.497] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.497] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.497] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.498] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.498] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.499] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.499] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.499] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.500] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.500] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.501] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.501] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.502] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.502] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.503] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.503] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.503] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.504] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.504] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.505] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.505] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.506] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.506] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.507] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.507] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.508] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.508] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.509] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.509] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.509] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.510] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.510] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.511] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.511] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.512] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.512] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.513] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.514] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.514] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.516] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.517] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.517] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.517] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.518] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.519] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.519] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.519] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.520] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.521] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.521] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.521] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.522] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.522] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.523] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.523] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.523] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.524] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.524] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.525] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.525] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.525] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.526] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.526] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.528] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.529] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.529] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.530] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.530] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.531] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.531] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.532] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.532] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.533] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.533] [INFO ] [ChunksStreamer:42] AII
+[15:05:05.534] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.793] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.793] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.794] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.794] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.794] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.795] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.795] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.796] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.796] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.796] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.797] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.797] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.797] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.798] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.798] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.798] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.799] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.799] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.799] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.800] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.800] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.800] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.801] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.801] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.801] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.802] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.802] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.803] [INFO ] [ChunksStreamer:42] AII
+[15:05:07.803] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.250] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.250] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.251] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.251] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.252] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.252] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.252] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.253] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.253] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.253] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.254] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.254] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.254] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.255] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.255] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.255] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.256] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.256] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.256] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.257] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.257] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.257] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.258] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.258] [INFO ] [ChunksStreamer:42] AII
+[15:05:08.258] [INFO ] [ChunksStreamer:42] AII
+[15:05:13.454] [INFO ] [DesktopWindow:53] Desktop window closing...
+[15:05:13.454] [EXTRAINFO] [Heartbeat:111] Heartbeat Stopped
+[15:05:13.454] [INFO ] [Engine:38] Application terminated.
+[15:05:13.454] [LINE ] ================================================================================
+[15:05:13.454] [INFO ] [Program:64] Application Completed.
+Exiting with code 0
+
+================================================================================
+Engine Log - Ended at 2026-03-08 15:05:13
+================================================================================
