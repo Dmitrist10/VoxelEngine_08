@@ -28,7 +28,8 @@ public sealed unsafe partial class GL_GraphicsDevice : IGraphicsDevice
         _nativeWindow = (_window.NativeWindow as IWindow)!;
         _GL = GL.GetApi(_nativeWindow);
 
-        // _GL.Enable(EnableCap.DepthTest); // Enable Depth Testing
+        _GL.Enable(EnableCap.DepthTest); // Enable Depth Testing
+        _GL.Enable(EnableCap.CullFace);
 
         _assetsManager = new GL_AssetsManager();
 

@@ -55,6 +55,35 @@
           }
         }
       },
+      "BepuPhysics/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "BepuUtilities": "2.4.0"
+        },
+        "compile": {
+          "lib/net6.0/BepuPhysics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BepuPhysics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BepuUtilities/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BepuUtilities.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BepuUtilities.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Collections.Pooled/2.0.0-preview.27": {
         "type": "package",
         "compile": {
@@ -737,7 +766,10 @@
         "framework": ".NETCoreApp,Version=v11.0",
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
-          "Engine.Core.Common": "0.0.1-alpha"
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Engine.Modules.Audio": "0.0.1-alpha",
+          "Engine.Modules.Input": "0.0.1-alpha",
+          "Physics.ThreeD": "0.0.1-alpha"
         },
         "compile": {
           "bin/placeholder/Engine.Core.Runtime.dll": {}
@@ -773,6 +805,36 @@
         },
         "runtime": {
           "bin/placeholder/Engine.Hosts.Server.dll": {}
+        }
+      },
+      "Engine.Modules.Audio/0.0.1-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Silk.NET": "2.23.0"
+        },
+        "compile": {
+          "bin/placeholder/Engine.Modules.Audio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Modules.Audio.dll": {}
+        }
+      },
+      "Engine.Modules.Input/0.0.1-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Silk.NET": "2.23.0"
+        },
+        "compile": {
+          "bin/placeholder/Engine.Modules.Input.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Modules.Input.dll": {}
         }
       },
       "Game_01/0.0.1-alpha": {
@@ -837,6 +899,21 @@
           "bin/placeholder/Packages.Voxel.dll": {}
         }
       },
+      "Physics.ThreeD/0.0.1-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "BepuPhysics": "2.4.0",
+          "BepuUtilities": "2.4.0",
+          "Common.Core": "0.0.1-alpha"
+        },
+        "compile": {
+          "bin/placeholder/Physics.ThreeD.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Physics.ThreeD.dll": {}
+        }
+      },
       "TestingContext/0.0.1-alpha": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v11.0",
@@ -896,6 +973,34 @@
         "runtimes/osx-x64/native/libassimp.dylib",
         "runtimes/win-x64/native/assimp.dll",
         "runtimes/win-x86/native/assimp.dll"
+      ]
+    },
+    "BepuPhysics/2.4.0": {
+      "sha512": "Ck/BJgSQrBqYrj0T9jGljDdHNILBP5kTPTylc7N/hCzR1XJJc7p6ORzwtjTfjgoYkkdajvLHxEQv6BRC8kaysQ==",
+      "type": "package",
+      "path": "bepuphysics/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bepuphysics.2.4.0.nupkg.sha512",
+        "bepuphysics.nuspec",
+        "bepuphysicslogo256.png",
+        "lib/net6.0/BepuPhysics.dll",
+        "lib/net6.0/BepuPhysics.xml"
+      ]
+    },
+    "BepuUtilities/2.4.0": {
+      "sha512": "KNMxkzKLHAvV7jRtErxs3rPv71fHToqo/WN96HlT6iomWuwL97tohEbt0B1WA8A6sO5t6PP+qF08d4T9A8k2uA==",
+      "type": "package",
+      "path": "bepuutilities/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bepuphysicslogo256.png",
+        "bepuutilities.2.4.0.nupkg.sha512",
+        "bepuutilities.nuspec",
+        "lib/net6.0/BepuUtilities.dll",
+        "lib/net6.0/BepuUtilities.xml"
       ]
     },
     "Collections.Pooled/2.0.0-preview.27": {
@@ -1680,6 +1785,16 @@
       "path": "../../../Engine/Hosts/Server/Engine.Hosts.Server.csproj",
       "msbuildProject": "../../../Engine/Hosts/Server/Engine.Hosts.Server.csproj"
     },
+    "Engine.Modules.Audio/0.0.1-alpha": {
+      "type": "project",
+      "path": "../../../Engine/Modules/Audio/Engine.Modules.Audio.csproj",
+      "msbuildProject": "../../../Engine/Modules/Audio/Engine.Modules.Audio.csproj"
+    },
+    "Engine.Modules.Input/0.0.1-alpha": {
+      "type": "project",
+      "path": "../../../Engine/Modules/Input/Engine.Modules.Input.csproj",
+      "msbuildProject": "../../../Engine/Modules/Input/Engine.Modules.Input.csproj"
+    },
     "Game_01/0.0.1-alpha": {
       "type": "project",
       "path": "../../../../Resources/Games/Game_01/Main/Game_01.csproj",
@@ -1699,6 +1814,11 @@
       "type": "project",
       "path": "../../../Packages/Voxel/Packages.Voxel.csproj",
       "msbuildProject": "../../../Packages/Voxel/Packages.Voxel.csproj"
+    },
+    "Physics.ThreeD/0.0.1-alpha": {
+      "type": "project",
+      "path": "../../../Engine/Modules/Physics/Physics.ThreeD/Physics.ThreeD.csproj",
+      "msbuildProject": "../../../Engine/Modules/Physics/Physics.ThreeD/Physics.ThreeD.csproj"
     },
     "TestingContext/0.0.1-alpha": {
       "type": "project",

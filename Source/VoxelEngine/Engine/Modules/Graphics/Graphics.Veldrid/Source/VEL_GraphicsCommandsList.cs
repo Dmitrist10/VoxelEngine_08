@@ -137,6 +137,7 @@ internal sealed unsafe class VEL_GraphicsCommandsList : IGraphicsCommandsList
                             RgbaFloat clearColor = new(color.R, color.G, color.B, color.A);
                             _cl.SetFramebuffer(device.SwapchainFramebuffer);
                             _cl.ClearColorTarget(0, clearColor);
+                            _cl.ClearDepthStencil(1f);
                             break;
                         }
                     // ---------------------------------------------------------

@@ -12,3 +12,6 @@ c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\E
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\refint\Physics.ThreeD.dll
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\Physics.ThreeD.pdb
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Physics\Physics.ThreeD\obj\Debug\net11.0\ref\Physics.ThreeD.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Physics.ThreeD\net11.0\Physics.ThreeD.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Physics.ThreeD\net11.0\Physics.ThreeD.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Physics.ThreeD\net11.0\Physics.ThreeD.pdb

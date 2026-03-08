@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices;
+using VoxelEngine.Graphics;
 
 namespace VoxelEngine.Core;
 
@@ -15,6 +16,8 @@ public sealed class PBRMaterial : Material<PBRMaterialProperties>
 }
 public sealed class ChunkMaterial : Material<ChunkMaterialProperties>
 {
+    public TextureHandle AlbedoTexture;
+
     public ChunkMaterial(ChunkMaterialProperties properties) : base(properties)
     {
 
@@ -22,6 +25,12 @@ public sealed class ChunkMaterial : Material<ChunkMaterialProperties>
     public ChunkMaterial() : base()
     {
 
+    }
+
+    public override void SetRendering(IGraphicsCommandsList cmdBuffer)
+    {
+        base.SetRendering(cmdBuffer);
+        cmdBuffer.BindTexture(AlbedoTexture, 0);
     }
 }
 

@@ -81,6 +81,11 @@ internal sealed class ActorsRegistry
     [MethodImpl(AggressiveInlining)]
     public T AddBehavior<T>(Entity e, T instance) where T : class, IBehavior
     {
+        if (instance is Behavior behavior)
+        {
+            behavior.SetUp(new Actor(e, _scene));
+        }
+
         if (_behaviors.TryGetValue(e, out var behaviors))
             behaviors.Add(typeof(T), instance);
         else

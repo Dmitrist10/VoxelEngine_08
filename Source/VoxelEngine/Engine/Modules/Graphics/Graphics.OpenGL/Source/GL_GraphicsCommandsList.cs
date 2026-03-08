@@ -193,7 +193,7 @@ internal unsafe class GL_GraphicsCommandsList : IGraphicsCommandsList
         var color = Unsafe.ReadUnaligned<Color>(pBuffer + readOffset);
         readOffset += sizeof(Color);
         _GL.ClearColor(color.R, color.G, color.B, color.A);
-        _GL.Clear((uint)ClearBufferMask.ColorBufferBit);
+        _GL.Clear((uint)(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit));
     }
 
     public void Dispose()

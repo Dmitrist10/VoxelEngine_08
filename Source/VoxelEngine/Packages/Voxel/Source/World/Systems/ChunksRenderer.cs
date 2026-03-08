@@ -17,9 +17,9 @@ public sealed class ChunksRenderer
     private readonly IGraphicsFactory _factory;
 
     // private readonly ChunkMaterial _material;
-    private readonly PBRMaterial _material;
+    private readonly ChunkMaterial _material;
 
-    public ChunksRenderer(ChunksStorage chunksStorage)
+    public ChunksRenderer(ChunksStorage chunksStorage, TextureHandle textureArrayHandle)
     {
         _chunksStorage = chunksStorage;
         _renderManager = ServiceContainer.Get<RenderManager>()!;
@@ -28,9 +28,10 @@ public sealed class ChunksRenderer
         var assetsManager = ServiceContainer.Get<AssetsManager>()!;
         ShaderData data = assetsManager.GetShaderData(@"C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Packages\Voxel\Resources\Shaders\ChunkShader.glsl");
         PipelineHandle pipeline = assetsManager.GetOrCreatePipeline(new PipelineDescription(data.Vert, data.Frag));
-        _material = new PBRMaterial(new PBRMaterialProperties(Color.White))
+        _material = new ChunkMaterial(new ChunkMaterialProperties(Color.White))
         {
-            Pipeline = pipeline
+            Pipeline = pipeline,
+            AlbedoTexture = textureArrayHandle
         };
     }
 

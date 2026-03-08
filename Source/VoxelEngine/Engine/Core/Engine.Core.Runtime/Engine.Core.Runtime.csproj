@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Audio\Engine.Modules.Audio.csproj" />
+    <ProjectReference Include="..\..\Modules\Input\Engine.Modules.Input.csproj" />
+    <ProjectReference Include="..\..\Modules\Physics\Physics.ThreeD\Physics.ThreeD.csproj" />
   </ItemGroup>
 
 </Project>

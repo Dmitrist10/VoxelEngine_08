@@ -42,9 +42,9 @@ public static class GameSetup
         // Camera
         Actor cameraActor = scene.CreateActor();
         C_Camera camera = new C_Camera(CameraProjectionType.Perspective);
-        // B_CameraController cameraController = new();
+        B_CameraController cameraController = new();
         cameraActor.AddComponent(camera);
-        // cameraActor.AddBehavior(cameraController);
+        cameraActor.AddBehavior(cameraController);
         cameraActor.Position = new Vector3(0, 15, -10);
         // cameraActor.Rotation = Quaternion.CreateFromYawPitchRoll(0, 50, 0);
 

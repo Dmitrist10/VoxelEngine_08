@@ -63,8 +63,8 @@ internal class Heartbeat
 
         InitializeGameLoop(out double previousTime, out double accumulatorFixed, out double accumulatorTick);
 
-        // ModulesManager modulesManager = ServiceContainer.Get<ModulesManager>()!;
-        // modulesManager.Initialize();
+        ModulesManager modulesManager = ServiceContainer.Get<ModulesManager>()!;
+        modulesManager.Initialize();
         _stopwatch.Start();
 
         _isRunning = true;
@@ -99,7 +99,7 @@ internal class Heartbeat
             Time.UpdateAlpha(accumulatorFixed / FIXED_DELTA_TIME);
 
             // Run variable-rate updates
-            // modulesManager.Update();
+            modulesManager.Update();
             callbacks.Update();
             callbacks.Render();
 

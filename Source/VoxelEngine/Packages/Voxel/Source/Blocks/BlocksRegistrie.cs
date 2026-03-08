@@ -14,7 +14,7 @@ public sealed class BlocksRegistrie
         _registationBlocks.Add(data);
     }
 
-    public void Build()
+    public Texture2DArrayData Build()
     {
         _allBlocks = new BlockData[_registationBlocks.Count + 1];
 
@@ -28,9 +28,13 @@ public sealed class BlocksRegistrie
         }
         _registationBlocks.Clear();
 
-        string[] filePaths = new string[_allBlocks.Length];
+        string[] filePaths = new string[_allBlocks.Length - 1]; // Exclude air for meshed textures
+        for (int i = 1; i < _allBlocks.Length; i++)
+        {
+            filePaths[i - 1] = _allBlocks[i].TexturePath;
+        }
 
-        TextureArrayBuilder.Build();
+        return TextureArrayBuilder.Build(filePaths, TextureOptions.VoxelAtlas);
     }
 
     public BlockData GetBlock(int id)

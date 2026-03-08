@@ -62,6 +62,25 @@
           }
         }
       },
+      "BepuPhysics/2.4.0": {
+        "dependencies": {
+          "BepuUtilities": "2.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/BepuPhysics.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        }
+      },
+      "BepuUtilities/2.4.0": {
+        "runtime": {
+          "lib/net6.0/BepuUtilities.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        }
+      },
       "Collections.Pooled/2.0.0-preview.27": {
         "runtime": {
           "lib/netcoreapp3.0/Collections.Pooled.dll": {
@@ -523,7 +542,10 @@
       "Engine.Core.Runtime/0.0.1-alpha": {
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
-          "Engine.Core.Common": "0.0.1-alpha"
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Engine.Modules.Audio": "0.0.1-alpha",
+          "Engine.Modules.Input": "0.0.1-alpha",
+          "Physics.ThreeD": "0.0.1-alpha"
         },
         "runtime": {
           "Engine.Core.Runtime.dll": {
@@ -552,6 +574,32 @@
         },
         "runtime": {
           "Engine.Hosts.Server.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Engine.Modules.Audio/0.0.1-alpha": {
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Silk.NET": "2.23.0"
+        },
+        "runtime": {
+          "Engine.Modules.Audio.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Engine.Modules.Input/0.0.1-alpha": {
+        "dependencies": {
+          "Common.Core": "0.0.1-alpha",
+          "Engine.Core.Common": "0.0.1-alpha",
+          "Silk.NET": "2.23.0"
+        },
+        "runtime": {
+          "Engine.Modules.Input.dll": {
             "assemblyVersion": "0.0.1.0",
             "fileVersion": "0.0.1.0"
           }
@@ -611,6 +659,19 @@
           }
         }
       },
+      "Physics.ThreeD/0.0.1-alpha": {
+        "dependencies": {
+          "BepuPhysics": "2.4.0",
+          "BepuUtilities": "2.4.0",
+          "Common.Core": "0.0.1-alpha"
+        },
+        "runtime": {
+          "Physics.ThreeD.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
       "TestingContext/0.0.1-alpha": {
         "dependencies": {
           "Common.Core": "0.0.1-alpha",
@@ -646,6 +707,20 @@
       "sha512": "sha512-z/4Tmf3Q2r1+vN6o/szArEZvPsdYNRYiS0L/yArybQd7n7KCiS9L4lRZhwwlHJb/edECM+Jky0XisVspr5aQWQ==",
       "path": "assimpnet/4.1.0",
       "hashPath": "assimpnet.4.1.0.nupkg.sha512"
+    },
+    "BepuPhysics/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ck/BJgSQrBqYrj0T9jGljDdHNILBP5kTPTylc7N/hCzR1XJJc7p6ORzwtjTfjgoYkkdajvLHxEQv6BRC8kaysQ==",
+      "path": "bepuphysics/2.4.0",
+      "hashPath": "bepuphysics.2.4.0.nupkg.sha512"
+    },
+    "BepuUtilities/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KNMxkzKLHAvV7jRtErxs3rPv71fHToqo/WN96HlT6iomWuwL97tohEbt0B1WA8A6sO5t6PP+qF08d4T9A8k2uA==",
+      "path": "bepuutilities/2.4.0",
+      "hashPath": "bepuutilities.2.4.0.nupkg.sha512"
     },
     "Collections.Pooled/2.0.0-preview.27": {
       "type": "package",
@@ -922,6 +997,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Engine.Modules.Audio/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Engine.Modules.Input/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Game_01/0.0.1-alpha": {
       "type": "project",
       "serviceable": false,
@@ -938,6 +1023,11 @@
       "sha512": ""
     },
     "Packages.Voxel/0.0.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Physics.ThreeD/0.0.1-alpha": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

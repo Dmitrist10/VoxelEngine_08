@@ -3,6 +3,7 @@ using Arch.Core;
 using VoxelEngine.Core.Assets;
 using VoxelEngine.Diagnostics;
 using VoxelEngine.Graphics;
+using VoxelEngine.Input;
 
 namespace VoxelEngine.Core.Runtime;
 
@@ -47,8 +48,17 @@ public sealed class Engine
 
     private void Init()
     {
+        ModulesManager modulesManager = new();
+        ServiceContainer.Register(modulesManager);
+
+        IInputModule input = new InputModule();
+        modulesManager.Register(input);
+
+        modulesManager.Initialize();
+
         graphicsContext!.Window.Initialize();
 
+        InputManager.Init(input.GetInput());
 
         // Initialize Arch ECS SharedJobScheduler for parallel queries
         var archJobConfig = new Schedulers.JobScheduler.Config

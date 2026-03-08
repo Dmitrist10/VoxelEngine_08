@@ -12,3 +12,6 @@ c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\E
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Audio\obj\Debug\net11.0\refint\Engine.Modules.Audio.dll
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Audio\obj\Debug\net11.0\Engine.Modules.Audio.pdb
 c:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\VoxelEngine\Engine\Modules\Audio\obj\Debug\net11.0\ref\Engine.Modules.Audio.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Engine.Modules.Audio\net11.0\Engine.Modules.Audio.deps.json
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Engine.Modules.Audio\net11.0\Engine.Modules.Audio.dll
+C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\bin\Engine.Modules.Audio\net11.0\Engine.Modules.Audio.pdb

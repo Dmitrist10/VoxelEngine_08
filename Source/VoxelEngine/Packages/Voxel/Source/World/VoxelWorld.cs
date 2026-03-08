@@ -1,4 +1,5 @@
 using VoxelEngine.Core;
+using VoxelEngine.Graphics;
 
 namespace VoxelEngine.Packages.Voxel;
 
@@ -33,7 +34,6 @@ public sealed class VoxelWorld : SceneGameService, IUpdatable, IRenderable
         _chunksPhysics = new();
 
         _chunksStreamer = new ChunksStreamer(_chunksStorage, scene.World);
-        _chunksRenderer = new ChunksRenderer(_chunksStorage);
 
         _blocksRegistrie = new();
         ServiceContainer.Register<BlocksRegistrie>(_blocksRegistrie);
@@ -59,7 +59,11 @@ public sealed class VoxelWorld : SceneGameService, IUpdatable, IRenderable
         _blocksRegistrie.Register(new BlockDescription("LuckyBlock_01", "STD:LuckyBlock_01", chunkTextures[6]));
         _blocksRegistrie.Register(new BlockDescription("Dirt_01", "STD:Dirt_01", chunkTextures[7]));
 
-        _blocksRegistrie.Build();
+        var textureData = _blocksRegistrie.Build();
+        var factory = ServiceContainer.Get<GraphicsContext>()!.Device.Factory;
+        var textureHandle = factory.CreateTexture(textureData);
+
+        _chunksRenderer = new ChunksRenderer(_chunksStorage, textureHandle);
     }
 
 

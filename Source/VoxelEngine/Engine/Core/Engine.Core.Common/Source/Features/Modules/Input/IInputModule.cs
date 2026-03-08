@@ -1,9 +1,8 @@
+using VoxelEngine.Core;
+
 namespace VoxelEngine.Input;
 
-public interface IInputModule
+public interface IInputModule : IEngineModule
 {
-    // void Initialize();
-    // void Update();
-    // void Render();
-    // void Cleanup();
+    IInput GetInput();
 }
