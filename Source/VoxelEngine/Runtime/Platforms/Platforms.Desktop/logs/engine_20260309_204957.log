@@ -1,0 +1,33 @@
+================================================================================
+Engine Log - Started at 2026-03-09 20:49:57
+================================================================================
+
+[20:49:57.455] [INFO ] VoxelEngine initialized from Desktop platform with VoxelGames runtime.
+[20:49:57.468] [INFO ] [Game:40] Game.A was called!
+[20:49:57.468] [INFO ] [Program:38] Creating engine
+[20:49:57.469] [INFO ] [TestRuntimeContext:21] TestRuntimeContext created
+[20:49:57.471] [INFO ] [Heartbeat:55] Frame rate limit disabled (unlimited FPS)
+[20:49:57.471] [INFO ] [Program:45] Starting engine...
+[20:49:57.472] [LINE ] ================================================================================
+[20:49:57.472] [INFO ] [Engine:29] Starting engine runtime...
+[20:49:57.476] [INFO ] [DesktopWindow:26] Creating window: 'Voxel Engine' (800x600)
+[20:49:57.564] [INFO ] [DesktopWindow:40] Desktop window created successfully.
+[20:49:57.568] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.GraphicsContext
+[20:49:57.572] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.Runtime.ModulesManager
+[20:49:58.005] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Audio.IAudio
+[20:49:58.017] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.IO.FileManager
+[20:49:58.018] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.AssetsManager
+[20:49:58.019] [INFO ] [Engine:88] Post init...
+[20:49:58.019] [INFO ] [TestRuntimeContext:32] TestRuntimeContext Initialized
+[20:49:58.021] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Core.CamerasRegistries
+[20:49:58.023] [EXTRAINFO] [ServiceContainer:22] [ServiceContainer] Registering service VoxelEngine.Graphics.Rendering.RenderManager
+[20:49:58.024] [INFO ] [LauncherLayer:17] LauncherLayer.Initialize was called!
+[20:49:58.025] [INFO ] [GameLoader:19] Loading game from C:\Users\Dmitrist10\Desktop\VoxelGames\Source\Project_08_VE\Source\Resources\Games\Game_01\Main\bin\net11.0\Game_01.dll
+[20:49:58.028] [INFO ] [Game:19] Game.OnInitialize was called!
+[20:49:58.028] [INFO ] [Game:25] Game.StartMatch was called!
+[20:49:58.029] [EXTRAINFO] [UniverseManager:13] A new Universe was created
+[20:49:58.045] [EXTRAINFO] [Universe.API:13] A new Scene was created
+[20:49:58.046] [INFO ] [ClientHost:27] Scene loaded
+[20:49:58.050] [DEBUG] [GameSetup:15] GameSetup.SetUp was called!
+[20:49:58.232] [INFO ] [GameLayer:17] GameLayer.Initialize was called!
+[20:49:58.233] [EXTRAINFO] [Heartbeat:62] Starting Heartbeat
